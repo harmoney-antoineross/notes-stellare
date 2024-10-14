@@ -2,184 +2,283 @@
 
 The `@apps` folder is a central component of the Entire monorepo, orchestrating various applications and services that collectively power the Entire ecosystem. This documentation provides an in-depth overview of each subfolder within `@apps`, detailing their primary functions, key subfolders, and their contributions to the overall system.
 
+**Note**: This documentation was built as a way to understand the codebase and is not exhaustive. It could be wrong or incomplete in *some* places. If you want to contribute to this documentation, please feel free to send me a message on slack or open a PR.
+
 ## Hierarchical Structure
+@apps
+├── journey
+│ ├── journey-bff
+│ ├── journey-api-test
+│ ├── journey-type
+│ ├── journey-e2e
+│ ├── journey-dmn-unit-test
+│ └── journey-nfr
+├── user-management
+│ ├── user-bff
+│ ├── user-api-test
+│ ├── user-type
+│ ├── user-e2e
+│ ├── user-dmn-unit-test
+│ └── user-nfr
+├── analytics
+│ ├── analytics-bff
+│ ├── analytics-api-test
+│ ├── analytics-type
+│ ├── analytics-e2e
+│ ├── analytics-dmn-unit-test
+│ └── analytics-nfr
+├── notifications
+│ ├── notifications-bff
+│ ├── notifications-api-test
+│ ├── notifications-type
+│ ├── notifications-e2e
+│ ├── notifications-dmn-unit-test
+│ └── notifications-nfr
+└── api-gateway
+├── api-gateway-bff
+├── api-gateway-api-test
+├── api-gateway-type
+├── api-gateway-e2e
+├── api-gateway-dmn-unit-test
+└── api-gateway-nfr
 
 
 ## Subfolder Details
 
-### 1. `journey`
+### Tags
 
-The `journey` folder encapsulates all components related to the journey feature within the Entire ecosystem. It comprises multiple sub-applications and modules that work in tandem to deliver comprehensive journey management functionalities.
+- 🧑‍💻 **Frontend Developers**
+- 🛠️ **Backend Developers**
+- 🧪 **QA Engineers**
 
-#### Subfolders
+### 1. `journey` 🧑‍💻🛠️🧪
 
-- **journey-bff**
-- **journey-api-test**
-- **journey-type**
-- **journey-e2e**
-- **journey-dmn-unit-test**
-- **journey-nfr**
+The `journey` folder encapsulates the frontend application responsible for managing and displaying journey-related features within the Entire ecosystem. It comprises multiple subdirectories that handle components, state management, services, testing, and utilities to deliver a seamless user experience.
 
----
+#### Subdirectories
 
-#### **journey-bff**
-
-The `journey-bff` (Backend for Frontend) serves as the intermediary between the frontend applications and the backend services. It handles API aggregations, data transformations, and optimizes requests specifically tailored for the frontend needs.
-
-**Key Responsibilities:**
-
-- **API Aggregation**: Consolidates multiple backend service responses into a unified API for the frontend.
-- **Data Transformation**: Formats and structures data to match frontend requirements.
-- **Authentication & Authorization**: Manages user sessions and access controls specific to journey functionalities.
-- **Performance Optimization**: Implements caching strategies and optimizes response times for better user experience.
-
-**Contribution to Entire Ecosystem:**
-
-`journey-bff` ensures efficient communication between the frontend and backend, enhancing performance and simplifying frontend development by providing a streamlined and tailored API interface.
-
-#### **journey-api-test**
-
-The `journey-api-test` folder contains automated tests focused on validating the APIs exposed by the `journey` services.
-
-**Key Responsibilities:**
-
-- **Endpoint Testing**: Verifies the correctness of API endpoints, ensuring they return expected responses.
-- **Integration Testing**: Ensures different components of the `journey` application interact seamlessly.
-- **Regression Testing**: Detects any unintended side effects from recent code changes.
-
-**Contribution to Entire Ecosystem:**
-
-By maintaining a robust testing suite, `journey-api-test` guarantees the reliability and stability of journey-related APIs, minimizing downtime and enhancing developer confidence during deployments.
-
-#### **journey-type**
-
-The `journey-type` folder houses TypeScript type definitions and interfaces used across the `journey` applications.
-
-**Key Responsibilities:**
-
-- **Type Definitions**: Defines consistent data structures and interfaces for journey-related data.
-- **Shared Types**: Serves as a centralized location for types used by multiple `journey` sub-applications.
-- **Type Safety**: Enhances code reliability by enforcing type checks during development.
-
-**Contribution to Entire Ecosystem:**
-
-`journey-type` promotes consistency and reduces redundancies by providing a single source of truth for type definitions, facilitating easier maintenance and scalability.
-
-#### **journey-e2e**
-
-The `journey-e2e` (End-to-End) folder contains comprehensive tests that simulate real user interactions with the journey features.
-
-**Key Responsibilities:**
-
-- **User Flow Testing**: Validates complete user journeys, ensuring all components work together as intended.
-- **UI Interaction**: Tests frontend interactions with `journey` backend services.
-- **Performance Metrics**: Measures the responsiveness and reliability of journey workflows under various conditions.
-
-**Contribution to Entire Ecosystem:**
-
-`journey-e2e` ensures that the journey features provide a seamless and error-free experience for end-users, catching integration issues that unit or API tests might miss.
-
-#### **journey-dmn-unit-test**
-
-The `journey-dmn-unit-test` folder focuses on unit tests for the domain models and business logic within the `journey` applications.
-
-**Key Responsibilities:**
-
-- **Business Logic Validation**: Ensures that core business rules and workflows function correctly.
-- **Model Testing**: Validates the integrity and behavior of domain models.
-- **Isolation Testing**: Tests individual components in isolation to identify and fix defects early.
-
-**Contribution to Entire Ecosystem:**
-
-By rigorously testing the business logic, `journey-dmn-unit-test` maintains the accuracy and reliability of journey functionalities, supporting robust application behavior.
-
-#### **journey-nfr**
-
-The `journey-nfr` (Non-Functional Requirements) folder addresses aspects such as performance, security, and scalability for the journey features.
-
-**Key Responsibilities:**
-
-- **Performance Testing**: Assesses the responsiveness and throughput of journey services.
-- **Security Audits**: Conducts vulnerability assessments and ensures compliance with security standards.
-- **Scalability Testing**: Evaluates how journey applications perform under increased load and concurrent usage.
-
-**Contribution to Entire Ecosystem:**
-
-`journey-nfr` ensures that the journey features meet essential non-functional standards, guaranteeing a secure, efficient, and scalable experience for users.
+- **components** 🧑‍💻
+- **redux** 🧑‍💻🛠️
+- **services** 🛠️
+- **specs** 🧪
+- **utils** 🧑‍💻🛠️
 
 ---
 
-### 2. `user-management`
+#### **components** 🧑‍💻
 
-The `user-management` folder oversees all aspects related to user accounts, authentication, authorization, and profile management within the Entire ecosystem.
+Contains all React components that form the user interface of the Journey application.
 
-#### Subfolders
+**Key Responsibilities:**
 
-- **user-bff**
-- **user-api-test**
-- **user-type**
-- **user-e2e**
-- **user-dmn-unit-test**
-- **user-nfr**
+- **UI Components**: Building reusable UI elements such as dialogs, layouts, and wizards.
+- **Admin Components**: Specialized components for administrative functionalities like feedback dialogs, data tables, and search interfaces.
 
-*Detailed documentation for each subfolder follows a similar structure as the `journey` folder above.*
+**Notable Files/Folders:**
 
-### 3. `analytics`
+- `JourneyPage.tsx`: Main page component for journey management.
+- `ErrorBoundary.tsx`: Error handling component to catch and display errors gracefully.
+- `AdminSidebar.tsx`: Sidebar component for admin navigation.
+- `Wizard.tsx`: Multi-step wizard component for guided user interactions.
 
-The `analytics` folder is dedicated to data collection, processing, and visualization, providing insights into user behavior and system performance.
+---
 
-#### Subfolders
+#### **redux** 🧑‍💻🛠️
 
-- **analytics-bff**
-- **analytics-api-test**
-- **analytics-type**
-- **analytics-e2e**
-- **analytics-dmn-unit-test**
-- **analytics-nfr**
+Manages the application's state using Redux.
 
-*Detailed documentation for each subfolder follows a similar structure as the `journey` folder above.*
+**Key Responsibilities:**
 
-### 4. `notifications`
+- **State Management**: Centralizing application state for consistent data flow.
+- **Middleware**: Handling asynchronous actions and side effects.
+- **Services Integration**: Connecting Redux slices with backend APIs.
 
-The `notifications` folder manages all communication channels for sending alerts, updates, and messages to users within the Entire ecosystem.
+**Notable Files/Folders:**
 
-#### Subfolders
+- `store.ts`: Configures the Redux store with middleware and reducers.
+- `slices/`: Contains Redux slices for different state domains like `admin`, `journey`, and `user`.
 
-- **notifications-bff**
-- **notifications-api-test**
-- **notifications-type**
-- **notifications-e2e**
-- **notifications-dmn-unit-test**
-- **notifications-nfr**
+---
 
-*Detailed documentation for each subfolder follows a similar structure as the `journey` folder above.*
+#### **services** 🛠️
 
-### 5. `api-gateway`
+Handles integrations with external services and APIs.
 
-The `api-gateway` folder serves as the unified entry point for all client requests, routing them to the appropriate backend services.
+**Key Responsibilities:**
 
-#### Subfolders
+- **Contentful Integration**: Manages content delivery and updates via Contentful.
+- **API Services**: Abstracts API calls for various backend services.
 
-- **api-gateway-bff**
-- **api-gateway-api-test**
-- **api-gateway-type**
-- **api-gateway-e2e**
-- **api-gateway-dmn-unit-test**
-- **api-gateway-nfr**
+**Notable Files/Folders:**
 
-*Detailed documentation for each subfolder follows a similar structure as the `journey` folder above.*
+- `contentful.service.ts`: Service for interacting with Contentful APIs.
+- `index.ts`: Entry point for aggregating all service modules.
+
+---
+
+#### **specs** 🧪
+
+Contains test configurations and utilities for the Journey application.
+
+**Key Responsibilities:**
+
+- **Testing Utilities**: Mocking styles and providing test utilities for component testing.
+- **Global Tests**: Setting up global test configurations and helpers.
+
+**Notable Files/Folders:**
+
+- `test-utils.tsx`: Utility functions for rendering components in tests.
+- `style-mock.js`: Mocking styles during testing to avoid CSS-related errors.
+
+---
+
+#### **utils** 🧑‍💻🛠️
+
+Provides utility functions and constants used throughout the application.
+
+**Key Responsibilities:**
+
+- **Data Formatting**: Functions for formatting dates, currencies, and other data types.
+- **Common Utilities**: Shared helper functions for various tasks like text manipulation and environment configuration.
+- **Constants**: Centralized constants for consistent usage across the application.
+
+**Notable Files/Folders:**
+
+- `formatter.util.ts`: Utility for formatting data.
+- `constants/`: Defines various constants used in the application.
+
+---
+
+#### **Other Configuration Files** 🛠️🧑‍💻🧪
+
+- `Dockerfile`: Configuration for containerizing the Journey application.
+- `sentry.*.config.js`: Configuration files for Sentry error tracking.
+- `tailwind.config.js`: Tailwind CSS configuration for styling.
+- `tsconfig.json`: TypeScript configuration for the application.
+- `tsconfig.spec.json`: TypeScript configuration for tests.
+
+---
+
+### 2. `journey-bff` 🛠️🧑‍💻🧪
+
+The `journey-bff` (Backend for Frontend) folder contains the backend services tailored specifically for the Journey frontend application. It serves as an intermediary between the frontend and various backend microservices, handling API aggregations, data transformations, and business logic.
+
+#### Subdirectories
+
+- **controllers** 🛠️
+- **dtos** 🛠️
+- **migrations** 🛠️
+- **services** 🛠️
+- **workers** 🛠️
+
+---
+
+#### **controllers** 🛠️
+
+Handles incoming API requests from the frontend and delegates them to appropriate services.
+
+**Key Responsibilities:**
+
+- **Request Handling**: Managing HTTP requests and sending responses.
+- **API Endpoints**: Defining RESTful endpoints for journey-related operations.
+
+**Notable Files/Folders:**
+
+- `payments.controller.ts`: Manages payment-related API requests.
+- `simulation.controller.ts`: Handles simulation-related API interactions.
+
+---
+
+#### **dtos** 🛠️
+
+Defines Data Transfer Objects (DTOs) for validating and structuring data between the frontend and backend.
+
+**Key Responsibilities:**
+
+- **Data Validation**: Ensuring incoming data meets required formats and constraints.
+- **Type Definitions**: Structuring data for consistency across services.
+
+**Notable Files/Folders:**
+
+- `decision-metric-income.dto.ts`: DTO for income-related metrics in decisions.
+- `unutilised-limit-event.dto.ts`: DTO for unutilised limit events.
+
+---
+
+#### **migrations** 🛠️
+
+Contains database migration scripts to manage schema changes over time.
+
+**Key Responsibilities:**
+
+- **Schema Management**: Applying and tracking changes to the database schema.
+- **Version Control**: Ensuring database changes are versioned and reproducible.
+
+**Notable Files/Folders:**
+
+- `20240605031720_add_variations_admin_role_to_internal_spoke/migration.sql`: Migration script for adding admin roles.
+- `schema.prisma`: Prisma schema file defining the database models.
+
+---
+
+#### **services** 🛠️
+
+Implements the core business logic and interacts with the database and external services.
+
+**Key Responsibilities:**
+
+- **Business Logic**: Handling the core functionalities and rules of the application.
+- **Database Operations**: Managing CRUD operations and complex queries.
+- **External Integrations**: Communicating with other microservices and third-party APIs.
+
+**Notable Files/Folders:**
+
+- `payments.service.ts`: Business logic for managing payments.
+- `quote.service.ts`: Handles quote-related operations.
+
+---
+
+#### **workers** 🛠️
+
+Manages background jobs and asynchronous tasks.
+
+**Key Responsibilities:**
+
+- **Task Processing**: Handling long-running tasks without blocking the main application flow.
+- **Job Management**: Scheduling and monitoring background jobs.
+
+**Notable Files/Folders:**
+
+- `disbursal.worker.ts`: Manages disbursal background tasks.
+- `payments.worker.ts`: Handles payment processing asynchronously.
+
+---
+
+#### **Other Configuration Files** 🛠️
+
+- `Dockerfile`: Configuration for containerizing the Journey BFF service.
+- `tsconfig.json`: TypeScript configuration for the backend service.
+- `package.json`: Manages dependencies and scripts for the BFF service.
+
+---
 
 ## Summary
 
-The `@apps` folder is meticulously organized to encapsulate the various applications and services that constitute the Entire ecosystem. Each subfolder under `@apps` is dedicated to specific domains such as journey management, user administration, analytics, notifications, and API routing. This modular structure promotes scalability, maintainability, and clear separation of concerns, enabling efficient development and robust performance across the platform.
+The `@apps` folder is meticulously organized to encapsulate the frontend (`@journey`) and backend (`@journey-bff`) applications that constitute the Entire ecosystem. 
+
+- **`@journey`** focuses on delivering a rich user interface and managing client-side state and interactions. It leverages React for component-based UI development, Redux for state management, and integrates with external services like Contentful for content management. Comprehensive testing ensures reliability, while utilities and constants promote code reuse and consistency.
+
+- **`@journey-bff`** serves as the backend for the frontend application, handling API requests, business logic, and data persistence. It ensures efficient communication between the frontend and various backend services, manages database migrations, and handles asynchronous tasks through workers. Robust DTOs and controllers maintain data integrity and service reliability.
+
+This modular structure promotes scalability, maintainability, and clear separation of concerns, enabling efficient development and robust performance across the Entire platform.
 
 ## Further Enhancements
 
 To further enrich this documentation, consider the following additions:
 
-- **Architecture Diagrams**: Visual representations of how different applications interact within the monorepo.
-- **Workflow Examples**: Step-by-step scenarios demonstrating the interaction between sub-applications for complex tasks.
-- **Detailed API References**: Comprehensive documentation of APIs exposed by each sub-application.
+- **Architecture Diagrams**: Visual representations of how the frontend and backend interact within the monorepo.
+- **Workflow Examples**: Step-by-step scenarios demonstrating how frontend components interact with backend services for specific features.
+- **Detailed API References**: Comprehensive documentation of APIs exposed by the `journey-bff` service.
 - **Contribution Guidelines**: Best practices and standards for contributing to each subfolder, ensuring consistency and quality across the codebase.
 
 ## Contact
@@ -191,19 +290,27 @@ For any questions or further assistance regarding the `@apps` folder documentati
 ### Glossary
 
 - **Monorepo**: A single repository that houses multiple projects or applications.
-- **Nx**: A set of extensible dev tools for monorepos, facilitating the management of multiple applications and libraries.
 - **BFF (Backend for Frontend)**: A design pattern that creates dedicated backend services tailored to the needs of specific frontend applications.
-- **API Gateway**: A server that acts as a single entry point for all client requests, routing them to the appropriate backend services.
-- **E2E (End-to-End) Testing**: Testing methodology that validates the entire workflow of an application from start to finish.
-- **DMN (Domain Model)**: Representation of the business logic and rules within the application.
-- **NFR (Non-Functional Requirements)**: Criteria that judge the operation of a system, such as performance, security, and usability.
+- **DTO (Data Transfer Object)**: An object that carries data between processes to reduce the number of method calls.
+- **Prisma**: An open-source ORM for Node.js and TypeScript.
+- **Sentry**: An error tracking tool that helps developers monitor and fix crashes in real-time.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **Redux**: A predictable state container for JavaScript apps, commonly used with React.
 
 ### References
 
 - [Nx Documentation](https://nx.dev/)
 - [Monorepo Best Practices](https://monorepo.tools/)
-- [API Gateway Patterns](https://microservices.io/patterns/apigateway.html)
+- [BFF Pattern](https://martinfowler.com/articles/bff.html)
+- [Prisma Documentation](https://www.prisma.io/docs/)
+- [Sentry Documentation](https://docs.sentry.io/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Redux Documentation](https://redux.js.org/)
 
-## Acknowledgments
+## Revision History
 
-Special thanks to the development and documentation teams for their continuous efforts in building and maintaining the Entire ecosystem.
+| Version | Date       | Description                          | Author             |
+|---------|------------|--------------------------------------|--------------------|
+| 1.0     | 2024-10-14 | Initial documentation for beginners | ChatGPT-4 Assisted |
+
+# End of Document
