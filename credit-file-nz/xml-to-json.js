@@ -103,7 +103,7 @@ const convertXMLToJSON = (inputPath, outputPath) => {
   }
 };
 
-const inputPath = './Centrix_Happy.xml';
+const inputPath = './inputs/Centrix_Happy.xml';
 const outputPath = './outputs/centrix_happy.json';
 
 convertXMLToJSON(inputPath, outputPath);
