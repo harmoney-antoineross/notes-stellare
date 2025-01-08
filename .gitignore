@@ -1,5 +1,1 @@
-./node_modules
-./**/node_modules
-./**/.next
-./**/.turbo
-/credit-file/node_modules
+node_modules

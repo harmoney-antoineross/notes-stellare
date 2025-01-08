@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" id="interest-rate-pre-qualified-quote" name="Interest rate pre qualified quote" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.28.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.6.0">
+  <decision id="interest_rate_pre_qualified_quote_au" name="Interest Rates PreQualified Quote AU">
+    <informationRequirement id="InformationRequirement_097dobo">
+      <requiredInput href="#InputData_1ckt9gb" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_1g66eu6">
+      <input id="Input_1">
+        <inputExpression id="InputExpression_1" typeRef="number">
+          <text>pd</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="interestRate" typeRef="number" />
+      <output id="OutputClause_0akzxok" name="creditLimit" typeRef="number" />
+      <rule id="DecisionRule_0yoltg2">
+        <inputEntry id="UnaryTests_13bz6je">
+          <text>[0..0.003333[</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0527gx4">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0xg9mhf">
+          <text></text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0s5lceb">
+        <inputEntry id="UnaryTests_1hp7u9h">
+          <text>[0.00333..0.006667[</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0om2eac">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0iz2cgj">
+          <text></text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_03v1hn4">
+        <inputEntry id="UnaryTests_029czdj">
+          <text>[0.006667..0.01[</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0r4bt0l">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1olk647">
+          <text></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_1ckt9gb" name="Probability of default" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="interest_rate_pre_qualified_quote_au">
+        <dc:Bounds height="80" width="180" x="350" y="100" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_0dekg23" dmnElementRef="InputData_1ckt9gb">
+        <dc:Bounds height="45" width="125" x="158" y="117" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0xme2hv" dmnElementRef="InformationRequirement_097dobo">
+        <di:waypoint x="283" y="140" />
+        <di:waypoint x="330" y="140" />
+        <di:waypoint x="350" y="140" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
