@@ -103,7 +103,15 @@ const convertXMLToJSON = (inputPath, outputPath) => {
   }
 };
 
-const inputPath = './inputs/Centrix_Happy.xml';
-const outputPath = './outputs/centrix_happy.json';
+// Process all XML files
+const inputDir = './inputs';
+const outputDir = './outputs';
 
-convertXMLToJSON(inputPath, outputPath);
+const files = fs.readdirSync(inputDir);
+files
+  .filter(file => file.toLowerCase().endsWith('.xml'))
+  .forEach(file => {
+    const inputPath = path.join(inputDir, file);
+    const outputPath = path.join(outputDir, file.replace(/\.xml$/i, '.json'));
+    convertXMLToJSON(inputPath, outputPath);
+  });
