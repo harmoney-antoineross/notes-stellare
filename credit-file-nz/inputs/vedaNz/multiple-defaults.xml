@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<BCAmessage type="RESPONSE" service-request-id="00016536060">
+    <BCAservices>
+        <BCAservice>
+            <BCAservice-code>BCA011</BCAservice-code>
+            <BCAservice-code-version>V00</BCAservice-code-version>
+            <BCAservice-client-ref>Test001</BCAservice-client-ref>
+            <BCAservice-data>
+                <response version="2.0">
+                    <enquiry-report>
+                        <file-id match-type="strong">402741496</file-id>
+                        <individual>
+                            <individual-name>
+                                <family-name>Lauti</family-name>
+                                <first-given-name>Joseph</first-given-name>
+                                <other-given-name>HUGH</other-given-name>
+                            </individual-name>
+                            <gender type="male" />
+                            <date-of-birth>1983-11-25</date-of-birth>
+                            <address create-date="2024-11-12" type="current">
+                                <street-number>80</street-number>
+                                <street-name>GREAT NORTH</street-name>
+                                <street-type code="RD" />
+                                <suburb>TITIRANGI</suburb>
+                                <city>AUCKLAND</city>
+                            </address>
+                            <address create-date="2024-08-05" type="previous">
+                                <street-number>B/83</street-number>
+                                <street-name>GILLETTA</street-name>
+                                <street-type code="RD" />
+                                <suburb>MOUNT ROSKILL</suburb>
+                                <city>AUCKLAND</city>
+                            </address>
+                            <address create-date="2023-11-10" type="previous">
+                                <street-number>5</street-number>
+                                <street-name>RICHARDSON</street-name>
+                                <street-type code="ST" />
+                                <city>WHAKATANE</city>
+                            </address>
+                        </individual>
+                        <credit-file>
+                            <credit-enquiry create-date="2025-01-15">
+                                <account-type code="PL">PERSONAL LOAN</account-type>
+                                <enquiry-amount>00000002500</enquiry-amount>
+                                <credit-enquirer>HARMONEY SYSTEMS LIMITED</credit-enquirer>
+                                <first-given-name>JOSEPH</first-given-name>
+                                <client-reference>TEST001</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2025-01-07">
+                                <account-type code="DE">DIRECTOR INQUIRY</account-type>
+                                <enquiry-amount>00000000001</enquiry-amount>
+                                <credit-enquirer>BIZCAP NZ LIMITED</credit-enquirer>
+                                <first-given-name>JOSEPH</first-given-name>
+                                <other-given-name>HUGH</other-given-name>
+                                <client-reference>A1389771</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-18">
+                                <account-type code="LP">LENDING PROPOSAL</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>JOHN DEERE CREDIT LIMITED</credit-enquirer>
+                                <first-given-name>JOSEPH</first-given-name>
+                                <other-given-name>HUGH</other-given-name>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-12">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000200000</enquiry-amount>
+                                <credit-enquirer>UDC T/A AA MONEY</credit-enquirer>
+                                <first-given-name>JOSEPH</first-given-name>
+                                <client-reference>10232</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-10-24">
+                                <account-type code="LP">LENDING PROPOSAL</account-type>
+                                <enquiry-amount>00000030000</enquiry-amount>
+                                <credit-enquirer>KIWIBANK LIMITED - SME</credit-enquirer>
+                                <first-given-name>JOSEPH</first-given-name>
+                                <client-reference>A0I9P000002XP89</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-10-10">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>SBS BANK XML - TEST</credit-enquirer>
+                                <first-given-name>JOSEPH</first-given-name>
+                                <other-given-name>HUGH</other-given-name>
+                                <client-reference>4002045</client-reference>
+                            </credit-enquiry>
+                        </credit-file>
+                        <default-file>
+                            <default joint-liability="N" company-loan="N" defaulter-detail-number="002016732">
+                                <load-date>2023-11-05</load-date>
+                                <default-date>2023-08-05</default-date>
+                                <credit-provider>GILROSE FINANCE COMPANY LTD</credit-provider>
+                                <ANZSIC-industry code="K732">Deposit Taking Financiers</ANZSIC-industry>
+                                <default-original-amount>00000003200</default-original-amount>
+                                <default-balance-amount>00000000000</default-balance-amount>
+                                <total-loan-amount>00000000000</total-loan-amount>
+                                <account-type code="HH">HIRE PURCHASE (HOUSEHOLD)</account-type>
+                                <account-opened-date>2023-08-05</account-opened-date>
+                                <default-status code="06" date="2024-11-12">PAID</default-status>
+                                <client-account-reference-id>FNOW4</client-account-reference-id>
+                                <individual-name>
+                                    <family-name>LAUTI</family-name>
+                                    <first-given-name>JOSEPH</first-given-name>
+                                    <other-given-name>HUGH</other-given-name>
+                                </individual-name>
+                                <date-of-birth>1983-11-25</date-of-birth>
+                                <consumer-default-relationship type="DF">Defaulter</consumer-default-relationship>
+                            </default>
+                            <default joint-liability="N" company-loan="N" defaulter-detail-number="002016734">
+                                <load-date>2023-10-17</load-date>
+                                <default-date>2023-07-17</default-date>
+                                <credit-provider>WAREHOUSE FIN. 285726</credit-provider>
+                                <ANZSIC-industry code="K731">Central Bank</ANZSIC-industry>
+                                <default-original-amount>00000000500</default-original-amount>
+                                <default-balance-amount>00000000000</default-balance-amount>
+                                <total-loan-amount>00000000500</total-loan-amount>
+                                <account-type code="CC">CREDIT CARD</account-type>
+                                <account-opened-date>2023-07-17</account-opened-date>
+                                <default-status code="06" date="2024-11-12">PAID</default-status>
+                                <client-account-reference-id>FNOW6</client-account-reference-id>
+                                <individual-name>
+                                    <family-name>LAUTI</family-name>
+                                    <first-given-name>JOSEPH</first-given-name>
+                                    <other-given-name>HUGH</other-given-name>
+                                </individual-name>
+                                <date-of-birth>1983-11-25</date-of-birth>
+                                <consumer-default-relationship type="DF">Defaulter</consumer-default-relationship>
+                            </default>
+                            <default joint-liability="N" company-loan="N" defaulter-detail-number="002016735">
+                                <load-date>2023-01-02</load-date>
+                                <default-date>2022-11-11</default-date>
+                                <credit-provider>UDC FINANCE LIMITED</credit-provider>
+                                <ANZSIC-industry code="K732">Deposit Taking Financiers</ANZSIC-industry>
+                                <default-original-amount>00000012000</default-original-amount>
+                                <default-balance-amount>00000012000</default-balance-amount>
+                                <total-loan-amount>00000000000</total-loan-amount>
+                                <account-type code="HM">HIRE PURCHASE (VEHICLE)</account-type>
+                                <account-opened-date>2022-11-11</account-opened-date>
+                                <default-status code="10" date="2024-11-11">PAYMENT DEFAULT</default-status>
+                                <client-account-reference-id>FNOW7</client-account-reference-id>
+                                <individual-name>
+                                    <family-name>LAUTI</family-name>
+                                    <first-given-name>JOSEPH</first-given-name>
+                                    <other-given-name>HUGH</other-given-name>
+                                </individual-name>
+                                <date-of-birth>1983-11-25</date-of-birth>
+                                <consumer-default-relationship type="DF">Defaulter</consumer-default-relationship>
+                            </default>
+                            <default joint-liability="N" company-loan="N" defaulter-detail-number="002016733">
+                                <load-date>2022-05-17</load-date>
+                                <default-date>2022-03-28</default-date>
+                                <credit-provider>DORCHESTER FINANCE (SI) LIMITED</credit-provider>
+                                <ANZSIC-industry code="K732">Deposit Taking Financiers</ANZSIC-industry>
+                                <default-original-amount>00000001000</default-original-amount>
+                                <default-balance-amount>00000001000</default-balance-amount>
+                                <total-loan-amount>00000000000</total-loan-amount>
+                                <account-type code="PL">PERSONAL LOAN</account-type>
+                                <account-opened-date>2022-03-28</account-opened-date>
+                                <default-status code="10" date="2023-09-02">PAYMENT DEFAULT</default-status>
+                                <client-account-reference-id>FNOW5</client-account-reference-id>
+                                <individual-name>
+                                    <family-name>LAUTI</family-name>
+                                    <first-given-name>JOSEPH</first-given-name>
+                                    <other-given-name>HUGH</other-given-name>
+                                </individual-name>
+                                <date-of-birth>1983-11-25</date-of-birth>
+                                <consumer-default-relationship type="DF">Defaulter</consumer-default-relationship>
+                            </default>
+                        </default-file>
+                        <score-data>
+                            <scorecard-name>ADVRS</scorecard-name>
+                            <relative-risk>+001.04</relative-risk>
+                            <relative-risk-index>+001.61</relative-risk-index>
+                            <risk-odds>+411.00</risk-odds>
+                        </score-data>
+                        <vcr-score-block>
+                            <vcr-scores>
+                                <score>+000442</score>
+                                <scorecard-name>CTSAD</scorecard-name>
+                                <scorecard-version>V1.0</scorecard-version>
+                                <relative-risk>+001.29</relative-risk>
+                                <relative-risk-index>+001.67</relative-risk-index>
+                                <relative-risk-odds>0005.35</relative-risk-odds>
+                            </vcr-scores>
+                        </vcr-score-block>
+                        <negative-block>
+                            <characteristic name="new-to-bureau-flag" type="boolean">n</characteristic>
+                            <characteristic name="age-of-oldest-file" type="months">196</characteristic>
+                            <characteristic name="total-paid-defaults" type="count">2</characteristic>
+                            <characteristic name="total-settled-defaults" type="count">0</characteristic>
+                            <characteristic name="total-outstanding-defaults" type="count">2</characteristic>
+                            <characteristic name="number-of-aliases" type="count">0</characteristic>
+                        </negative-block>
+                    </enquiry-report>
+                </response>
+            </BCAservice-data>
+        </BCAservice>
+    </BCAservices>
+</BCAmessage>

@@ -1,0 +1,367 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <GetCreditReportProductsResponse xmlns="http://centrix.co.nz">
+         <GetCreditReportProductsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <ServiceProducts>
+               <ServiceProduct>
+                  <ProductCode>ComprehensiveAndAdverseReport</ProductCode>
+               </ServiceProduct>
+               <ServiceProduct>
+                  <ProductCode>CourtFines</ProductCode>
+               </ServiceProduct>
+            </ServiceProducts>
+            <ResponseDetails>
+               <EnquiryNumber>2187197142</EnquiryNumber>
+               <EnquiryDate>2020-07-23T11:39:45.4679579+12:00</EnquiryDate>
+               <IsSuccess>true</IsSuccess>
+               <ServiceVersion>40.1.0.0</ServiceVersion>
+               <WsdlVersion>17.0.0.0</WsdlVersion>
+               <ServiceEnvironment>TEST</ServiceEnvironment>
+            </ResponseDetails>
+            <StatusMessages>
+               <StatusMessage>
+                  <MessageCode>D100</MessageCode>
+                  <MessageText>Credentials OK: MONY - Harmoney, monyb2btest - b2b test</MessageText>
+                  <MessageType>Debug</MessageType>
+                  <SupportData />
+               </StatusMessage>
+               <StatusMessage>
+                  <MessageCode>D100</MessageCode>
+                  <MessageText>Server is TEST2-SUBSCRIBE</MessageText>
+                  <MessageType>Debug</MessageType>
+                  <SupportData />
+               </StatusMessage>
+            </StatusMessages>
+            <EnteredRequestDetails>
+               <SubscriberReference>Harmoney</SubscriberReference>
+               <EnquiryReason>FQAP</EnquiryReason>
+               <EnquiryReasonDescription>Finance Quotation Application</EnquiryReasonDescription>
+               <ProductType>PSLN</ProductType>
+               <ProductTypeDescription>Personal Loan</ProductTypeDescription>
+               <AmountSought>70000.00</AmountSought>
+               <ApplicantType>SNGL</ApplicantType>
+               <ApplicantTypeDescription>Single applicant</ApplicantTypeDescription>
+            </EnteredRequestDetails>
+            <EnteredConsumerData>
+               <Personal>
+                  <Surname>Woodardew</Surname>
+                  <FirstName>Ciaraaz</FirstName>
+                  <MiddleName />
+                  <DateOfBirth>1977-10-10T00:00:00+13:00</DateOfBirth>
+                  <Gender>M</Gender>
+               </Personal>
+               <Addresses>
+                  <Address>
+                     <AddressType>C</AddressType>
+                     <AddressLine1>9 Neil Avenue</AddressLine1>
+                     <AddressLine2 />
+                     <Suburb>Other</Suburb>
+                     <City>Auckland</City>
+                     <Country>NZL</Country>
+                     <Postcode>0610</Postcode>
+                     <NumberOfYearsAtAddress>10</NumberOfYearsAtAddress>
+                     <State i:nil="true" />
+                  </Address>
+               </Addresses>
+               <DriverLicence i:nil="true" />
+               <Passport i:nil="true" />
+               <Telephones />
+            </EnteredConsumerData>
+            <DataSets>
+               <ConsumerFile>
+                  <FileNumber>149738</FileNumber>
+                  <AgeOfFile>2020-07-23T11:39:46.12</AgeOfFile>
+                  <Personal>
+                     <Surname>Woodardew</Surname>
+                     <FirstName>Ciaraaz</FirstName>
+                     <MiddleName />
+                     <DateOfBirth>1977-10-10T00:00:00</DateOfBirth>
+                     <Gender>M</Gender>
+                  </Personal>
+               </ConsumerFile>
+               <DriverLicenceVerification i:nil="true" />
+               <KnownNames />
+               <KnownAddresses>
+                  <KnownAddress>
+                     <LastKnown>true</LastKnown>
+                     <AddressDate>2020-07-23T11:39:46.127</AddressDate>
+                     <AddressLine1>9 Neil Avenue</AddressLine1>
+                     <AddressLine2 />
+                     <Suburb>Te Atatu Peninsula</Suburb>
+                     <City>Auckland</City>
+                     <Country>NZL</Country>
+                     <CountryDescription>New Zealand</CountryDescription>
+                     <Postcode>0610</Postcode>
+                     <DeliveryPointID>1043444</DeliveryPointID>
+                  </KnownAddress>
+               </KnownAddresses>
+               <PreviousEnquiries>
+                  <PreviousEnquiry>
+                     <DateOfAccess>2020-07-23T11:39:46.193</DateOfAccess>
+                     <EnquirerName>Harmoney</EnquirerName>
+                     <EnquiryReason>FQAP</EnquiryReason>
+                     <EnquiryReasonDescription>Finance Quotation Application</EnquiryReasonDescription>
+                     <EnquiryReference>Harmoney</EnquiryReference>
+                     <ProductType>PSLN</ProductType>
+                     <ProductTypeDescription>Personal Loan</ProductTypeDescription>
+                     <AmountSought>70000.00</AmountSought>
+                     <JointApplication>N</JointApplication>
+                     <ApplicantType>SNGL</ApplicantType>
+                     <ApplicantTypeDescription>Single applicant</ApplicantTypeDescription>
+                     <SuppliedAddresses />
+                  </PreviousEnquiry>
+               </PreviousEnquiries>
+               <Defaults />
+               <Judgments />
+               <Insolvencies />
+               <CompanyAffiliations />
+               <FileNotes />
+               <FinesDataList>
+                  <FinesData>
+                     <HasOutstandingFines>false</HasOutstandingFines>
+                     <FinesMessage>Ministry of Justice overdue fines at 2020/07/23 : No record</FinesMessage>
+                     <OutstandingFinesAmount>0</OutstandingFinesAmount>
+                     <AsAtDate i:nil="true" />
+                     <StatusCode>FSR2</StatusCode>
+                     <StatusCodeDescription>No Outstanding Court Fines</StatusCodeDescription>
+                     <ExternalTxnReference>2187197142.1</ExternalTxnReference>
+                     <RequestTimestamp>2020-07-23T11:39:46</RequestTimestamp>
+                  </FinesData>
+               </FinesDataList>
+               <NameOnlyInsolvencies />
+               <PaymentHistory>
+                  <Accounts />
+               </PaymentHistory>
+               <RedArrearsMonthList />
+               <PropertyOwnership>
+                  <Properties />
+               </PropertyOwnership>
+               <ClientKeys i:nil="true" />
+               <IdentityVerificationData i:nil="true" />
+               <BureauHeaderDataIdentityVerification i:nil="true" />
+               <SummaryItems>
+                  <SummaryItem>
+                     <SummaryItemType>DirectorAffiliations</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalCurrentDirectorships</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalCeasedDirectorships</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>ShareholderAffiliations</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalShareholdings</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>Defaults</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalDefaults</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>CourtFines</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>HasOutstandingCourtFines</Name>
+                           <Value>No</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>Insolvencies</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>MultipleInsolvencies</Name>
+                           <Value>No</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalCurrentBankruptcies</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalCurrentSIO</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalCurrentNAP</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalCurrentOther</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalDischargedInsolvencies</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>Judgments</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalJudgments</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>KnownAddresses</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalKnownAddresses</Name>
+                           <Value>1</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>KnownNames</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalKnownNames</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>PaymentHistory</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>HasPaymentHistory</Name>
+                           <Value>No</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalClosedAccountsLast24Months</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>WorstPaymentStatus24Months</Name>
+                           <Value>N</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>TotalActiveAccounts</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+                  <SummaryItem>
+                     <SummaryItemType>PreviousEnquiries</SummaryItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>TotalPreviousEnquiries</Name>
+                           <Value>1</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>SumAmountSought</Name>
+                           <Value>70000.00</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>AverageAmountSought</Name>
+                           <Value>70000.00</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>PreviousEnquiriesAgeOfOldestEnquiry</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>PreviousEnquiriesAgeOfOldestEnquiryInMonths</Name>
+                           <Value>0</Value>
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </SummaryItem>
+               </SummaryItems>
+               <ExtraDataItems>
+                  <ExtraDataItem>
+                     <ExtraDataItemType>CentrixScore</ExtraDataItemType>
+                     <NameValuePairs>
+                        <NameValuePair>
+                           <Name>IsSuccess</Name>
+                           <Value>True</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ScoreCardName</Name>
+                           <Value>Centrix</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ScoreModelType</Name>
+                           <Value>Bureau Score 1</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ScoreCardVersion</Name>
+                           <Value>1.0.0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>Score</Name>
+                           <Value>730</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>RawScore</Name>
+                           <Value>730</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ScoringEngineTimestamp</Name>
+                           <Value>2020-07-23 11:39:49.526</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ScoringEngineReference</Name>
+                           <Value>3c4bc3f2-fb90-48c0-9061-e2219c86ff73</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ScoringEngineVersion</Name>
+                           <Value>40.1.0.0</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>Disclaimer</Name>
+                           <Value>This report is provided to the subscriber on the terms and conditions of the subscriber agreement.</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>Information</Name>
+                           <Value>I212 - No score generated - Insufficient History</Value>
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>RiskGrade</Name>
+                           <Value />
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>GBOdds</Name>
+                           <Value />
+                        </NameValuePair>
+                        <NameValuePair>
+                           <Name>ReciprocityLevel</Name>
+                           <Value />
+                        </NameValuePair>
+                     </NameValuePairs>
+                  </ExtraDataItem>
+               </ExtraDataItems>
+               <ApplicationDecision>
+                  <RulesOwner i:nil="true" />
+                  <RulesVersionNumber>0</RulesVersionNumber>
+                  <RulesModificationNumber>0</RulesModificationNumber>
+                  <Decision i:nil="true" />
+                  <DecisionReasons />
+               </ApplicationDecision>
+               <ExtInsolvencies />
+               <NameMatchInsolvencies />
+            </DataSets>
+            <ReportDisclaimer>This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  Centrix cannot and does not warrant the accuracy of the information contained in this report.  The subscriber is responsible for assessing the creditworthiness of the individual. The Subscriber has requested we search for property information. This property information does not form part of the consumer credit report.</ReportDisclaimer>
+            <NameOnlyDataReportDisclaimer i:nil="true" />
+            <InsolvencyTrusteeServiceAcknowledgement>Data sourced from the Insolvency and Trustee Service - As this data is subject to change, please visit www.insolvency.govt.nz to confirm current details and for further information specific to the data held.</InsolvencyTrusteeServiceAcknowledgement>
+            <CompaniesOfficeAcknowledgement>Data sourced from the New Zealand Companies Office - As this data is subject to change, please visit www.companies.govt.nz to confirm current details and for further information specific to the data held.</CompaniesOfficeAcknowledgement>
+            <CompaniesOfficeSearchDate>1900-01-01T00:00:00</CompaniesOfficeSearchDate>
+         </GetCreditReportProductsResult>
+      </GetCreditReportProductsResponse>
+   </s:Body>
+</s:Envelope>

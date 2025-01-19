@@ -1,0 +1,2593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<w:wordDocument xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml"
+    xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:w10="urn:schemas-microsoft-com:office:word"
+    xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core"
+    xmlns:aml="http://schemas.microsoft.com/aml/2001/core"
+    xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+    <o:DocumentProperties></o:DocumentProperties>
+    <w:fonts>
+        <w:defaultFonts w:ascii="Times New Roman" w:fareast="Times New Roman" w:h-ansi="Times New Roman" w:cs="Times New Roman"/>
+    </w:fonts>
+    <w:docPr></w:docPr>
+    <w:body>
+        <wx:sect>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>   s:Body</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>      GetCreditReportProductsResponse xmlns="http://centrix.co.nz"</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>         GetCreditReportProductsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            ServiceProducts</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ServiceProduct</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  ProductCodeComprehensiveAndAdverseReport/ProductCode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /ServiceProduct</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ServiceProduct</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  ProductCodeCourtFines/ProductCode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /ServiceProduct</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            /ServiceProducts</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            ResponseDetails</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               EnquiryNumber2187197142/EnquiryNumber</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               EnquiryDate2020-07-23T11:39:45.4679579+12:00/EnquiryDate</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               IsSuccesstrue/IsSuccess</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ServiceVersion40.1.0.0/ServiceVersion</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               WsdlVersion17.0.0.0/WsdlVersion</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ServiceEnvironmentTEST/ServiceEnvironment</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            /ResponseDetails</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            StatusMessages</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               StatusMessage</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MessageCodeD100/MessageCode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MessageTextCredentials OK: MONY - Harmoney, monyb2btest - b2b test/MessageText</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MessageTypeDebug/MessageType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SupportData /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /StatusMessage</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               StatusMessage</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MessageCodeD100/MessageCode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MessageTextServer is TEST2-SUBSCRIBE/MessageText</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MessageTypeDebug/MessageType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SupportData /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /StatusMessage</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            /StatusMessages</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            EnteredRequestDetails</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               SubscriberReferenceHarmoney/SubscriberReference</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               EnquiryReasonFQAP/EnquiryReason</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               EnquiryReasonDescriptionFinance Quotation Application/EnquiryReasonDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ProductTypePSLN/ProductType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ProductTypeDescriptionPersonal Loan/ProductTypeDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               AmountSought70000.00/AmountSought</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ApplicantTypeSNGL/ApplicantType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ApplicantTypeDescriptionSingle applicant/ApplicantTypeDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            /EnteredRequestDetails</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            EnteredConsumerData</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Personal</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SurnameWoodardew/Surname</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  FirstNameCiaraaz/FirstName</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  MiddleName /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  DateOfBirth1977-10-10T00:00:00+13:00/DateOfBirth</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  GenderM/Gender</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /Personal</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Addresses</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  Address</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AddressTypeC/AddressType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AddressLine19 Neil Avenue/AddressLine1</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AddressLine2 /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SuburbOther/Suburb</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     CityAuckland/City</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     CountryNZL/Country</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     Postcode0610/Postcode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NumberOfYearsAtAddress10/NumberOfYearsAtAddress</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     State i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /Address</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /Addresses</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               DriverLicence i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Passport i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Telephones /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            /EnteredConsumerData</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            DataSets</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ConsumerFile</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  FileNumber149738/FileNumber</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  AgeOfFile2020-07-23T11:39:46.12/AgeOfFile</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  Personal</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SurnameWoodardew/Surname</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     FirstNameCiaraaz/FirstName</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     MiddleName /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     DateOfBirth1977-10-10T00:00:00/DateOfBirth</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     GenderM/Gender</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /Personal</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /ConsumerFile</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               DriverLicenceVerification i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               KnownNames /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               KnownAddresses</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  KnownAddress</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     LastKnowntrue/LastKnown</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AddressDate2020-07-23T11:39:46.127/AddressDate</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AddressLine19 Neil Avenue/AddressLine1</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AddressLine2 /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SuburbTe Atatu Peninsula/Suburb</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     CityAuckland/City</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     CountryNZL/Country</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     CountryDescriptionNew Zealand/CountryDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     Postcode0610/Postcode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     DeliveryPointID1043444/DeliveryPointID</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /KnownAddress</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /KnownAddresses</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               PreviousEnquiries</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  PreviousEnquiry</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     DateOfAccess2020-07-23T11:39:46.193/DateOfAccess</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     EnquirerNameHarmoney/EnquirerName</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     EnquiryReasonFQAP/EnquiryReason</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     EnquiryReasonDescriptionFinance Quotation Application/EnquiryReasonDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     EnquiryReferenceHarmoney/EnquiryReference</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     ProductTypePSLN/ProductType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     ProductTypeDescriptionPersonal Loan/ProductTypeDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AmountSought70000.00/AmountSought</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     JointApplicationN/JointApplication</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     ApplicantTypeSNGL/ApplicantType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     ApplicantTypeDescriptionSingle applicant/ApplicantTypeDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SuppliedAddresses /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /PreviousEnquiry</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /PreviousEnquiries</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Defaults /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Judgments /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               Insolvencies /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               CompanyAffiliations /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               FileNotes /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               FinesDataList</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  FinesData</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     HasOutstandingFinesfalse/HasOutstandingFines</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     FinesMessageMinistry of Justice overdue fines at 2020/07/23 : No record/FinesMessage</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     OutstandingFinesAmount0/OutstandingFinesAmount</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     AsAtDate i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     StatusCodeFSR2/StatusCode</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     StatusCodeDescriptionNo Outstanding Court Fines/StatusCodeDescription</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     ExternalTxnReference2187197142.1/ExternalTxnReference</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     RequestTimestamp2020-07-23T11:39:46/RequestTimestamp</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /FinesData</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /FinesDataList</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               NameOnlyInsolvencies /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               PaymentHistory</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  Accounts /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /PaymentHistory</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               RedArrearsMonthList /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               PropertyOwnership</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  Properties /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /PropertyOwnership</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ClientKeys i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               IdentityVerificationData i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               BureauHeaderDataIdentityVerification i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               SummaryItems</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeDirectorAffiliations/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalCurrentDirectorships/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalCeasedDirectorships/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeShareholderAffiliations/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalShareholdings/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeDefaults/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalDefaults/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeCourtFines/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameHasOutstandingCourtFines/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueNo/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeInsolvencies/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameMultipleInsolvencies/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueNo/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalCurrentBankruptcies/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalCurrentSIO/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalCurrentNAP/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalCurrentOther/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalDischargedInsolvencies/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeJudgments/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalJudgments/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeKnownAddresses/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalKnownAddresses/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value1/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypeKnownNames/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalKnownNames/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypePaymentHistory/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameHasPaymentHistory/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueNo/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalClosedAccountsLast24Months/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameWorstPaymentStatus24Months/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueN/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalActiveAccounts/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     SummaryItemTypePreviousEnquiries/SummaryItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameTotalPreviousEnquiries/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value1/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameSumAmountSought/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value70000.00/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameAverageAmountSought/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value70000.00/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NamePreviousEnquiriesAgeOfOldestEnquiry/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NamePreviousEnquiriesAgeOfOldestEnquiryInMonths/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /SummaryItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /SummaryItems</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ExtraDataItems</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  ExtraDataItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     ExtraDataItemTypeCentrixScore/ExtraDataItemType</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameIsSuccess/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueTrue/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScoreCardName/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueCentrix/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScoreModelType/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueBureau Score 1/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScoreCardVersion/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value1.0.0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScore/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value730/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameRawScore/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value730/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScoringEngineTimestamp/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value2020-07-23 11:39:49.526/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScoringEngineReference/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value3c4bc3f2-fb90-48c0-9061-e2219c86ff73/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameScoringEngineVersion/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value40.1.0.0/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameDisclaimer/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueThis report is provided to the subscriber on the terms and conditions of the subscriber agreement./Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameInformation/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           ValueI212 - No score generated - Insufficient History/Value</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameRiskGrade/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameGBOdds/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           NameReciprocityLevel/Name</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                           Value /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                        /NameValuePair</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                     /NameValuePairs</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  /ExtraDataItem</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /ExtraDataItems</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ApplicationDecision</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  RulesOwner i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  RulesVersionNumber0/RulesVersionNumber</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  RulesModificationNumber0/RulesModificationNumber</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  Decision i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>                  DecisionReasons /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               /ApplicationDecision</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               ExtInsolvencies /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>               NameMatchInsolvencies /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            /DataSets</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            ReportDisclaimerThis report is provided to the subscriber on the terms and conditions of the subscriber agreement.  Centrix cannot and does not warrant the accuracy of the information contained in this report.  The subscriber is responsible for assessing the creditworthiness of the individual. The Subscriber has requested we search for property information. This property information does not form part of the consumer credit report./ReportDisclaimer</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            NameOnlyDataReportDisclaimer i:nil="true" /</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            InsolvencyTrusteeServiceAcknowledgementData sourced from the Insolvency and Trustee Service - As this data is subject to change, please visit www.insolvency.govt.nz to confirm current details and for further information specific to the data held./InsolvencyTrusteeServiceAcknowledgement</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            CompaniesOfficeAcknowledgementData sourced from the New Zealand Companies Office - As this data is subject to change, please visit www.companies.govt.nz to confirm current details and for further information specific to the data held./CompaniesOfficeAcknowledgement</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>            CompaniesOfficeSearchDate1900-01-01T00:00:00/CompaniesOfficeSearchDate</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>         /GetCreditReportProductsResult</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>      /GetCreditReportProductsResponse</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>   /s:Body</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr></w:pPr>
+                <w:r>
+
+                    <w:t>/s:Envelope</w:t>
+                </w:r>
+            </w:p>
+            <w:sectPr>
+                <w:pgSz w:w="12240" w:h="15840"/>
+                <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440"/>
+            </w:sectPr>
+        </wx:sect>
+    </w:body>
+</w:wordDocument>

@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<BCAmessage type="RESPONSE" service-request-id="00016536054">
+    <BCAservices>
+        <BCAservice>
+            <BCAservice-code>BCA011</BCAservice-code>
+            <BCAservice-code-version>V00</BCAservice-code-version>
+            <BCAservice-client-ref>Test001</BCAservice-client-ref>
+            <BCAservice-data>
+                <response version="2.0">
+                    <enquiry-report>
+                        <file-id match-type="strong">402741494</file-id>
+                        <individual>
+                            <individual-name>
+                                <family-name>Waretini</family-name>
+                                <first-given-name>Clinton</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                            </individual-name>
+                            <gender type="male" />
+                            <date-of-birth>1975-08-24</date-of-birth>
+                            <address create-date="2025-01-15" type="current">
+                                <street-number>34</street-number>
+                                <street-name>GLAD</street-name>
+                                <suburb>MANUREWA</suburb>
+                                <city>AUCKLAND</city>
+                            </address>
+                            <address create-date="2024-11-12" type="previous">
+                                <street-number>80</street-number>
+                                <street-name>GREAT NORTH</street-name>
+                                <street-type code="RD" />
+                                <suburb>TITIRANGI</suburb>
+                                <city>AUCKLAND</city>
+                            </address>
+                            <address create-date="2024-11-12" type="previous">
+                                <street-number>10</street-number>
+                                <street-name>QUEEN</street-name>
+                                <street-type code="ST" />
+                                <suburb>EPSOM</suburb>
+                                <city>AUCKLAND</city>
+                            </address>
+                        </individual>
+                        <credit-file>
+                            <credit-enquiry create-date="2025-01-15">
+                                <account-type code="PL">PERSONAL LOAN</account-type>
+                                <enquiry-amount>00000002500</enquiry-amount>
+                                <credit-enquirer>HARMONEY SYSTEMS LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>TEST001</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2025-01-15">
+                                <account-type code="DE">DIRECTOR INQUIRY</account-type>
+                                <enquiry-amount>00000000001</enquiry-amount>
+                                <credit-enquirer>BIZCAP NZ LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>A1389771</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2025-01-07">
+                                <account-type code="DE">DIRECTOR INQUIRY</account-type>
+                                <enquiry-amount>00000000001</enquiry-amount>
+                                <credit-enquirer>BIZCAP NZ LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>A1389771</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-12-23">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>SBS BANK XML - TEST</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>3012955</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-12-11">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000500000</enquiry-amount>
+                                <credit-enquirer>UDC T/A AA MONEY</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>10232</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-12-11">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000050000</enquiry-amount>
+                                <credit-enquirer>UDC T/A AA MONEY</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>10232</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-12-11">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000200000</enquiry-amount>
+                                <credit-enquirer>UDC T/A AA MONEY</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>10232</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-28">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000008564</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>IT TEST</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-20">
+                                <account-type code="CC">CREDIT CARD</account-type>
+                                <enquiry-amount>00000002505</enquiry-amount>
+                                <credit-enquirer>JOHN DEERE CREDIT LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>REF55487560</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-18">
+                                <account-type code="LP">LENDING PROPOSAL</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>JOHN DEERE CREDIT LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-12">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000200000</enquiry-amount>
+                                <credit-enquirer>UDC T/A AA MONEY</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>10232</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-09-20">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000005000</enquiry-amount>
+                                <credit-enquirer>BNZ</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>JSON TEST</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-09-11">
+                                <account-type code="CC">CREDIT CARD</account-type>
+                                <enquiry-amount>00000001500</enquiry-amount>
+                                <credit-enquirer>WESTPAC - 287744</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-09-11">
+                                <account-type code="PL">PERSONAL LOAN</account-type>
+                                <enquiry-amount>00000000500</enquiry-amount>
+                                <credit-enquirer>WESTPAC - 287744</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-12-07">
+                                <account-type code="RM">REAL ESTATE MORTGAGE</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>WESTPAC - 281612</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>REF55487556</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-10-26">
+                                <account-type code="CC">CREDIT CARD</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>WESTPAC - 287744</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-04-21">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>SBS BANK XML - TEST</credit-enquirer>
+                                <first-given-name>CLINTON HEMAN</first-given-name>
+                                <client-reference>3000969</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2022-03-02">
+                                <account-type code="HM">HIRE PURCHASE (VEHICLE)</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>GO CAR SERVICES LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>165518</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2022-02-28">
+                                <account-type code="HM">HIRE PURCHASE (VEHICLE)</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>GO CAR SERVICES LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>165507</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2022-02-18">
+                                <account-type code="LP">LENDING PROPOSAL</account-type>
+                                <enquiry-amount>00000077125</enquiry-amount>
+                                <credit-enquirer>JOHN DEERE CREDIT LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>A000233653</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2021-05-31">
+                                <account-type code="CC">CREDIT CARD</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>BNZ - CCR CONSUMPTION</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>MOCKSUCCESSTOM</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2021-05-28">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>THE HONGKONG &amp; SHANGHAI BANKING-XML</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>500912</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2021-05-20">
+                                <account-type code="CC">CREDIT CARD</account-type>
+                                <enquiry-amount>00000045000</enquiry-amount>
+                                <credit-enquirer>CREDISENSE LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <client-reference>R210519211430</client-reference>
+                            </credit-enquiry>
+                        </credit-file>
+                        <default-file>
+                            <default joint-liability="N" company-loan="N" defaulter-detail-number="002016658">
+                                <load-date>2023-10-01</load-date>
+                                <default-date>2023-08-19</default-date>
+                                <credit-provider>TRUSTPOWER NZ LTD</credit-provider>
+                                <ANZSIC-industry code="E411">Building Construction</ANZSIC-industry>
+                                <default-original-amount>00000000500</default-original-amount>
+                                <default-balance-amount>00000000500</default-balance-amount>
+                                <total-loan-amount>00000000500</total-loan-amount>
+                                <account-type code="M">MONTHLY ACCOUNT</account-type>
+                                <account-opened-date>2023-08-19</account-opened-date>
+                                <default-status code="10" date="2023-10-01">PAYMENT DEFAULT</default-status>
+                                <client-account-reference-id>TELECOM</client-account-reference-id>
+                                <individual-name>
+                                    <family-name>WARETINI</family-name>
+                                    <first-given-name>CLINTON</first-given-name>
+                                    <other-given-name>HEMANI</other-given-name>
+                                </individual-name>
+                                <date-of-birth>1975-08-24</date-of-birth>
+                                <consumer-default-relationship type="DF">Defaulter</consumer-default-relationship>
+                            </default>
+                        </default-file>
+                        <judgement-file>
+                            <judgement unique-id="002841504">
+                                <load-date>2022-10-29</load-date>
+                                <creditor>* CLERICAL &amp; INDUSTRIAL CREDIT</creditor>
+                                <judgement-amount>00000004479</judgement-amount>
+                                <court-type code="DC">DISTRICT COURT</court-type>
+                                <judgement-status code="PIF">Paid In Full</judgement-status>
+                                <date-paid>2023-02-01</date-paid>
+                                <individual-name>
+                                    <family-name>WARETINI</family-name>
+                                    <first-given-name>CLINTON</first-given-name>
+                                    <other-given-name>HEMANI</other-given-name>
+                                </individual-name>
+                                <narrative>WARETINI, Clinton Hemani 4a Glad Road, Lynfield, Auckland, ats Clerical &amp;
+                                    Industrial Credit Union, $4479. ** ACCOUNT P</narrative>
+                            </judgement>
+                        </judgement-file>
+                        <score-data>
+                            <scorecard-name>ADVRS</scorecard-name>
+                            <relative-risk>-001.62</relative-risk>
+                            <relative-risk-index>+000.83</relative-risk-index>
+                            <risk-odds>+335.00</risk-odds>
+                        </score-data>
+                        <vcr-score-block>
+                            <vcr-scores>
+                                <score>+000370</score>
+                                <scorecard-name>CTSAD</scorecard-name>
+                                <scorecard-version>V1.0</scorecard-version>
+                                <relative-risk>-001.27</relative-risk>
+                                <relative-risk-index>+001.17</relative-risk-index>
+                                <relative-risk-odds>0003.25</relative-risk-odds>
+                            </vcr-scores>
+                        </vcr-score-block>
+                        <negative-block>
+                            <characteristic name="new-to-bureau-flag" type="boolean">n</characteristic>
+                            <characteristic name="age-of-oldest-file" type="months">221</characteristic>
+                            <characteristic name="total-paid-defaults" type="count">0</characteristic>
+                            <characteristic name="total-settled-defaults" type="count">0</characteristic>
+                            <characteristic name="total-outstanding-defaults" type="count">1</characteristic>
+                            <characteristic name="number-of-aliases" type="count">0</characteristic>
+                        </negative-block>
+                    </enquiry-report>
+                </response>
+            </BCAservice-data>
+        </BCAservice>
+    </BCAservices>
+</BCAmessage>

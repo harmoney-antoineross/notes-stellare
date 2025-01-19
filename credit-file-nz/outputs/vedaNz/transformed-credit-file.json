@@ -1,0 +1,272 @@
+{
+  "file-id": "402741494",
+  "individual": {
+    "individual-name": {
+      "family-name": "Waretini",
+      "first-given-name": "Clinton",
+      "other-given-name": "HEMANI"
+    },
+    "gender": "",
+    "date-of-birth": "1975-08-24",
+    "address": [
+      {
+        "street-number": "34",
+        "street-name": "GLAD",
+        "suburb": "MANUREWA",
+        "city": "AUCKLAND"
+      },
+      {
+        "street-number": "80",
+        "street-name": "GREAT NORTH",
+        "street-type": "",
+        "suburb": "TITIRANGI",
+        "city": "AUCKLAND"
+      },
+      {
+        "street-number": "10",
+        "street-name": "QUEEN",
+        "street-type": "",
+        "suburb": "EPSOM",
+        "city": "AUCKLAND"
+      }
+    ]
+  },
+  "credit-file": {
+    "credit-enquiry": [
+      {
+        "account-type": "PERSONAL LOAN",
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "CLINTON",
+        "client-reference": "TEST001"
+      },
+      {
+        "account-type": "DIRECTOR INQUIRY",
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "A1389771"
+      },
+      {
+        "account-type": "DIRECTOR INQUIRY",
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "A1389771"
+      },
+      {
+        "account-type": "LOAN CONTRACT",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SBS BANK XML - TEST",
+        "first-given-name": "CLINTON",
+        "client-reference": "3012955"
+      },
+      {
+        "account-type": "CONSUMER FINANCE",
+        "enquiry-amount": "00000500000",
+        "credit-enquirer": "UDC T/A AA MONEY",
+        "first-given-name": "CLINTON",
+        "client-reference": "10232"
+      },
+      {
+        "account-type": "CONSUMER FINANCE",
+        "enquiry-amount": "00000050000",
+        "credit-enquirer": "UDC T/A AA MONEY",
+        "first-given-name": "CLINTON",
+        "client-reference": "10232"
+      },
+      {
+        "account-type": "CONSUMER FINANCE",
+        "enquiry-amount": "00000200000",
+        "credit-enquirer": "UDC T/A AA MONEY",
+        "first-given-name": "CLINTON",
+        "client-reference": "10232"
+      },
+      {
+        "account-type": "CONSUMER FINANCE",
+        "enquiry-amount": "00000008564",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "IT TEST"
+      },
+      {
+        "account-type": "CREDIT CARD",
+        "enquiry-amount": "00000002505",
+        "credit-enquirer": "JOHN DEERE CREDIT LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "REF55487560"
+      },
+      {
+        "account-type": "LENDING PROPOSAL",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "JOHN DEERE CREDIT LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI"
+      },
+      {
+        "account-type": "CONSUMER FINANCE",
+        "enquiry-amount": "00000200000",
+        "credit-enquirer": "UDC T/A AA MONEY",
+        "first-given-name": "CLINTON",
+        "client-reference": "10232"
+      },
+      {
+        "account-type": "LOAN CONTRACT",
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "account-type": "CREDIT CARD",
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "WESTPAC - 287744",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI"
+      },
+      {
+        "account-type": "PERSONAL LOAN",
+        "enquiry-amount": "00000000500",
+        "credit-enquirer": "WESTPAC - 287744",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI"
+      },
+      {
+        "account-type": "REAL ESTATE MORTGAGE",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 281612",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "REF55487556"
+      },
+      {
+        "account-type": "CREDIT CARD",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 287744",
+        "first-given-name": "CLINTON"
+      },
+      {
+        "account-type": "LOAN CONTRACT",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SBS BANK XML - TEST",
+        "first-given-name": "CLINTON HEMAN",
+        "client-reference": "3000969"
+      },
+      {
+        "account-type": "HIRE PURCHASE (VEHICLE)",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "165518"
+      },
+      {
+        "account-type": "HIRE PURCHASE (VEHICLE)",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "165507"
+      },
+      {
+        "account-type": "LENDING PROPOSAL",
+        "enquiry-amount": "00000077125",
+        "credit-enquirer": "JOHN DEERE CREDIT LIMITED",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "A000233653"
+      },
+      {
+        "account-type": "CREDIT CARD",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI",
+        "client-reference": "MOCKSUCCESSTOM"
+      },
+      {
+        "account-type": "LOAN CONTRACT",
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "THE HONGKONG & SHANGHAI BANKING-XML",
+        "first-given-name": "CLINTON",
+        "client-reference": "500912"
+      },
+      {
+        "account-type": "CREDIT CARD",
+        "enquiry-amount": "00000045000",
+        "credit-enquirer": "CREDISENSE LIMITED",
+        "first-given-name": "CLINTON",
+        "client-reference": "R210519211430"
+      }
+    ]
+  },
+  "default-file": {
+    "default": {
+      "load-date": "2023-10-01",
+      "default-date": "2023-08-19",
+      "credit-provider": "TRUSTPOWER NZ LTD",
+      "ANZSIC-industry": "Building Construction",
+      "default-original-amount": "00000000500",
+      "default-balance-amount": "00000000500",
+      "total-loan-amount": "00000000500",
+      "account-type": "MONTHLY ACCOUNT",
+      "account-opened-date": "2023-08-19",
+      "default-status": "PAYMENT DEFAULT",
+      "client-account-reference-id": "TELECOM",
+      "individual-name": {
+        "family-name": "WARETINI",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI"
+      },
+      "date-of-birth": "1975-08-24",
+      "consumer-default-relationship": "Defaulter"
+    }
+  },
+  "judgement-file": {
+    "judgement": {
+      "load-date": "2022-10-29",
+      "creditor": "* CLERICAL & INDUSTRIAL CREDIT",
+      "judgement-amount": "00000004479",
+      "court-type": "DISTRICT COURT",
+      "judgement-status": "Paid In Full",
+      "date-paid": "2023-02-01",
+      "individual-name": {
+        "family-name": "WARETINI",
+        "first-given-name": "CLINTON",
+        "other-given-name": "HEMANI"
+      },
+      "narrative": "WARETINI, Clinton Hemani 4a Glad Road, Lynfield, Auckland, ats Clerical &\n                                    Industrial Credit Union, $4479. ** ACCOUNT P"
+    }
+  },
+  "score-data": {
+    "scorecard-name": "ADVRS",
+    "relative-risk": "-001.62",
+    "relative-risk-index": "+000.83",
+    "risk-odds": "+335.00"
+  },
+  "vcr-score-block": {
+    "vcr-scores": {
+      "score": "+000370",
+      "scorecard-name": "CTSAD",
+      "scorecard-version": "V1.0",
+      "relative-risk": "-001.27",
+      "relative-risk-index": "+001.17",
+      "relative-risk-odds": "0003.25"
+    }
+  },
+  "negative-block": {
+    "characteristic": [
+      "n",
+      "221",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  }
+}
