@@ -207,6 +207,7 @@
   },
   "default-file": {
     "default": {
+      "defaulter-detail-number": "002016732",
       "load-date": "2023-10-01",
       "default-date": "2023-08-19",
       "credit-provider": "TRUSTPOWER NZ LTD",
@@ -229,6 +230,7 @@
   },
   "judgement-file": {
     "judgement": {
+      "unique-id": "002841504",
       "load-date": "2022-10-29",
       "creditor": "* CLERICAL & INDUSTRIAL CREDIT",
       "judgement-amount": "00000004479",

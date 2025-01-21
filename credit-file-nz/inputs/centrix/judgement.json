@@ -1,0 +1,789 @@
+{
+    "ServiceProducts": [
+        {
+            "ProductCode": "ComprehensiveAndAdverseReport"
+        },
+        {
+            "ProductCode": "CourtFines"
+        }
+    ],
+    "ResponseDetails": {
+        "EnquiryNumber": "7357618475",
+        "EnquiryDate": "2025-01-20T13:56:18.7673617+13:00",
+        "IsSuccess": true,
+        "ServiceVersion": "69.3.0.0",
+        "WsdlVersion": "17.0.0.0",
+        "ServiceEnvironment": "TEST"
+    },
+    "StatusMessages": [
+        {
+            "MessageCode": "D100",
+            "MessageText": "Credentials OK: MONY - Harmoney, monyb2btest - b2b test",
+            "MessageType": "Debug",
+            "SupportData": ""
+        },
+        {
+            "MessageCode": "D100",
+            "MessageText": "Server is TEST1-SUBSCRIBE",
+            "MessageType": "Debug",
+            "SupportData": ""
+        }
+    ],
+    "EnteredRequestDetails": {
+        "SubscriberReference": "Harmoney",
+        "EnquiryReason": "CRDA",
+        "EnquiryReasonDescription": "Credit Application",
+        "ProductType": "PSLN",
+        "ProductTypeDescription": "Personal Loan",
+        "AmountSought": 1000.0,
+        "ApplicantType": "SNGL",
+        "ApplicantTypeDescription": "Single applicant"
+    },
+    "EnteredConsumerData": {
+        "Personal": {
+            "Surname": "ABBOTT",
+            "FirstName": "IAN",
+            "MiddleName": "FREDERICK",
+            "DateOfBirth": "1957-09-20T00:00:00",
+            "Gender": "M"
+        },
+        "Addresses": [
+            {
+                "AddressType": "C",
+                "AddressLine1": "Flat 1, 7 Don Buck Road",
+                "AddressLine2": "",
+                "Suburb": "Hamilton",
+                "City": "Hamilton",
+                "Country": "NZL",
+                "Postcode": "0614",
+                "NumberOfYearsAtAddress": 8
+            }
+        ],
+        "DriverLicence": {
+            "DriverLicenceNumber": "HF298785",
+            "DriverLicenceVersion": 137
+        },
+        "Telephones": []
+    },
+    "DataSets": {
+        "ConsumerFile": {
+            "FileNumber": 22023,
+            "AgeOfFile": "2015-12-21T10:12:33.857",
+            "Personal": {
+                "Surname": "Abbott",
+                "FirstName": "Ian",
+                "DateOfBirth": "1957-09-20T00:00:00",
+                "Gender": "M"
+            }
+        },
+        "KnownNames": [
+            {
+                "Surname": "Abbott",
+                "FirstName": "Frederick",
+                "MiddleName": "Ian",
+                "DateOfBirth": "1957-09-20T00:00:00",
+                "SourceBureaux": []
+            },
+            {
+                "Surname": "Abbott",
+                "FirstName": "Ian",
+                "MiddleName": "Frederick",
+                "DateOfBirth": "1967-09-20T00:00:00",
+                "SourceBureaux": []
+            }
+        ],
+        "KnownAddresses": [
+            {
+                "LastKnown": true,
+                "AddressDate": "2025-01-15T22:13:22.863",
+                "AddressLine1": "Flat 1, 7 Don Buck Road",
+                "AddressLine2": "",
+                "Suburb": "Hamilton",
+                "City": "Hamilton",
+                "Country": "NZL",
+                "CountryDescription": "New Zealand",
+                "Postcode": "0614",
+                "SourceBureaux": []
+            },
+            {
+                "LastKnown": false,
+                "AddressDate": "2015-12-21T11:05:44.303",
+                "AddressLine1": "22 Peter Terrace",
+                "AddressLine2": "",
+                "Suburb": "Castor Bay",
+                "City": "Auckland",
+                "Country": "NZL",
+                "CountryDescription": "New Zealand",
+                "Postcode": "0620",
+                "DeliveryPointID": "158840",
+                "SourceBureaux": []
+            },
+            {
+                "LastKnown": false,
+                "AddressDate": "2024-11-14T17:41:36.307",
+                "AddressLine1": "100 Main Street",
+                "AddressLine2": "",
+                "Suburb": "",
+                "City": "Greytown",
+                "Country": "NZL",
+                "CountryDescription": "New Zealand",
+                "Postcode": "5712",
+                "DeliveryPointID": "681044",
+                "SourceBureaux": []
+            }
+        ],
+        "PreviousEnquiries": [
+            {
+                "DateOfAccess": "2025-01-20T13:56:19.89",
+                "EnquirerName": "Harmoney",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Harmoney",
+                "ProductType": "PSLN",
+                "ProductTypeDescription": "Personal Loan",
+                "AmountSought": 1000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2025-01-16T22:32:36.187",
+                "EnquirerName": "Harmoney",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Harmoney",
+                "ProductType": "PSLN",
+                "ProductTypeDescription": "Personal Loan",
+                "AmountSought": 1000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2025-01-16T16:40:20.567",
+                "EnquirerName": "Driva New Zealand Limited",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "Driva1234567",
+                "ProductType": "LNDP",
+                "ProductTypeDescription": "Lending Proposal",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2025-01-15T22:34:46.807",
+                "EnquirerName": "Harmoney",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Harmoney",
+                "ProductType": "PSLN",
+                "ProductTypeDescription": "Personal Loan",
+                "AmountSought": 1000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2025-01-15T11:39:50.68",
+                "EnquirerName": "Geneva Finance",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "e5b0308a-2f90-45d3-a430-26b573172b65",
+                "ProductType": "HPUR",
+                "ProductTypeDescription": "Hire Purchase",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-12-12T16:37:36.677",
+                "EnquirerName": "Bank of New Zealand (CCR Project)",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "0018M00000dKLVM",
+                "ProductType": "MTGE",
+                "ProductTypeDescription": "Mortgage",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-12-11T14:17:05.183",
+                "EnquirerName": "Pepper Money",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "MTGE",
+                "ProductTypeDescription": "Mortgage",
+                "AmountSought": 675000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-12-06T09:36:41.16",
+                "EnquirerName": "Finance Now Limited",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 5000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-12-02T14:29:13.023",
+                "EnquirerName": "Bank of New Zealand (CCR Project)",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Test judgments",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 2000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-30T16:13:12.787",
+                "EnquirerName": "namecheck",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "cm43lkfzn00032xsetzy9jh8y",
+                "ProductType": "CFIN",
+                "ProductTypeDescription": "Consumer Finance",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-29T13:51:51.597",
+                "EnquirerName": "Finance Now Limited",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 12000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-28T14:51:59.9",
+                "EnquirerName": "Geneva Finance",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "c4435992-217f-45b8-b211-dbac6ea32875",
+                "ProductType": "HPUR",
+                "ProductTypeDescription": "Hire Purchase",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-26T13:52:47.587",
+                "EnquirerName": "Farmlands Co-Operative Society Ltd",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "60D ",
+                "ProductTypeDescription": "60D ",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-19T13:30:16.613",
+                "EnquirerName": "Centrix Group Limited",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "N24Regression",
+                "ProductType": "PSLN",
+                "ProductTypeDescription": "Personal Loan",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-18T17:18:23.087",
+                "EnquirerName": "Driva New Zealand Limited",
+                "EnquiryReason": "CRDR",
+                "EnquiryReasonDescription": "Credit Review",
+                "EnquiryReference": "b5f582cf-b6b6-483b-bb5d-32a120532507",
+                "ProductType": "LNDP",
+                "ProductTypeDescription": "Lending Proposal",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-14T17:41:36.353",
+                "EnquirerName": "Pepper Money",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "MTGE",
+                "ProductTypeDescription": "Mortgage",
+                "AmountSought": 675000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-14T17:24:22.827",
+                "EnquirerName": "Finance Now Limited",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 8000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-14T11:40:12.957",
+                "EnquirerName": "Bank of New Zealand (CCR Project)",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "001DG00001gErjL",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-14T09:26:07.66",
+                "EnquirerName": "Intersoft Systems Limited",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "79119e32-3bcf-4c91-a01c-cf323892b6a7",
+                "ProductType": "120D",
+                "ProductTypeDescription": "120 Day Account",
+                "AmountSought": 5000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-12T16:19:03.163",
+                "EnquirerName": "Finance Now Limited",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-07T18:17:09.863",
+                "EnquirerName": "Bank of New Zealand (CCR Project)",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "0018M00000dKLVM",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-06T13:28:28.333",
+                "EnquirerName": "Bank of New Zealand (CCR Project)",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Reference1",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 500000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-06T10:32:40.113",
+                "EnquirerName": "Finance Now Limited",
+                "EnquiryReason": "FQAP",
+                "EnquiryReasonDescription": "Finance Quotation Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 3000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-05T01:33:47.797",
+                "EnquirerName": "Pepper Money",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "MTGE",
+                "ProductTypeDescription": "Mortgage",
+                "AmountSought": 145000.00,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-11-04T13:29:29.557",
+                "EnquirerName": "Bank of New Zealand (CCR Project)",
+                "EnquiryReason": "CRDA",
+                "EnquiryReasonDescription": "Credit Application",
+                "EnquiryReference": "001DG00001gErjL",
+                "ProductType": "LOAN",
+                "ProductTypeDescription": "Loan",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            },
+            {
+                "DateOfAccess": "2024-10-27T11:51:31.167",
+                "EnquirerName": "Enquiry Creditor Ltd",
+                "EnquiryReason": "CRDR",
+                "EnquiryReasonDescription": "Credit Review",
+                "EnquiryReference": "Not Supplied",
+                "ProductType": "",
+                "ProductTypeDescription": "",
+                "AmountSought": 0.0,
+                "JointApplication": "N",
+                "ApplicantType": "SNGL",
+                "ApplicantTypeDescription": "Single applicant",
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            }
+        ],
+        "Defaults": [],
+        "Judgments": [
+            {
+                "JudgementNumber": "367504440",
+                "DateOfJudgement": "2022-10-24T00:00:00",
+                "MultipleDefendants": "N",
+                "Plaintiffs": [
+                    {
+                        "Name": "Report Judgments Limited"
+                    }
+                ],
+                "JudgementType": "District Court",
+                "Amount": 1000.00,
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            }
+        ],
+        "Insolvencies": [],
+        "CompanyAffiliations": [],
+        "FileNotes": [
+            {
+                "NoteCreatedDate": "2023-03-01T15:27:25.847",
+                "NoteTypeCode": "TEST",
+                "NoteTypeDescription": "Test Consumer",
+                "DataReferencedType": "NONE",
+                "DataReferencedTypeDescription": "",
+                "DataReferencedText": "",
+                "FileNoteNarrative": "TEST",
+                "SourceBureaux": []
+            }
+        ],
+        "FinesDataList": [
+            {
+                "HasOutstandingFines": false,
+                "FinesMessage": "Ministry of Justice overdue fines at 2017/11/03 : No record",
+                "OutstandingFinesAmount": 0.0,
+                "StatusCode": "FSR2",
+                "StatusCodeDescription": "No Outstanding Court Fines",
+                "ExternalTxnReference": "7357618475",
+                "RequestTimestamp": "2017-11-03T10:00:00"
+            }
+        ],
+        "NameOnlyInsolvencies": [],
+        "PaymentHistory": {
+            "Accounts": []
+        },
+        "RedArrearsMonthList": [],
+        "PropertyOwnership": {
+            "Properties": []
+        },
+        "SummaryItems": [
+            {
+                "SummaryItemType": "DirectorAffiliations",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalCurrentDirectorships",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "TotalCeasedDirectorships",
+                        "Value": "0"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "ShareholderAffiliations",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalShareholdings",
+                        "Value": "0"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "Defaults",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalDefaults",
+                        "Value": "0"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "CourtFines",
+                "NameValuePairs": [
+                    {
+                        "Name": "HasOutstandingCourtFines",
+                        "Value": "No"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "Insolvencies",
+                "NameValuePairs": [
+                    {
+                        "Name": "MultipleInsolvencies",
+                        "Value": "No"
+                    },
+                    {
+                        "Name": "TotalCurrentBankruptcies",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "TotalCurrentSIO",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "TotalCurrentNAP",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "TotalCurrentOther",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "TotalDischargedInsolvencies",
+                        "Value": "0"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "Judgments",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalJudgments",
+                        "Value": "1"
+                    },
+                    {
+                        "Name": "SumJudgmentAmount",
+                        "Value": "1000.00"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "KnownAddresses",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalKnownAddresses",
+                        "Value": "3"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "KnownNames",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalKnownNames",
+                        "Value": "2"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "PaymentHistory",
+                "NameValuePairs": [
+                    {
+                        "Name": "HasPaymentHistory",
+                        "Value": "No"
+                    },
+                    {
+                        "Name": "TotalClosedAccountsLast24Months",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "WorstPaymentStatus24Months",
+                        "Value": "N"
+                    },
+                    {
+                        "Name": "TotalActiveAccounts",
+                        "Value": "0"
+                    }
+                ]
+            },
+            {
+                "SummaryItemType": "PreviousEnquiries",
+                "NameValuePairs": [
+                    {
+                        "Name": "TotalPreviousEnquiries",
+                        "Value": "26"
+                    },
+                    {
+                        "Name": "SumAmountSought",
+                        "Value": "2033000.00"
+                    },
+                    {
+                        "Name": "AverageAmountSought",
+                        "Value": "156384.62"
+                    },
+                    {
+                        "Name": "PreviousEnquiriesAgeOfOldestEnquiry",
+                        "Value": "0"
+                    },
+                    {
+                        "Name": "PreviousEnquiriesAgeOfOldestEnquiryInMonths",
+                        "Value": "0"
+                    }
+                ]
+            }
+        ],
+        "ExtraDataItems": [
+            {
+                "ExtraDataItemType": "CentrixScore",
+                "NameValuePairs": [
+                    {
+                        "Name": "IsSuccess",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ScoreCardName",
+                        "Value": "Centrix"
+                    },
+                    {
+                        "Name": "ScoreModelType",
+                        "Value": "Bureau Score 1"
+                    },
+                    {
+                        "Name": "ScoreCardVersion",
+                        "Value": "1.0.0"
+                    },
+                    {
+                        "Name": "Score",
+                        "Value": "929"
+                    },
+                    {
+                        "Name": "RawScore",
+                        "Value": "929"
+                    },
+                    {
+                        "Name": "ScoringEngineTimestamp",
+                        "Value": "2025-01-20 13:56:20.628"
+                    },
+                    {
+                        "Name": "ScoringEngineReference",
+                        "Value": "d8055daa-ac10-4126-9668-b6063754a6f8"
+                    },
+                    {
+                        "Name": "ScoringEngineVersion",
+                        "Value": "69.2.0.0"
+                    },
+                    {
+                        "Name": "Disclaimer",
+                        "Value": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  "
+                    },
+                    {
+                        "Name": "RiskGrade",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "GBOdds",
+                        "Value": "17.298:1"
+                    },
+                    {
+                        "Name": "ReciprocityLevel",
+                        "Value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "ReportDisclaimer": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  Centrix cannot and does not warrant the accuracy of the information contained in this report.  The subscriber is responsible for assessing the creditworthiness of the individual. The Subscriber has requested we search for property information. This property information does not form part of the consumer credit report.",
+    "InsolvencyTrusteeServiceAcknowledgement": "Data sourced from the Insolvency and Trustee Service - As this data is subject to change, please visit www.insolvency.govt.nz to confirm current details and for further information specific to the data held.",
+    "CompaniesOfficeAcknowledgement": "Data sourced from the New Zealand Companies Office - As this data is subject to change, please visit www.companies.govt.nz to confirm current details and for further information specific to the data held.",
+    "CompaniesOfficeSearchDate": "1900-01-01T00:00:00"
+}

@@ -1,0 +1,121 @@
+Defaults,,
+Centrix,Equifax,
+"{
+    ""DateOfDefault"": ""2023-10-01T00:00:00"",
+    ""AccountType"": ""MVEH"",
+    ""AccountTypeDescription"": ""Motor Vehicle Financing"",
+    ""CreditProvider"": ""Centrix Group Limited - Contact: +64 9 966 9706"",
+    ""CollectionIndustrySupplier"": """",
+    ""Reference"": ""91637512"",
+    ""OriginalDefaultAmount"": 1000.00,
+    ""CurrentDefaultBalance"": 1000.00,
+    ""DefaultStatus"": ""ACTV"",
+    ""DefaultStatusDescription"": ""Active"",
+    ""StatusDate"": ""2024-10-27T13:37:59"",
+    ""SuppliedAddresses"": [],
+    ""SourceBureaux"": []
+},","<default joint-liability=""N"" company-loan=""N"" defaulter-detail-number=""002016732"">
+    <load-date>2023-11-05</load-date>
+    <default-date>2023-08-05</default-date>
+    <credit-provider>GILROSE FINANCE COMPANY LTD</credit-provider>
+    <ANZSIC-industry code=""K732"">Deposit Taking Financiers</ANZSIC-industry>
+    <default-original-amount>00000003200</default-original-amount>
+    <default-balance-amount>00000000000</default-balance-amount>
+    <total-loan-amount>00000000000</total-loan-amount>
+    <account-type code=""HH"">HIRE PURCHASE (HOUSEHOLD)</account-type>
+    <account-opened-date>2023-08-05</account-opened-date>
+    <default-status code=""06"" date=""2024-11-12"">PAID</default-status>
+    <client-account-reference-id>FNOW4</client-account-reference-id>
+    <individual-name>
+        <family-name>LAUTI</family-name>
+        <first-given-name>JOSEPH</first-given-name>
+        <other-given-name>HUGH</other-given-name>
+    </individual-name>
+    <date-of-birth>1983-11-25</date-of-birth>
+    <consumer-default-relationship type=""DF"">Defaulter</consumer-default-relationship>
+</default>",
+,,
+Judgements,,
+Centrix,Equifax,
+"{
+    ""JudgementNumber"": ""367504440"",
+    ""DateOfJudgement"": ""2022-10-24T00:00:00"",
+    ""MultipleDefendants"": ""N"",
+    ""Plaintiffs"": [
+        {
+            ""Name"": ""Report Judgments Limited""
+        }
+    ],
+    ""JudgementType"": ""District Court"",
+    ""Amount"": 1000.00,
+    ""SuppliedAddresses"": [],
+    ""SourceBureaux"": []
+}","<judgement unique-id=""002841504"">
+    <load-date>2022-10-29</load-date>
+    <creditor>* CLERICAL &amp; INDUSTRIAL CREDIT</creditor>
+    <judgement-amount>00000004479</judgement-amount>
+    <court-type code=""DC"">DISTRICT COURT</court-type>
+    <judgement-status code=""PIF"">Paid In Full</judgement-status>
+    <date-paid>2023-02-01</date-paid>
+    <individual-name>
+        <family-name>WARETINI</family-name>
+        <first-given-name>CLINTON</first-given-name>
+        <other-given-name>HEMANI</other-given-name>
+    </individual-name>
+    <narrative>WARETINI, Clinton Hemani 4a Glad Road, Lynfield, Auckland, ats Clerical &amp;
+        Industrial Credit Union, $4479. ** ACCOUNT P</narrative>
+</judgement>",
+,,
+Insolvency,,
+Centrix,,Equifax
+TotalCurrentBankruptcies,TotalDischargedInsolvencies,Bankruptcy rule for Equifax
+"
+{
+    ""InsolvencyNumber"": 851846,
+    ""AdjudicationDate"": ""2019-08-26T11:20:00"",
+    ""InsolvencyType"": ""Debtor Petition"",
+    ""InsolvencyStatus"": ""CurrentBankrupt"",
+    ""SuppliedAddresses"": [],
+    ""ModifiedDate"": ""2012-01-24T14:21:10.57"",
+    ""SourceBureaux"": []
+},","{
+    ""InsolvencyNumber"": 850744,
+    ""AdjudicationDate"": ""2011-07-07T10:14:00"",
+    ""InsolvencyType"": ""CreditorPetition"",
+    ""InsolvencyStatus"": ""AutomaticallyDischarged"",
+    ""DischargeDate"": ""2014-07-07T00:00:00"",
+    ""SuppliedAddresses"": [],
+    ""ModifiedDate"": ""2024-10-27T13:40:47.723"",
+    ""SourceBureaux"": []
+},","<insolvency>
+    <insolvency-number>06022019</insolvency-number>
+    <insolvency-type code=""TYPNP"">No Asset Procedure</insolvency-type>
+    <insolvency-status code=""STACN"">Current NAP</insolvency-status>
+    <adjudication-date>20221225</adjudication-date>
+    <adjudication-court code=""COR01"">Auckland High Court</adjudication-court>
+</insolvency>"
+,,
+Judgements,,
+Centrix,,
+NAP/SIO,TotalCreditNonCompliance,
+"            {
+                ""SummaryItemType"": ""Insolvencies"",
+                ""NameValuePairs"": [
+                    {
+                        ""Name"": ""TotalCurrentSIO"",
+                        ""Value"": ""0""
+                    },
+                    {
+                        ""Name"": ""TotalCurrentNAP"",
+                        ""Value"": ""0""
+                    },
+                ]
+            }","{
+    ""SummaryItemType"": ""Defaults"",
+    ""NameValuePairs"": [
+        {
+            ""Name"": ""TotalCreditNonCompliance"",
+            ""Value"": ""0""
+        }
+    ]
+}",

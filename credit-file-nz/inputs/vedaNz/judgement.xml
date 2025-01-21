@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BCAmessage type="RESPONSE" service-request-id="00016536054">
+<BCAmessage type="RESPONSE" service-request-id="00016543201">
     <BCAservices>
         <BCAservice>
             <BCAservice-code>BCA011</BCAservice-code>
@@ -8,12 +8,12 @@
             <BCAservice-data>
                 <response version="2.0">
                     <enquiry-report>
-                        <file-id match-type="strong">402741494</file-id>
+                        <file-id match-type="strong">402745561</file-id>
                         <individual>
                             <individual-name>
                                 <family-name>Waretini</family-name>
                                 <first-given-name>Clinton</first-given-name>
-                                <other-given-name>HEMANI</other-given-name>
+                                <other-given-name>Hemani</other-given-name>
                             </individual-name>
                             <gender type="male" />
                             <date-of-birth>1975-08-24</date-of-birth>
@@ -39,6 +39,14 @@
                             </address>
                         </individual>
                         <credit-file>
+                            <credit-enquiry create-date="2025-01-20">
+                                <account-type code="PL">PERSONAL LOAN</account-type>
+                                <enquiry-amount>00000002500</enquiry-amount>
+                                <credit-enquirer>HARMONEY SYSTEMS LIMITED</credit-enquirer>
+                                <first-given-name>CLINTON</first-given-name>
+                                <other-given-name>HEMANI</other-given-name>
+                                <client-reference>TEST001</client-reference>
+                            </credit-enquiry>
                             <credit-enquiry create-date="2025-01-15">
                                 <account-type code="PL">PERSONAL LOAN</account-type>
                                 <enquiry-amount>00000002500</enquiry-amount>
@@ -251,18 +259,18 @@
                         </judgement-file>
                         <score-data>
                             <scorecard-name>ADVRS</scorecard-name>
-                            <relative-risk>-001.62</relative-risk>
-                            <relative-risk-index>+000.83</relative-risk-index>
-                            <risk-odds>+335.00</risk-odds>
+                            <relative-risk>-002.17</relative-risk>
+                            <relative-risk-index>+000.41</relative-risk-index>
+                            <risk-odds>+293.00</risk-odds>
                         </score-data>
                         <vcr-score-block>
                             <vcr-scores>
-                                <score>+000370</score>
+                                <score>+000331</score>
                                 <scorecard-name>CTSAD</scorecard-name>
                                 <scorecard-version>V1.0</scorecard-version>
-                                <relative-risk>-001.27</relative-risk>
-                                <relative-risk-index>+001.17</relative-risk-index>
-                                <relative-risk-odds>0003.25</relative-risk-odds>
+                                <relative-risk>-001.67</relative-risk>
+                                <relative-risk-index>+000.90</relative-risk-index>
+                                <relative-risk-odds>0002.48</relative-risk-odds>
                             </vcr-scores>
                         </vcr-score-block>
                         <negative-block>
