@@ -1,0 +1,96 @@
+{
+    "version": "1.0",
+    "default": {
+        "value": 6,
+        "sources": [
+            {
+                "id": "91637512",
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": "717345544",
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": "847454022",
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": "382588145",
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": "726347056",
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": "002016732",
+                "sources": [
+                    "Equifax NZ"
+                ]
+            }
+        ]
+    },
+    "insolvency": {
+        "value": 3,
+        "sources": [
+            {
+                "id": 850744,
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": 851846,
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": 818147,
+                "sources": [
+                    "Centrix"
+                ]
+            }
+        ]
+    },
+    "judgement": {
+        "value": 2,
+        "sources": [
+            {
+                "id": "367504440",
+                "sources": [
+                    "Centrix"
+                ]
+            },
+            {
+                "id": "002841504",
+                "sources": [
+                    "Equifax NZ"
+                ]
+            }
+        ]
+    },
+    "score": {
+        "sources": [
+            {
+                "value": "+000370",
+                "bureau": "Equifax NZ"
+            },
+            {
+                "value": "0",
+                "bureau": "Centrix"
+            }
+        ]
+    }
+}

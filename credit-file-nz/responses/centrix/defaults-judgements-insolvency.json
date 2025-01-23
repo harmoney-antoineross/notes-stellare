@@ -1779,7 +1779,22 @@
                 "SourceBureaux": []
             }
         ],
-        "Judgments": [],
+        "Judgments": [
+            {
+                "JudgementNumber": "367504440",
+                "DateOfJudgement": "2022-10-24T00:00:00",
+                "MultipleDefendants": "N",
+                "Plaintiffs": [
+                    {
+                        "Name": "Report Judgments Limited"
+                    }
+                ],
+                "JudgementType": "District Court",
+                "Amount": 1000.00,
+                "SuppliedAddresses": [],
+                "SourceBureaux": []
+            }
+        ],
         "Insolvencies": [
             {
                 "InsolvencyNumber": 850744,
