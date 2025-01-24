@@ -1,0 +1,413 @@
+{
+  "file-id": {
+    "_": "402741496",
+    "$": {
+      "match-type": "strong"
+    }
+  },
+  "individual": {
+    "individual-name": {
+      "family-name": "Lauti",
+      "first-given-name": "Joseph",
+      "other-given-name": "HUGH"
+    },
+    "gender": {
+      "$": {
+        "type": "male"
+      }
+    },
+    "date-of-birth": "1983-11-25",
+    "address": [
+      {
+        "$": {
+          "create-date": "2024-11-12",
+          "type": "current"
+        },
+        "street-number": "80",
+        "street-name": "GREAT NORTH",
+        "street-type": {
+          "$": {
+            "code": "RD"
+          }
+        },
+        "suburb": "TITIRANGI",
+        "city": "AUCKLAND"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-05",
+          "type": "previous"
+        },
+        "street-number": "B/83",
+        "street-name": "GILLETTA",
+        "street-type": {
+          "$": {
+            "code": "RD"
+          }
+        },
+        "suburb": "MOUNT ROSKILL",
+        "city": "AUCKLAND"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-10",
+          "type": "previous"
+        },
+        "street-number": "5",
+        "street-name": "RICHARDSON",
+        "street-type": {
+          "$": {
+            "code": "ST"
+          }
+        },
+        "city": "WHAKATANE"
+      }
+    ]
+  },
+  "credit-file": {
+    "credit-enquiry": [
+      {
+        "$": {
+          "create-date": "2025-01-15"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "JOSEPH",
+        "client-reference": "TEST001"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-07"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "JOSEPH",
+        "other-given-name": "HUGH",
+        "client-reference": "A1389771"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-18"
+        },
+        "account-type": {
+          "_": "LENDING PROPOSAL",
+          "$": {
+            "code": "LP"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "JOHN DEERE CREDIT LIMITED",
+        "first-given-name": "JOSEPH",
+        "other-given-name": "HUGH"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-12"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000200000",
+        "credit-enquirer": "UDC T/A AA MONEY",
+        "first-given-name": "JOSEPH",
+        "client-reference": "10232"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-24"
+        },
+        "account-type": {
+          "_": "LENDING PROPOSAL",
+          "$": {
+            "code": "LP"
+          }
+        },
+        "enquiry-amount": "00000030000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "JOSEPH",
+        "client-reference": "A0I9P000002XP89"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-10"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SBS BANK XML - TEST",
+        "first-given-name": "JOSEPH",
+        "other-given-name": "HUGH",
+        "client-reference": "4002045"
+      }
+    ]
+  },
+  "default-file": {
+    "default": [
+      {
+        "$": {
+          "joint-liability": "N",
+          "company-loan": "N",
+          "defaulter-detail-number": "002016732"
+        },
+        "load-date": "2023-11-05",
+        "default-date": "2023-08-05",
+        "credit-provider": "GILROSE FINANCE COMPANY LTD",
+        "ANZSIC-industry": {
+          "_": "Deposit Taking Financiers",
+          "$": {
+            "code": "K732"
+          }
+        },
+        "default-original-amount": "00000003200",
+        "default-balance-amount": "00000000000",
+        "total-loan-amount": "00000000000",
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "account-opened-date": "2023-08-05",
+        "default-status": {
+          "_": "PAID",
+          "$": {
+            "code": "06",
+            "date": "2024-11-12"
+          }
+        },
+        "client-account-reference-id": "FNOW4",
+        "individual-name": {
+          "family-name": "LAUTI",
+          "first-given-name": "JOSEPH",
+          "other-given-name": "HUGH"
+        },
+        "date-of-birth": "1983-11-25",
+        "consumer-default-relationship": {
+          "_": "Defaulter",
+          "$": {
+            "type": "DF"
+          }
+        }
+      },
+      {
+        "$": {
+          "joint-liability": "N",
+          "company-loan": "N",
+          "defaulter-detail-number": "002016734"
+        },
+        "load-date": "2023-10-17",
+        "default-date": "2023-07-17",
+        "credit-provider": "WAREHOUSE FIN. 285726",
+        "ANZSIC-industry": {
+          "_": "Central Bank",
+          "$": {
+            "code": "K731"
+          }
+        },
+        "default-original-amount": "00000000500",
+        "default-balance-amount": "00000000000",
+        "total-loan-amount": "00000000500",
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "account-opened-date": "2023-07-17",
+        "default-status": {
+          "_": "PAID",
+          "$": {
+            "code": "06",
+            "date": "2024-11-12"
+          }
+        },
+        "client-account-reference-id": "FNOW6",
+        "individual-name": {
+          "family-name": "LAUTI",
+          "first-given-name": "JOSEPH",
+          "other-given-name": "HUGH"
+        },
+        "date-of-birth": "1983-11-25",
+        "consumer-default-relationship": {
+          "_": "Defaulter",
+          "$": {
+            "type": "DF"
+          }
+        }
+      },
+      {
+        "$": {
+          "joint-liability": "N",
+          "company-loan": "N",
+          "defaulter-detail-number": "002016735"
+        },
+        "load-date": "2023-01-02",
+        "default-date": "2022-11-11",
+        "credit-provider": "UDC FINANCE LIMITED",
+        "ANZSIC-industry": {
+          "_": "Deposit Taking Financiers",
+          "$": {
+            "code": "K732"
+          }
+        },
+        "default-original-amount": "00000012000",
+        "default-balance-amount": "00000012000",
+        "total-loan-amount": "00000000000",
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "account-opened-date": "2022-11-11",
+        "default-status": {
+          "_": "PAYMENT DEFAULT",
+          "$": {
+            "code": "10",
+            "date": "2024-11-11"
+          }
+        },
+        "client-account-reference-id": "FNOW7",
+        "individual-name": {
+          "family-name": "LAUTI",
+          "first-given-name": "JOSEPH",
+          "other-given-name": "HUGH"
+        },
+        "date-of-birth": "1983-11-25",
+        "consumer-default-relationship": {
+          "_": "Defaulter",
+          "$": {
+            "type": "DF"
+          }
+        }
+      },
+      {
+        "$": {
+          "joint-liability": "N",
+          "company-loan": "N",
+          "defaulter-detail-number": "002016733"
+        },
+        "load-date": "2022-05-17",
+        "default-date": "2022-03-28",
+        "credit-provider": "DORCHESTER FINANCE (SI) LIMITED",
+        "ANZSIC-industry": {
+          "_": "Deposit Taking Financiers",
+          "$": {
+            "code": "K732"
+          }
+        },
+        "default-original-amount": "00000001000",
+        "default-balance-amount": "00000001000",
+        "total-loan-amount": "00000000000",
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "account-opened-date": "2022-03-28",
+        "default-status": {
+          "_": "PAYMENT DEFAULT",
+          "$": {
+            "code": "10",
+            "date": "2023-09-02"
+          }
+        },
+        "client-account-reference-id": "FNOW5",
+        "individual-name": {
+          "family-name": "LAUTI",
+          "first-given-name": "JOSEPH",
+          "other-given-name": "HUGH"
+        },
+        "date-of-birth": "1983-11-25",
+        "consumer-default-relationship": {
+          "_": "Defaulter",
+          "$": {
+            "type": "DF"
+          }
+        }
+      }
+    ]
+  },
+  "score-data": {
+    "scorecard-name": "ADVRS",
+    "relative-risk": "+001.04",
+    "relative-risk-index": "+001.61",
+    "risk-odds": "+411.00"
+  },
+  "vcr-score-block": {
+    "vcr-scores": {
+      "score": "+000442",
+      "scorecard-name": "CTSAD",
+      "scorecard-version": "V1.0",
+      "relative-risk": "+001.29",
+      "relative-risk-index": "+001.67",
+      "relative-risk-odds": "0005.35"
+    }
+  },
+  "negative-block": {
+    "characteristic": [
+      {
+        "_": "n",
+        "$": {
+          "name": "new-to-bureau-flag",
+          "type": "boolean"
+        }
+      },
+      {
+        "_": "196",
+        "$": {
+          "name": "age-of-oldest-file",
+          "type": "months"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "name": "total-paid-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-settled-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "name": "total-outstanding-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "number-of-aliases",
+          "type": "count"
+        }
+      }
+    ]
+  }
+}

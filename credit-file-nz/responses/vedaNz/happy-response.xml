@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<BCAmessage type="RESPONSE" service-request-id="00016550659">
+    <BCAservices>
+        <BCAservice>
+            <BCAservice-code>BCA011</BCAservice-code>
+            <BCAservice-code-version>V00</BCAservice-code-version>
+            <BCAservice-client-ref>Test001</BCAservice-client-ref>
+            <BCAservice-data>
+                <response version="2.0">
+                    <enquiry-report>
+                        <file-id match-type="strong">402749922</file-id>
+                        <individual>
+                            <individual-name>
+                                <family-name>Elliott</family-name>
+                                <first-given-name>Catherine</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                            </individual-name>
+                            <gender type="female" />
+                            <date-of-birth>1974-01-03</date-of-birth>
+                            <address create-date="2024-07-01" type="current">
+                                <street-number>T/T</street-number>
+                                <street-name>10 BROWNS BAY ROAD</street-name>
+                                <street-type code="ST" />
+                                <suburb>ROTHESAY BAY</suburb>
+                                <city>AUCKLAND</city>
+                            </address>
+                            <address create-date="2024-03-28" type="previous">
+                                <street-number>1</street-number>
+                                <street-name>SMITH</street-name>
+                                <street-type code="ST" />
+                                <suburb>KAIAPOI</suburb>
+                                <city>KAIAPOI</city>
+                            </address>
+                            <address create-date="2024-03-15" type="previous">
+                                <street-number>1</street-number>
+                                <street-name>SMITH</street-name>
+                                <street-type code="RD" />
+                                <suburb>RUAWAI</suburb>
+                                <city>RUAWAI</city>
+                            </address>
+                        </individual>
+                        <credit-file>
+                            <credit-enquiry create-date="2025-01-24">
+                                <account-type code="PL">PERSONAL LOAN</account-type>
+                                <enquiry-amount>00000002500</enquiry-amount>
+                                <credit-enquirer>HARMONEY SYSTEMS LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <client-reference>TEST001</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2025-01-21">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000090220</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>10084</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-12-13">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000025140</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>10084</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-11-19">
+                                <account-type code="LP">LENDING PROPOSAL</account-type>
+                                <enquiry-amount>00000000000</enquiry-amount>
+                                <credit-enquirer>JOHN DEERE CREDIT LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-10-04">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000030245</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>10084</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-04-26">
+                                <account-type code="HC">HIRE PURCHASE (COMMERCIAL)</account-type>
+                                <enquiry-amount>00000036685</enquiry-amount>
+                                <credit-enquirer>BMW FINANCIAL SERVICES NZ</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>800005540</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2024-01-17">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000097285</enquiry-amount>
+                                <credit-enquirer>BMW FINANCIAL SERVICES NZ</credit-enquirer>
+                                <first-given-name>NIGEL</first-given-name>
+                                <other-given-name>PPPPPPPPPPPPP</other-given-name>
+                                <client-reference>800000658</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-10-26">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000056108</enquiry-amount>
+                                <credit-enquirer>BMW FINANCIAL SERVICES NZ</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>800000246</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-10-25">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000100000</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>352245</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-10-24">
+                                <account-type code="LC">LOAN CONTRACT</account-type>
+                                <enquiry-amount>00000078475</enquiry-amount>
+                                <credit-enquirer>BMW FINANCIAL SERVICES NZ</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>800004720</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-10-20">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000090000</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>352245</client-reference>
+                            </credit-enquiry>
+                            <credit-enquiry create-date="2023-10-19">
+                                <account-type code="CF">CONSUMER FINANCE</account-type>
+                                <enquiry-amount>00000150001</enquiry-amount>
+                                <credit-enquirer>UDC FINANCE LIMITED</credit-enquirer>
+                                <first-given-name>CATHERINE</first-given-name>
+                                <other-given-name>BRIDGET</other-given-name>
+                                <client-reference>352245</client-reference>
+                            </credit-enquiry>
+                        </credit-file>
+                        <score-data>
+                            <scorecard-name>CLNDP</scorecard-name>
+                            <relative-risk>+002.47</relative-risk>
+                            <relative-risk-index>+002.86</relative-risk-index>
+                            <risk-odds>+535.00</risk-odds>
+                        </score-data>
+                        <vcr-score-block>
+                            <vcr-scores>
+                                <score>+000568</score>
+                                <scorecard-name>CTSDP</scorecard-name>
+                                <scorecard-version>V1.0</scorecard-version>
+                                <relative-risk>+003.10</relative-risk>
+                                <relative-risk-index>+002.54</relative-risk-index>
+                                <relative-risk-odds>0012.82</relative-risk-odds>
+                            </vcr-scores>
+                        </vcr-score-block>
+                        <negative-block>
+                            <characteristic name="new-to-bureau-flag" type="boolean">n</characteristic>
+                            <characteristic name="age-of-oldest-file" type="months">199</characteristic>
+                            <characteristic name="total-paid-defaults" type="count">0</characteristic>
+                            <characteristic name="total-settled-defaults" type="count">0</characteristic>
+                            <characteristic name="total-outstanding-defaults" type="count">0</characteristic>
+                            <characteristic name="number-of-aliases" type="count">0</characteristic>
+                        </negative-block>
+                    </enquiry-report>
+                </response>
+            </BCAservice-data>
+        </BCAservice>
+    </BCAservices>
+</BCAmessage>
