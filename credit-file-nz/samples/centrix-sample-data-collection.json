@@ -1744,7 +1744,7 @@
           "AccountTypeDescription": "Utilities",
           "CreditProvider": "Centrix Group Limited - Contact: +64 9 966 9706",
           "CollectionIndustrySupplier": "",
-          "Reference": "847454022",
+          "Reference": "2016733",
           "OriginalDefaultAmount": 300.00,
           "CurrentDefaultBalance": 300.00,
           "DefaultStatus": "ACTV",
@@ -1812,7 +1812,7 @@
           "SourceBureaux": []
         },
         {
-          "InsolvencyNumber": 851846,
+          "InsolvencyNumber": 6022025,
           "AdjudicationDate": "2019-08-26T11:20:00",
           "InsolvencyType": "Debtor Petition",
           "InsolvencyStatus": "CurrentBankrupt",

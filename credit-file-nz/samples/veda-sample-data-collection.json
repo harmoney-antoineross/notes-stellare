@@ -555,57 +555,110 @@
       ]
     },
     "judgement-file": {
-      "judgement": {
-        "$": {
-          "unique-id": "002841504"
-        },
-        "load-date": "2022-10-29",
-        "creditor": "* CLERICAL & INDUSTRIAL CREDIT",
-        "judgement-amount": "00000004479",
-        "court-type": {
-          "_": "DISTRICT COURT",
+      "judgement": [
+        {
           "$": {
-            "code": "DC"
-          }
+            "unique-id": "367504440"
+          },
+          "load-date": "2022-10-29",
+          "creditor": "* CLERICAL & INDUSTRIAL CREDIT",
+          "judgement-amount": "00000004479",
+          "court-type": {
+            "_": "DISTRICT COURT",
+            "$": {
+              "code": "DC"
+            }
+          },
+          "judgement-status": {
+            "_": "Paid In Full",
+            "$": {
+              "code": "PIF"
+            }
+          },
+          "date-paid": "2023-02-01",
+          "individual-name": {
+            "family-name": "WARETINI",
+            "first-given-name": "CLINTON",
+            "other-given-name": "HEMANI"
+          },
+          "narrative": "WARETINI, Clinton Hemani 4a Glad Road, Lynfield, Auckland, ats Clerical &\n                                    Industrial Credit Union, $4479. ** ACCOUNT P"
         },
-        "judgement-status": {
-          "_": "Paid In Full",
+        {
           "$": {
-            "code": "PIF"
-          }
-        },
-        "date-paid": "2023-02-01",
-        "individual-name": {
-          "family-name": "WARETINI",
-          "first-given-name": "CLINTON",
-          "other-given-name": "HEMANI"
-        },
-        "narrative": "WARETINI, Clinton Hemani 4a Glad Road, Lynfield, Auckland, ats Clerical &\n                                    Industrial Credit Union, $4479. ** ACCOUNT P"
-      }
+            "unique-id": "002841504"
+          },
+          "load-date": "2022-10-29",
+          "creditor": "* CLERICAL & INDUSTRIAL CREDIT",
+          "judgement-amount": "00000004479",
+          "court-type": {
+            "_": "DISTRICT COURT",
+            "$": {
+              "code": "DC"
+            }
+          },
+          "judgement-status": {
+            "_": "Paid In Full",
+            "$": {
+              "code": "PIF"
+            }
+          },
+          "date-paid": "2023-02-01",
+          "individual-name": {
+            "family-name": "WARETINI",
+            "first-given-name": "CLINTON",
+            "other-given-name": "HEMANI"
+          },
+          "narrative": "WARETINI, Clinton Hemani 4a Glad Road, Lynfield, Auckland, ats Clerical &\n                                    Industrial Credit Union, $4479. ** ACCOUNT P"
+        }
+      ]
     },
     "insolvency-file": {
-      "insolvency": {
-        "insolvency-number": "06022019",
-        "insolvency-type": {
-          "_": "No Asset Procedure",
-          "$": {
-            "code": "TYPNP"
+      "insolvency": [
+        {
+          "insolvency-number": "06022019",
+          "insolvency-type": {
+            "_": "No Asset Procedure",
+            "$": {
+              "code": "TYPNP"
+            }
+          },
+          "insolvency-status": {
+            "_": "Current NAP",
+            "$": {
+              "code": "STACN"
+            }
+          },
+          "adjudication-date": "20221225",
+          "adjudication-court": {
+            "_": "Auckland High Court",
+            "$": {
+              "code": "COR01"
+            }
           }
         },
-        "insolvency-status": {
-          "_": "Current NAP",
-          "$": {
-            "code": "STACN"
-          }
-        },
-        "adjudication-date": "20221225",
-        "adjudication-court": {
-          "_": "Auckland High Court",
-          "$": {
-            "code": "COR01"
+        {
+          "insolvency-number": "06022025",
+          "insolvency-type": {
+            "_": "No Asset Procedure",
+            "$": {
+              "code": "TYPNP"
+            }
+          },
+          "insolvency-status": {
+            "_": "Current NAP",
+            "$": {
+              "code": "STACN"
+            }
+          },
+          "adjudication-date": "20221225",
+          "adjudication-court": {
+            "_": "Auckland High Court",
+            "$": {
+              "code": "COR01"
+            }
           }
         }
-      }
+      ]
     },
     "score-data": {
       "scorecard-name": "INSLV",
