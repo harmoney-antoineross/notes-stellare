@@ -7,7 +7,7 @@ async function transformXmlToJson() {
     // Setup directories
     const inputDir = './responses/vedaNz';
     const outputDir = './vedaNz';
-    const inputFile = 'multiple-defaults.xml';
+    const inputFile = 'bankrupt.xml';
 
     await fs.mkdir(outputDir, { recursive: true });
 
@@ -17,8 +17,21 @@ async function transformXmlToJson() {
       'utf8'
     );
 
-    // Use exact same parser config as service
-    const parser = new Parser({ ignoreAttrs: false, explicitArray: false });
+    // Use exact same parser config as service but add trim and normalize
+    const parser = new Parser({ 
+      ignoreAttrs: false, 
+      explicitArray: false,
+      trim: true, // Add this to trim whitespace
+      normalize: true, // Add this to normalize whitespace
+      valueProcessor: (value) => {
+        // Clean up string values by trimming whitespace and newlines
+        if (typeof value === 'string') {
+          return value.trim();
+        }
+        return value;
+      }
+    });
+
     const result = await parser.parseStringPromise(xmlContent);
 
     if (!result) {

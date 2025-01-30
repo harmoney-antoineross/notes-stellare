@@ -1,0 +1,483 @@
+{
+  "file-id": {
+    "_": "402752610",
+    "$": {
+      "match-type": "strong"
+    }
+  },
+  "individual": {
+    "individual-name": {
+      "family-name": "ROUNTREE",
+      "first-given-name": "GLENN",
+      "other-given-name": "MAX"
+    },
+    "gender": {
+      "$": {
+        "type": "male"
+      }
+    },
+    "date-of-birth": "1981-01-27",
+    "address": [
+      {
+        "$": {
+          "create-date": "2025-01-08",
+          "type": "current"
+        },
+        "street-number": "49",
+        "street-name": "AUCKLAND",
+        "suburb": "MANUREWA",
+        "city": "AUCKLAND"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-08",
+          "type": "previous"
+        },
+        "street-number": "34",
+        "street-name": "AUCKLAND",
+        "suburb": "MANUREWA",
+        "city": "AUCKLAND"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-07",
+          "type": "previous"
+        },
+        "street-name": "AUCKLAND",
+        "street-type": {
+          "$": {
+            "code": "RD"
+          }
+        },
+        "suburb": "MANUREWA",
+        "city": "AUCKLAND"
+      }
+    ],
+    "alias": [
+      {
+        "$": {
+          "create-date": "2023-02-16"
+        },
+        "individual-name": {
+          "family-name": "SHRUB",
+          "first-given-name": "GLENN"
+        },
+        "date-of-birth": "1981-01-27"
+      },
+      {
+        "$": {
+          "create-date": "2023-02-16"
+        },
+        "individual-name": {
+          "family-name": "SAPLING",
+          "first-given-name": "GLENN"
+        },
+        "date-of-birth": "1981-01-27"
+      },
+      {
+        "$": {
+          "create-date": "2023-02-16"
+        },
+        "individual-name": {
+          "family-name": "PLANT",
+          "first-given-name": "GLENN"
+        },
+        "date-of-birth": "1981-01-27"
+      },
+      {
+        "$": {
+          "create-date": "2009-05-12"
+        },
+        "individual-name": {
+          "family-name": "BUSH",
+          "first-given-name": "GLENN"
+        },
+        "date-of-birth": "1981-01-27"
+      }
+    ]
+  },
+  "credit-file": {
+    "credit-enquiry": [
+      {
+        "$": {
+          "create-date": "2025-01-28"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "GLENN",
+        "client-reference": "TEST001"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-24"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "GLENN",
+        "client-reference": "TEST001"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-22"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-22"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK LTD - ONYX 6090",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-21"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK LTD - ONYX 6090",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-20"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX",
+        "client-reference": "A1389771"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-18"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX",
+        "client-reference": "A1389771"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-22"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000008564",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "GLENN",
+        "client-reference": "IT TEST"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-16"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK LTD - ONYX 6090",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-07"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002505",
+        "credit-enquirer": "PROPER TECHNOLOGY LIMITED",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX",
+        "client-reference": "REF55487560"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-03"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002505",
+        "credit-enquirer": "AIA NEW ZEALAND LIMITED",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX",
+        "client-reference": "REF55487560"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-15"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK LTD - ONYX 6090",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-26"
+        },
+        "account-type": {
+          "_": "MONTHLY ACCOUNT",
+          "$": {
+            "code": "M"
+          }
+        },
+        "enquiry-amount": "00000000150",
+        "credit-enquirer": "VODAFONE NEW ZEALAND LIMITED",
+        "first-given-name": "GLENN"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-25"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000001000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "GLENN",
+        "client-reference": "A16E231024223322"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-20"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000101000",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX",
+        "client-reference": "352246"
+      }
+    ]
+  },
+  "quotations": {
+    "quotation-enquiry": {
+      "$": {
+        "create-date": "2023-10-25"
+      },
+      "account-type": {
+        "_": "PERSONAL LOAN",
+        "$": {
+          "code": "PL"
+        }
+      },
+      "enquiry-amount": "0000000100",
+      "credit-enquirer": "FINANCE NOW LIMITED",
+      "first-given-name": "GLENN",
+      "client-reference": "A16E231024223322"
+    }
+  },
+  "default-file": {
+    "default": {
+      "$": {
+        "joint-liability": "N",
+        "company-loan": "N",
+        "defaulter-detail-number": "002016736"
+      },
+      "load-date": "2022-12-31",
+      "default-date": "2022-11-24",
+      "credit-provider": "GE FINANCE & INSURANCE COLLECT 4151",
+      "ANZSIC-industry": {
+        "_": "Deposit Taking Financiers",
+        "$": {
+          "code": "K732"
+        }
+      },
+      "default-original-amount": "00000001900",
+      "default-balance-amount": "00000001900",
+      "total-loan-amount": "00000000000",
+      "account-type": {
+        "_": "PERSONAL LOAN",
+        "$": {
+          "code": "PL"
+        }
+      },
+      "account-opened-date": "2022-11-24",
+      "default-status": {
+        "_": "PAYMENT DEFAULT",
+        "$": {
+          "code": "10",
+          "date": "2022-12-31"
+        }
+      },
+      "client-account-reference-id": "FNOW8",
+      "individual-name": {
+        "family-name": "ROUNTREE",
+        "first-given-name": "GLENN",
+        "other-given-name": "MAX"
+      },
+      "date-of-birth": "1981-01-27",
+      "consumer-default-relationship": {
+        "_": "Defaulter",
+        "$": {
+          "type": "DF"
+        }
+      }
+    }
+  },
+  "insolvency-file": {
+    "insolvency": {
+      "insolvency-number": "27011981",
+      "insolvency-type": {
+        "_": "Creditor Petition",
+        "$": {
+          "code": "TYPCP"
+        }
+      },
+      "insolvency-status": {
+        "_": "Current Bankrupt",
+        "$": {
+          "code": "STACB"
+        }
+      },
+      "adjudication-date": "20230214",
+      "adjudication-court": {
+        "_": "Auckland High Court",
+        "$": {
+          "code": "COR01"
+        }
+      }
+    }
+  },
+  "score-data": {
+    "scorecard-name": "INSLV",
+    "relative-risk": "-999.00",
+    "relative-risk-index": "-999.00",
+    "risk-odds": "-999.00"
+  },
+  "vcr-score-block": {
+    "vcr-scores": {
+      "score": "-000999",
+      "scorecard-name": "INSLV",
+      "scorecard-version": "V1.0",
+      "relative-risk": "-999.00",
+      "relative-risk-index": "-999.00",
+      "relative-risk-odds": "0000.00"
+    }
+  },
+  "negative-block": {
+    "characteristic": [
+      {
+        "_": "n",
+        "$": {
+          "name": "new-to-bureau-flag",
+          "type": "boolean"
+        }
+      },
+      {
+        "_": "211",
+        "$": {
+          "name": "age-of-oldest-file",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-paid-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-settled-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "name": "total-outstanding-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "4",
+        "$": {
+          "name": "number-of-aliases",
+          "type": "count"
+        }
+      }
+    ]
+  }
+}

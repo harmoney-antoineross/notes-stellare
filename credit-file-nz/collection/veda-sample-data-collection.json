@@ -657,6 +657,28 @@
               "code": "COR01"
             }
           }
+        },
+        {
+          "insolvency-number": "27011981",
+          "insolvency-type": {
+            "_": "Creditor Petition",
+            "$": {
+              "code": "TYPCP"
+            }
+          },
+          "insolvency-status": {
+            "_": "Current Bankrupt",
+            "$": {
+              "code": "STACB"
+            }
+          },
+          "adjudication-date": "20230214",
+          "adjudication-court": {
+            "_": "Auckland High Court",
+            "$": {
+              "code": "COR01"
+            }
+          }
         }
       ]
     },

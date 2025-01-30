@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "33e530eb-d81f-4d06-bf1d-914b48322872",
+		"name": "Centrix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39079990"
+	},
+	"item": [
+		{
+			"name": "Defaults & Insolvency & Bankrupt",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"8 Dillon Bell Road\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"GISBORNE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Whataupoko\",\n        \"Postcode\": \"4010\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1980-01-01\",\n      \"FirstName\": \"MONTGOMERY\",\n      \"Gender\": \"M\", \n      \"MiddleName\": \"GEORGE\",\n      \"Surname\": \"MERCURY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"Harmoney\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/Consumer?products={{default_products}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Consumer"
+					],
+					"query": [
+						{
+							"key": "products",
+							"value": "{{default_products}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Judgment",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"10 Hooker Avenue\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"HAMILTON\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Chedworth\",\n        \"Postcode\": \"3210\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1985-02-27\",\n      \"FirstName\": \"FRANCIS\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"BRIAN\",\n      \"Surname\": \"BROWN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"Harmoney\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/Consumer?products={{default_products}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Consumer"
+					],
+					"query": [
+						{
+							"key": "products",
+							"value": "{{default_products}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

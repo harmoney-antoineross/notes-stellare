@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "default": {
+    "value": 6,
+    "sources": [
+      { "id": "91637512", "sources": ["Centrix", "Equifax NZ"] },
+      { "id": "717345544", "sources": ["Centrix", "Equifax NZ"] },
+      { "id": "2016733", "sources": ["Centrix", "Equifax NZ"] },
+      { "id": "382588145", "sources": ["Centrix"] },
+      { "id": "726347056", "sources": ["Centrix"] },
+      { "id": "2016734", "sources": ["Equifax NZ"] }
+    ]
+  },
+  "insolvency": {
+    "value": 3,
+    "sources": [
+      { "id": "850744", "sources": ["Centrix"] },
+      { "id": "6022025", "sources": ["Centrix"] },
+      { "id": "818147", "sources": ["Centrix"] }
+    ]
+  },
+  "bankruptcy": {
+    "value": 1,
+    "sources": [{ "id": "27011981", "sources": ["Equifax NZ"] }]
+  },
+  "judgement": {
+    "value": 2,
+    "sources": [
+      { "id": "367504440", "sources": ["Centrix", "Equifax NZ"] },
+      { "id": "2841504", "sources": ["Equifax NZ"] }
+    ]
+  },
+  "score": {
+    "sources": [
+      { "value": 0, "bureau": "Centrix" },
+      { "value": -997, "bureau": "Equifax NZ" }
+    ]
+  }
+}

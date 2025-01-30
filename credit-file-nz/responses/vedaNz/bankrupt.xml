@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<BCAmessage type="RESPONSE" service-request-id="00016555648">
+	<BCAservices>
+		<BCAservice>
+			<BCAservice-code>
+				BCA011
+			</BCAservice-code>
+			<BCAservice-code-version>
+				V00
+			</BCAservice-code-version>
+			<BCAservice-client-ref>
+				Test001
+			</BCAservice-client-ref>
+			<BCAservice-data>
+				<response version="2.0">
+					<enquiry-report>
+						<file-id match-type="strong">
+							402752610
+						</file-id>
+						<individual>
+							<individual-name>
+								<family-name>
+									ROUNTREE
+								</family-name>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+							</individual-name>
+							<gender type="male" />
+							<date-of-birth>
+								1981-01-27
+							</date-of-birth>
+							<address create-date="2025-01-08" type="current">
+								<street-number>
+									49
+								</street-number>
+								<street-name>
+									AUCKLAND
+								</street-name>
+								<suburb>
+									MANUREWA
+								</suburb>
+								<city>
+									AUCKLAND
+								</city>
+							</address>
+							<address create-date="2025-01-08" type="previous">
+								<street-number>
+									34
+								</street-number>
+								<street-name>
+									AUCKLAND
+								</street-name>
+								<suburb>
+									MANUREWA
+								</suburb>
+								<city>
+									AUCKLAND
+								</city>
+							</address>
+							<address create-date="2025-01-07" type="previous">
+								<street-name>
+									AUCKLAND
+								</street-name>
+								<street-type code="RD" />
+								<suburb>
+									MANUREWA
+								</suburb>
+								<city>
+									AUCKLAND
+								</city>
+							</address>
+							<alias create-date="2023-02-16">
+								<individual-name>
+									<family-name>
+										SHRUB
+									</family-name>
+									<first-given-name>
+										GLENN
+									</first-given-name>
+								</individual-name>
+								<date-of-birth>
+									1981-01-27
+								</date-of-birth>
+							</alias>
+							<alias create-date="2023-02-16">
+								<individual-name>
+									<family-name>
+										SAPLING
+									</family-name>
+									<first-given-name>
+										GLENN
+									</first-given-name>
+								</individual-name>
+								<date-of-birth>
+									1981-01-27
+								</date-of-birth>
+							</alias>
+							<alias create-date="2023-02-16">
+								<individual-name>
+									<family-name>
+										PLANT
+									</family-name>
+									<first-given-name>
+										GLENN
+									</first-given-name>
+								</individual-name>
+								<date-of-birth>
+									1981-01-27
+								</date-of-birth>
+							</alias>
+							<alias create-date="2009-05-12">
+								<individual-name>
+									<family-name>
+										BUSH
+									</family-name>
+									<first-given-name>
+										GLENN
+									</first-given-name>
+								</individual-name>
+								<date-of-birth>
+									1981-01-27
+								</date-of-birth>
+							</alias>
+						</individual>
+						<credit-file>
+							<credit-enquiry create-date="2025-01-28">
+								<account-type code="PL">
+									PERSONAL LOAN
+								</account-type>
+								<enquiry-amount>
+									00000002500
+								</enquiry-amount>
+								<credit-enquirer>
+									HARMONEY SYSTEMS LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<client-reference>
+									TEST001
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2025-01-24">
+								<account-type code="PL">
+									PERSONAL LOAN
+								</account-type>
+								<enquiry-amount>
+									00000002500
+								</enquiry-amount>
+								<credit-enquirer>
+									HARMONEY SYSTEMS LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<client-reference>
+									TEST001
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2025-01-22">
+								<account-type code="RM">
+									REAL ESTATE MORTGAGE
+								</account-type>
+								<enquiry-amount>
+									00000000000
+								</enquiry-amount>
+								<credit-enquirer>
+									ASB BANK - ONYX 6090
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+							</credit-enquiry>
+							<credit-enquiry create-date="2025-01-22">
+								<account-type code="CC">
+									CREDIT CARD
+								</account-type>
+								<enquiry-amount>
+									00000000000
+								</enquiry-amount>
+								<credit-enquirer>
+									ASB BANK LTD - ONYX           6090
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+							</credit-enquiry>
+							<credit-enquiry create-date="2025-01-21">
+								<account-type code="CC">
+									CREDIT CARD
+								</account-type>
+								<enquiry-amount>
+									00000000000
+								</enquiry-amount>
+								<credit-enquirer>
+									ASB BANK LTD - ONYX           6090
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+							</credit-enquiry>
+							<credit-enquiry create-date="2025-01-20">
+								<account-type code="DE">
+									DIRECTOR INQUIRY
+								</account-type>
+								<enquiry-amount>
+									00000000001
+								</enquiry-amount>
+								<credit-enquirer>
+									BIZCAP NZ LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+								<client-reference>
+									A1389771
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2025-01-18">
+								<account-type code="DE">
+									DIRECTOR INQUIRY
+								</account-type>
+								<enquiry-amount>
+									00000000001
+								</enquiry-amount>
+								<credit-enquirer>
+									BIZCAP NZ LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+								<client-reference>
+									A1389771
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2024-10-22">
+								<account-type code="CF">
+									CONSUMER FINANCE
+								</account-type>
+								<enquiry-amount>
+									00000008564
+								</enquiry-amount>
+								<credit-enquirer>
+									UDC FINANCE LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<client-reference>
+									IT TEST
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2024-10-16">
+								<account-type code="CC">
+									CREDIT CARD
+								</account-type>
+								<enquiry-amount>
+									00000000000
+								</enquiry-amount>
+								<credit-enquirer>
+									ASB BANK LTD - ONYX           6090
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+							</credit-enquiry>
+							<credit-enquiry create-date="2024-10-07">
+								<account-type code="CC">
+									CREDIT CARD
+								</account-type>
+								<enquiry-amount>
+									00000002505
+								</enquiry-amount>
+								<credit-enquirer>
+									PROPER TECHNOLOGY LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+								<client-reference>
+									REF55487560
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2024-10-03">
+								<account-type code="CC">
+									CREDIT CARD
+								</account-type>
+								<enquiry-amount>
+									00000002505
+								</enquiry-amount>
+								<credit-enquirer>
+									AIA NEW ZEALAND LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+								<client-reference>
+									REF55487560
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2024-01-15">
+								<account-type code="CC">
+									CREDIT CARD
+								</account-type>
+								<enquiry-amount>
+									00000000000
+								</enquiry-amount>
+								<credit-enquirer>
+									ASB BANK LTD - ONYX           6090
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+							</credit-enquiry>
+							<credit-enquiry create-date="2023-10-26">
+								<account-type code="M">
+									MONTHLY ACCOUNT
+								</account-type>
+								<enquiry-amount>
+									00000000150
+								</enquiry-amount>
+								<credit-enquirer>
+									VODAFONE NEW ZEALAND LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+							</credit-enquiry>
+							<credit-enquiry create-date="2023-10-25">
+								<account-type code="PL">
+									PERSONAL LOAN
+								</account-type>
+								<enquiry-amount>
+									00000001000
+								</enquiry-amount>
+								<credit-enquirer>
+									FINANCE NOW LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<client-reference>
+									A16E231024223322
+								</client-reference>
+							</credit-enquiry>
+							<credit-enquiry create-date="2023-10-20">
+								<account-type code="CF">
+									CONSUMER FINANCE
+								</account-type>
+								<enquiry-amount>
+									00000101000
+								</enquiry-amount>
+								<credit-enquirer>
+									UDC FINANCE LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<other-given-name>
+									MAX
+								</other-given-name>
+								<client-reference>
+									352246
+								</client-reference>
+							</credit-enquiry>
+						</credit-file>
+						<quotations>
+							<quotation-enquiry create-date="2023-10-25">
+								<account-type code="PL">
+									PERSONAL LOAN
+								</account-type>
+								<enquiry-amount>
+									0000000100
+								</enquiry-amount>
+								<credit-enquirer>
+									FINANCE NOW LIMITED
+								</credit-enquirer>
+								<first-given-name>
+									GLENN
+								</first-given-name>
+								<client-reference>
+									A16E231024223322
+								</client-reference>
+							</quotation-enquiry>
+						</quotations>
+						<default-file>
+							<default joint-liability="N" company-loan="N" defaulter-detail-number="002016736">
+								<load-date>
+									2022-12-31
+								</load-date>
+								<default-date>
+									2022-11-24
+								</default-date>
+								<credit-provider>
+									GE FINANCE &amp; INSURANCE COLLECT 4151
+								</credit-provider>
+								<ANZSIC-industry code="K732">
+									Deposit Taking Financiers
+								</ANZSIC-industry>
+								<default-original-amount>
+									00000001900
+								</default-original-amount>
+								<default-balance-amount>
+									00000001900
+								</default-balance-amount>
+								<total-loan-amount>
+									00000000000
+								</total-loan-amount>
+								<account-type code="PL">
+									PERSONAL LOAN
+								</account-type>
+								<account-opened-date>
+									2022-11-24
+								</account-opened-date>
+								<default-status code="10" date="2022-12-31">
+									PAYMENT DEFAULT
+								</default-status>
+								<client-account-reference-id>
+									FNOW8
+								</client-account-reference-id>
+								<individual-name>
+									<family-name>
+										ROUNTREE
+									</family-name>
+									<first-given-name>
+										GLENN
+									</first-given-name>
+									<other-given-name>
+										MAX
+									</other-given-name>
+								</individual-name>
+								<date-of-birth>
+									1981-01-27
+								</date-of-birth>
+								<consumer-default-relationship type="DF">
+									Defaulter
+								</consumer-default-relationship>
+							</default>
+						</default-file>
+						<insolvency-file>
+							<insolvency>
+								<insolvency-number> 27011981 </insolvency-number>
+								<insolvency-type code="TYPCP"> Creditor Petition </insolvency-type>
+								<insolvency-status code="STACB"> Current Bankrupt </insolvency-status>
+								<adjudication-date> 20230214 </adjudication-date>
+								<adjudication-court code="COR01"> Auckland High Court </adjudication-court>
+							</insolvency>
+						</insolvency-file>
+						<score-data>
+							<scorecard-name>
+								INSLV
+							</scorecard-name>
+							<relative-risk>
+								-999.00
+							</relative-risk>
+							<relative-risk-index>
+								-999.00
+							</relative-risk-index>
+							<risk-odds>
+								-999.00
+							</risk-odds>
+						</score-data>
+						<vcr-score-block>
+							<vcr-scores>
+								<score>
+									-000999
+								</score>
+								<scorecard-name>
+									INSLV
+								</scorecard-name>
+								<scorecard-version>
+									V1.0
+								</scorecard-version>
+								<relative-risk>
+									-999.00
+								</relative-risk>
+								<relative-risk-index>
+									-999.00
+								</relative-risk-index>
+								<relative-risk-odds>
+									0000.00
+								</relative-risk-odds>
+							</vcr-scores>
+						</vcr-score-block>
+						<negative-block>
+							<characteristic name="new-to-bureau-flag" type="boolean">
+								n
+							</characteristic>
+							<characteristic name="age-of-oldest-file" type="months">
+								211
+							</characteristic>
+							<characteristic name="total-paid-defaults" type="count">
+								0
+							</characteristic>
+							<characteristic name="total-settled-defaults" type="count">
+								0
+							</characteristic>
+							<characteristic name="total-outstanding-defaults" type="count">
+								1
+							</characteristic>
+							<characteristic name="number-of-aliases" type="count">
+								4
+							</characteristic>
+						</negative-block>
+					</enquiry-report>
+				</response>
+			</BCAservice-data>
+		</BCAservice>
+	</BCAservices>
+</BCAmessage>
