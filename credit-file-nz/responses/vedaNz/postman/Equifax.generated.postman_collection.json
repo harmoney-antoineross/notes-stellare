@@ -1,0 +1,1547 @@
+{
+  "info": {
+    "_postman_id": "5859ed5d-f085-45a0-8d1b-52ed130fd4dc",
+    "name": "EquifaxNZAll",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "39079990"
+  },
+  "item": [
+    {
+      "name": "Standard - Rafael Madams",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Madams</family-name>\n                        <first-given-name>Rafael</first-given-name>\n                        <middle-names>Pamela</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1973-12-25</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>49</street-number>\n                        <street-name>Auckland</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Manurewa</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Collection - Seng Palmer",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Palmer</family-name>\n                        <first-given-name>Seng</first-given-name>\n                        <middle-names>Christopher</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1972-08-14</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>123456</street-number>\n                        <street-name>Lake</street-name>\n                        <street-type>TC</street-type>\n                        <suburb>Mount Albert</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Collection - Simone Morris",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Morris</family-name>\n                        <first-given-name>Simone</first-given-name>\n                        <middle-names>Eugene</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1980-01-10</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>260</street-number>\n                        <street-name>Onetangi</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Ascot Park</suburb>\n                        <city>Porirua</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Judgment - Clinton Waretini",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Waretini</family-name>\n                        <first-given-name>Clinton</first-given-name>\n                        <middle-names>Hemani</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1975-08-24</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>4A</street-number>\n                        <street-name>Glad</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Lynfield</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Joseph Lauti",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Lauti</family-name>\n                        <first-given-name>Joseph</first-given-name>\n                        <middle-names>Hugh</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1983-11-25</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>83B</street-number>\n                        <street-name>Gillettazz</street-name>\n                        <street-type>ST</street-type>\n                        \n                        <city>Dunedin</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Cheryl Pacey",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Pacey</family-name>\n                        <first-given-name>Cheryl</first-given-name>\n                        <middle-names>Noelle</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1970-10-27</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>1</street-number>\n                        <street-name>George</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Remuera</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Craig Johnston",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Johnston</family-name>\n                        <first-given-name>Craig</first-given-name>\n                        <middle-names>Vic</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1984-06-12</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>60A</street-number>\n                        <street-name>Pah</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Mount Roskill</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Rick Wright",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Wright</family-name>\n                        <first-given-name>Rick</first-given-name>\n                        <middle-names>Edward</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1969-09-08</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>13</street-number>\n                        <street-name>English</street-name>\n                        <street-type>ST</street-type>\n                        \n                        <city>Christchurch</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Judgment - Ned Verhulst",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Verhulst</family-name>\n                        <first-given-name>Ned</first-given-name>\n                        <middle-names>Sang</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1976-10-24</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>1</street-number>\n                        <street-name>Fishing</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Mission Bay</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Judgment - Vincent Crowther",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Crowther</family-name>\n                        <first-given-name>Vincent</first-given-name>\n                        <middle-names>Heperi</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1963-06-20</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>84</street-number>\n                        <street-name>Smart</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Takapuna</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Karen Hayes",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Hayes</family-name>\n                        <first-given-name>Karen</first-given-name>\n                        <middle-names>Jane</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1982-06-29</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>109</street-number>\n                        <street-name>Soleres</street-name>\n                        <street-type>AV</street-type>\n                        \n                        <city>Wellington</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Melanie Hopa",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Hopa</family-name>\n                        <first-given-name>Melanie</first-given-name>\n                        <middle-names>Anne</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1973-01-28</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>28</street-number>\n                        <street-name>Shine</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Pt Chevalier</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Catherine  Elliott",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Elliott</family-name>\n                        <first-given-name>Catherine </first-given-name>\n                        <middle-names>Bridget</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1974-01-03</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>10</street-number>\n                        <street-name>Browns Bay</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Browns Bay</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Jasmine Paki",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Paki</family-name>\n                        <first-given-name>Jasmine</first-given-name>\n                        <middle-names>Angel</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1977-05-18</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>19</street-number>\n                        <street-name>Abbots</street-name>\n                        <street-type>WY</street-type>\n                        <suburb>Cashmere</suburb>\n                        <city>Christchurch</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Hamish Testbank",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Testbank</family-name>\n                        <first-given-name>Hamish</first-given-name>\n                        <middle-names>Hunter </middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1963-09-15</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>10</street-number>\n                        <street-name>Queen</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Epsom</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Wayne Turnbull",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Turnbull</family-name>\n                        <first-given-name>Wayne</first-given-name>\n                        <middle-names>Ismail</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1974-06-14</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>5</street-number>\n                        <street-name>Forth</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Papanui</suburb>\n                        <city>Christchurch</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Earl Newman",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Newman</family-name>\n                        <first-given-name>Earl</first-given-name>\n                        <middle-names>Jacob</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1989-05-09</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>10</street-number>\n                        <street-name>Paramount</street-name>\n                        <street-type>DR</street-type>\n                        <suburb>Henderson</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Simon  Uppress",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Uppress</family-name>\n                        <first-given-name>Simon </first-given-name>\n                        <middle-names>Test</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1985-01-01</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>12</street-number>\n                        <street-name>Queen</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Auckland Central</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Jon Steven",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Steven</family-name>\n                        <first-given-name>Jon</first-given-name>\n                        \n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1963-04-11</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>22</street-number>\n                        <street-name>Snow</street-name>\n                        <street-type>ST</street-type>\n                        \n                        <city>Kamo</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Glenn Rountree",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Rountree</family-name>\n                        <first-given-name>Glenn</first-given-name>\n                        <middle-names>Max</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1981-01-27</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>80</street-number>\n                        <street-name>Great North</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Titirangi</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Collection - Claude Cleaver",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Cleaver</family-name>\n                        <first-given-name>Claude</first-given-name>\n                        \n                    </individual-name>\n                    <gender type=\"male\"/>\n                    <date-of-birth>1971-12-01</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>16</street-number>\n                        <street-name>Baker</street-name>\n                        <street-type>ST</street-type>\n                        \n                        <city>Napier</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Marlon Michelson",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Michelson</family-name>\n                        <first-given-name>Marlon</first-given-name>\n                        \n                    </individual-name>\n                    <gender type=\"male\"/>\n                    <date-of-birth>1949-03-11</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>2</street-number>\n                        <street-name>Finn</street-name>\n                        <street-type>CR</street-type>\n                        \n                        <city>Bluff</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insolvency - Test Fspr",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Fspr</family-name>\n                        <first-given-name>Test</first-given-name>\n                        <middle-names>Middle</middle-names>\n                    </individual-name>\n                    <gender type=\"male\"/>\n                    <date-of-birth>1900-01-01</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>34</street-number>\n                        <street-name>Kitenui</street-name>\n                        <street-type>RD</street-type>\n                        <suburb>Mount Albert</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - First Name Surname",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Surname</family-name>\n                        <first-given-name>First Name</first-given-name>\n                        <middle-names>Middle Name</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth></date-of-birth>\n                    <address type=\"current\">\n                        <street-number>Street Number</street-number>\n                        <street-name>Street Name</street-name>\n                        <street-type>Street Type</street-type>\n                        <suburb>Suburb</suburb>\n                        <city>City/Town</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Hamish Testbank",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Testbank</family-name>\n                        <first-given-name>Hamish</first-given-name>\n                        <middle-names>Hunter </middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1963-09-15</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>10</street-number>\n                        <street-name>Queen</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Epsom</suburb>\n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Amelia Sample",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Sample</family-name>\n                        <first-given-name>Amelia</first-given-name>\n                        <middle-names>Ingrid</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1969-01-01</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>21</street-number>\n                        <street-name>Hopetoun</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Auckland Central</suburb>\n                        <city></city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - Fir Sur",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Sur</family-name>\n                        <first-given-name>Fir</first-given-name>\n                        \n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1966-06-06</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>12</street-number>\n                        <street-name>Queen</street-name>\n                        <street-type>ST</street-type>\n                        <suburb>Auckland Central</suburb>\n                        <city></city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - NoFirst NoDetails",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>NoDetails</family-name>\n                        <first-given-name>NoFirst</first-given-name>\n                        <middle-names>NoDetails</middle-names>\n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1970-01-01</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>200</street-number>\n                        <street-name>Chapel</street-name>\n                        <street-type>RD</street-type>\n                        \n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Standard - BradTest Pitttest",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "H67GWH3FrMib",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "Gcik2C6x5Tz9",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BCAmessage type=\"request\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <BCAaccess>\n        <BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>\n        <BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>\n    </BCAaccess>\n    <BCAservice>\n        <BCAservice-client-ref>Test001</BCAservice-client-ref>\n        <BCAservice-code>BCA011</BCAservice-code>\n        <BCAservice-code-version>V00</BCAservice-code-version>\n        <BCAservice-data>\n            <request mode=\"test\" version=\"V2.0\">\n                <access-purpose code=\"C1\"/>\n                <client-details>\n                    <client-identifier>031088</client-identifier>\n                    <operator-id>xmlcta</operator-id>\n                </client-details>\n                <product driver-licence=\"no\" name=\"consumer-enquiry-nz\" score=\"yes\" summary=\"no\" moj-fines=\"no\"/>\n                <individual>\n                    <individual-name>\n                        <family-name>Pitttest</family-name>\n                        <first-given-name>BradTest</first-given-name>\n                        \n                    </individual-name>\n                    <gender type=\"female\"/>\n                    <date-of-birth>1991-04-15</date-of-birth>\n                    <address type=\"current\">\n                        <street-number>10</street-number>\n                        <street-name>Queen</street-name>\n                        <street-type>ST</street-type>\n                        \n                        <city>Auckland</city>\n                    </address>\n                </individual>\n                <enquiry consent=\"yes\" guarantor=\"no\" joint-account=\"no\">\n                    <account-type code=\"PL\"/>\n                    <enquiry-amount>2500</enquiry-amount>\n                    <client-reference>Test001</client-reference>\n                </enquiry>\n            </request>\n        </BCAservice-data>\n    </BCAservice>\n</BCAmessage>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://cta.vedaxml.com/sys1",
+          "protocol": "https",
+          "host": [
+            "cta",
+            "vedaxml",
+            "com"
+          ],
+          "path": [
+            "sys1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

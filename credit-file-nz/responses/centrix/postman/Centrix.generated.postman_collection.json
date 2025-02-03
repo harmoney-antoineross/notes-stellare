@@ -1,0 +1,2264 @@
+{
+  "info": {
+    "_postman_id": "33e530eb-d81f-4d06-bf1d-914b48322872",
+    "name": "CentrixAll",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "39079990"
+  },
+  "item": [
+    {
+      "name": "Test Case - IAN ABBOTT",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"22 Peter\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Castor Bay\",\n        \"Postcode\": \"0620\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1957-09-20\",\n      \"FirstName\": \"IAN\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"FREDERICK\",\n      \"Surname\": \"ABBOTT\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22023\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - CONSUMER ALLDETAILS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"128 Pine\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"MURUPARA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"3025\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1980-01-01\",\n      \"FirstName\": \"CONSUMER\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"WITH\",\n      \"Surname\": \"ALLDETAILS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"148665\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MATTHEW ALLEN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"42 Triangle\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Massey\",\n        \"Postcode\": \"0614\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1961-01-01\",\n      \"FirstName\": \"MATTHEW\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"ADRIAN\",\n      \"Surname\": \"ALLEN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"11548\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ANNE ANDERSON",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"281 Ohauiti\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"TAURANGA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Ohauiti\",\n        \"Postcode\": \"3112\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1955-06-06\",\n      \"FirstName\": \"ANNE\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"ELIZABETH\",\n      \"Surname\": \"ANDERSON\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20526\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ALEXANDER BELL",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"59 Lakeside\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"OREWA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"0931\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1963-04-29\",\n      \"FirstName\": \"ALEXANDER\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"WILLIAM\",\n      \"Surname\": \"BELL\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22301\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MONIKA-ANNE BELL",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"2 BILL BARKER\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Mission Bay\",\n        \"Postcode\": \"1071\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1995-04-16\",\n      \"FirstName\": \"MONIKA-ANNE\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"BELL\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"105973\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - SAMANTHA BELLAMY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"100 Queen\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Auckland Central\",\n        \"Postcode\": \"1010\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1976-09-15\",\n      \"FirstName\": \"SAMANTHA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"TRACEY\",\n      \"Surname\": \"BELLAMY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22280\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - DANIEL BOONE",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"73 Breezes\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"CHRISTCHURCH\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Avondale\",\n        \"Postcode\": \"8061\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1973-08-29\",\n      \"FirstName\": \"DANIEL\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"BOONE\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20538\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - FRANCIS BROWN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"10 Hooker\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"HAMILTON\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Chedworth\",\n        \"Postcode\": \"3210\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1985-02-27\",\n      \"FirstName\": \"FRANCIS\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"BRIAN\",\n      \"Surname\": \"BROWN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20524\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - WILLIAM BROWN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"15 Kabardin\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"KARAKA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"2113\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1986-04-22\",\n      \"FirstName\": \"WILLIAM\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"JOHN\",\n      \"Surname\": \"BROWN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22282\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - GRAEME BROWNLEY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"2 Gadd\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WHAKATANE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"3120\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1963-12-15\",\n      \"FirstName\": \"GRAEME\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"BROWNLEY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20531\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MICHAEL CHURCH",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"12 VICTORIA\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WAIHI\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"3682\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1907-12-08\",\n      \"FirstName\": \"MICHAEL\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"CHURCH\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"49372\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - BERNARD COLLINS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"96 Chalmers\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"GISBORNE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Elgin\",\n        \"Postcode\": \"4010\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1950-01-15\",\n      \"FirstName\": \"BERNARD\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"COLLINS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"21080\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - INA FISKE",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"69 TIRI\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WHANGAPARAOA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"MANLY\",\n        \"Postcode\": \"0930\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1974-06-20\",\n      \"FirstName\": \"INA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"FISKE\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"49353\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - GRAHAM GEORGE",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"51 Dunedin\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"CHRISTCHURCH\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Redwood\",\n        \"Postcode\": \"8051\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1985-03-18\",\n      \"FirstName\": \"GRAHAM\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"STEPHEN\",\n      \"Surname\": \"GEORGE\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20539\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ANTHONY GREEN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"39 Western Springs\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Morningside\",\n        \"Postcode\": \"1022\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1959-04-23\",\n      \"FirstName\": \"ANTHONY\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"FREDERICK\",\n      \"Surname\": \"GREEN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22287\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - NATASHA GREEN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"123 Vogel\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"DUNEDIN\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"9016\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1950-09-27\",\n      \"FirstName\": \"NATASHA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JOANNE\",\n      \"Surname\": \"GREEN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20529\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - JESSICA GREENS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"160 Kapiro\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"KERIKERI\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"0294\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1933-03-03\",\n      \"FirstName\": \"JESSICA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"GREENS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"148666\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - TONY GREENWOOD",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"241D Heatley\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WHAKAPIRAU\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"0583\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1948-06-16\",\n      \"FirstName\": \"TONY\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"WAYNE\",\n      \"Surname\": \"GREENWOOD\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20534\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - WILLIAM GREY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"107 Creswick\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WELLINGTON\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Northland\",\n        \"Postcode\": \"6012\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1935-01-16\",\n      \"FirstName\": \"WILLIAM\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"THOMAS\",\n      \"Surname\": \"GREY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20535\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MICHAEL HARPER",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"56 Kelburn\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WELLINGTON\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"6012\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1987-08-05\",\n      \"FirstName\": \"MICHAEL\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"PATRICK\",\n      \"Surname\": \"HARPER\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"120498\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - CELINE HARRISON",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"17 Aard\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"REPOROA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"3083\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1972-12-12\",\n      \"FirstName\": \"CELINE\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JUNE\",\n      \"Surname\": \"HARRISON\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"19865\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - DOUGLAS HARRISON",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"38 York\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"NAPIER\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Tamatea\",\n        \"Postcode\": \"4112\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1968-09-01\",\n      \"FirstName\": \"DOUGLAS\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"PHILLIP\",\n      \"Surname\": \"HARRISON\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"19866\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - COURTNEY HATHAWAY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"1/1369 DOMINION\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"MOUNT ROSKILL\",\n        \"Postcode\": \"1041\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1962-04-03\",\n      \"FirstName\": \"COURTNEY\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"HATHAWAY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"49356\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - SNOW HUNTSMAN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"7 Vigour\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"PAPAKURA\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"2110\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1976-03-06\",\n      \"FirstName\": \"SNOW\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"WHITE\",\n      \"Surname\": \"HUNTSMAN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"15791\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ROGER LITTLE",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"104 Grand\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Remuera\",\n        \"Postcode\": \"1050\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1963-11-01\",\n      \"FirstName\": \"ROGER\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"PATRICK\",\n      \"Surname\": \"LITTLE\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22281\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MANDY MERCURY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"241D Heatley\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"MAUNGATUROTO\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"RD 1\",\n        \"Postcode\": \"0583\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1985-01-01\",\n      \"FirstName\": \"MANDY\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"MERCURY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"13248\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MONTGOMERY MERCURY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"8 Dillon Bell\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"GISBORNE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Whataupoko\",\n        \"Postcode\": \"4010\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1980-01-01\",\n      \"FirstName\": \"MONTGOMERY\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"GEORGE\",\n      \"Surname\": \"MERCURY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"13216\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MADDISON O'BRIEN",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"22 Factory\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"MOSGIEL\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"9024\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1956-10-13\",\n      \"FirstName\": \"MADDISON\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JADE\",\n      \"Surname\": \"O'BRIEN\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20536\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - TOM PICKERING",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"148 Puketapu\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"NAPIER\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"RD 3\",\n        \"Postcode\": \"4183\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1980-01-01\",\n      \"FirstName\": \"TOM\",\n      \"Gender\": \"\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"PICKERING\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"13267\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - BARBARA ROGERS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"123 Awaroa\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"HELENSVILLE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"0800\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1954-12-26\",\n      \"FirstName\": \"BARBARA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"ROGERS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22278\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ALICIA ROWLINGS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"25 Cedar\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"QUEENSTOWN\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Kelvin Heights\",\n        \"Postcode\": \"9300\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1945-03-18\",\n      \"FirstName\": \"ALICIA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"AMY\",\n      \"Surname\": \"ROWLINGS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20527\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MARK ROWLINGS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"24 Montgomery\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WELLINGTON\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Karori\",\n        \"Postcode\": \"6012\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1975-03-11\",\n      \"FirstName\": \"MARK\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"BRIAN\",\n      \"Surname\": \"ROWLINGS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20530\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - DUNCAN ROY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"55 Maich\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Manurewa\",\n        \"Postcode\": \"2102\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1958-02-20\",\n      \"FirstName\": \"DUNCAN\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"ROY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"18451\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ALISTAIR SMITH",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"19A Wicklow\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Narrow Neck\",\n        \"Postcode\": \"0622\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1957-08-14\",\n      \"FirstName\": \"ALISTAIR\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"MICHAEL\",\n      \"Surname\": \"SMITH\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"16668\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - BARBARA SMITH",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"21C Dairy\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Otara\",\n        \"Postcode\": \"2023\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1967-11-01\",\n      \"FirstName\": \"BARBARA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JUNE\",\n      \"Surname\": \"SMITH\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20523\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - BARBARA SMITH",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"12 Lancaster\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"LAWRENCE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"9532\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1963-08-21\",\n      \"FirstName\": \"BARBARA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JUNE\",\n      \"Surname\": \"SMITH\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22500\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - SANDRA SMITHSON",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"801 Bedford\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"WELLINGTON\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Cannons Creek\",\n        \"Postcode\": \"5024\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1946-01-31\",\n      \"FirstName\": \"SANDRA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"ANNE\",\n      \"Surname\": \"SMITHSON\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20533\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - SALLY TAYLOR",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"20 Old Coach\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"HAVELOCK\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"7100\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1965-10-13\",\n      \"FirstName\": \"SALLY\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"TAYLOR\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20525\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - ARIHIA WAIHI",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"1-129 Greens\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"PALMERSTON NORTH\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Linton\",\n        \"Postcode\": \"4472\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1984-10-24\",\n      \"FirstName\": \"ARIHIA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"WAIHI\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"16667\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - DIANNE WILLIAMS",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"42 Riddell\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Glendowie\",\n        \"Postcode\": \"1071\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1980-06-23\",\n      \"FirstName\": \"DIANNE\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JULIE\",\n      \"Surname\": \"WILLIAMS\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22274\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - JENNIFER WRIGHT",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"132 Awaroa\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"HELENSVILLE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"0800\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1967-11-01\",\n      \"FirstName\": \"JENNIFER\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"BRONWYN\",\n      \"Surname\": \"WRIGHT\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22277\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - JUDY WRIGHT",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"State Highway 1\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"1010\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1952-06-23\",\n      \"FirstName\": \"JUDY\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"ANNE\",\n      \"Surname\": \"WRIGHT\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"22271\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - WILLIAM YOUNG",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"24 Ransom\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"DANNEVIRKE\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"\",\n        \"Postcode\": \"4930\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1999-04-21\",\n      \"FirstName\": \"WILLIAM\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"GERALD\",\n      \"Surname\": \"YOUNG\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20522\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - BLAIR ZIMMER",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"59 Hall\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Mangere\",\n        \"Postcode\": \"2022\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1940-05-13\",\n      \"FirstName\": \"BLAIR\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"GRANT\",\n      \"Surname\": \"ZIMMER\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"20528\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - MAD DONNA",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"100 Hadfield\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Beach Haven\",\n        \"Postcode\": \"0626\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1980-06-06\",\n      \"FirstName\": \"MAD\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"DONNA\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"58668\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - KATY PERRY",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"200 Carter\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Oratia\",\n        \"Postcode\": \"0604\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1981-07-07\",\n      \"FirstName\": \"KATY\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"PERRY\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"58669\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - HACK THORNE",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"77 Hackthorne\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"CHRISTCHURCH\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Cashmere\",\n        \"Postcode\": \"8022\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1975-01-02\",\n      \"FirstName\": \"HACK\",\n      \"Gender\": \"M\",\n      \"MiddleName\": \"\",\n      \"Surname\": \"THORNE\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"58675\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Case - EZRA ELLIOTT",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "{{username}}",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ConsumerData\": {\n    \"Addresses\": [\n      {\n        \"AddressLine1\": \"401 Great South\",\n        \"AddressLine2\": \"\",\n        \"AddressType\": \"C\",\n        \"City\": \"AUCKLAND\",\n        \"Country\": \"NZL\",\n        \"Suburb\": \"Ellerslie\",\n        \"Postcode\": \"1051\"\n      }\n    ],\n    \"Personal\": {\n      \"DateOfBirth\": \"1984-11-15\",\n      \"FirstName\": \"EZRA\",\n      \"Gender\": \"F\",\n      \"MiddleName\": \"JANE\",\n      \"Surname\": \"ELLIOTT\"\n    }\n  },\n  \"Credentials\": {\n    \"SubscriberID\": \"MONY\",\n    \"UserID\": \"monyb2btest\",\n    \"UserKey\": \"tMEtE9LvgUGV3JwOFLmafqVs\"\n  },\n  \"RequestDetails\": {\n    \"AmountSought\": 1000,\n    \"ApplicantType\": \"SNGL\",\n    \"EnquiryReason\": \"CRDA\",\n    \"ProductType\": \"PSLN\",\n    \"SubscriberReference\": \"649238\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/Consumer?products={{default_products}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "Consumer"
+          ],
+          "query": [
+            {
+              "key": "products",
+              "value": "{{default_products}}"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
