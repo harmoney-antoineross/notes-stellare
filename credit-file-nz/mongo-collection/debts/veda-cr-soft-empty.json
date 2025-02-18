@@ -1,0 +1,3218 @@
+{
+  "userId": "c57a2fce-c72c-4765-9e53-c033bfd62133",
+  "branch": "NZ",
+  "pullType": "SOFT_PULL",
+  "data": {
+    "file-id": {
+      "_": "402761840",
+      "$": {
+        "match-type": "strong"
+      }
+    },
+    "individual": {
+      "individual-name": {
+        "family-name": "Jackson",
+        "first-given-name": "Ben",
+        "other-given-name": "Macra"
+      },
+      "gender": {
+        "$": {
+          "type": "male"
+        }
+      },
+      "date-of-birth": "1966-06-25",
+      "address": [
+        {
+          "$": {
+            "create-date": "2025-01-30",
+            "type": "current"
+          },
+          "street-number": "197C",
+          "street-name": "WILLOW PARK",
+          "street-type": {
+            "$": {
+              "code": "DR"
+            }
+          },
+          "city": "MASTERTON"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-28",
+            "type": "previous"
+          },
+          "street-number": "70",
+          "street-name": "BECROFT",
+          "suburb": "FORREST HILL",
+          "city": "NORTH SHORE"
+        },
+        {
+          "$": {
+            "create-date": "2024-09-25",
+            "type": "previous"
+          },
+          "street-number": "123/124",
+          "street-name": "HUIA",
+          "street-type": {
+            "$": {
+              "code": "RD"
+            }
+          },
+          "suburb": "HUIA",
+          "city": "AUCKLAND"
+        }
+      ]
+    },
+    "credit-file": {
+      "credit-enquiry": [
+        {
+          "$": {
+            "create-date": "2025-02-10"
+          },
+          "account-type": {
+            "_": "PERSONAL LOAN",
+            "$": {
+              "code": "PL"
+            }
+          },
+          "enquiry-amount": "00000002500",
+          "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "TEST001"
+        },
+        {
+          "$": {
+            "create-date": "2025-02-07"
+          },
+          "account-type": {
+            "_": "PERSONAL LOAN",
+            "$": {
+              "code": "PL"
+            }
+          },
+          "enquiry-amount": "00000002500",
+          "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "TEST001"
+        },
+        {
+          "$": {
+            "create-date": "2025-02-07"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000100240",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150877"
+        },
+        {
+          "$": {
+            "create-date": "2025-02-04"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000100240",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150875"
+        },
+        {
+          "$": {
+            "create-date": "2025-02-03"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000100240",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150869"
+        },
+        {
+          "$": {
+            "create-date": "2025-01-30"
+          },
+          "account-type": {
+            "_": "MONTHLY ACCOUNT",
+            "$": {
+              "code": "M"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "2DEGREES MOBILE LIMITED P/O 23680",
+          "first-given-name": "BEN",
+          "client-reference": "RL_S_TESTNEW06"
+        },
+        {
+          "$": {
+            "create-date": "2025-01-24"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000100240",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150863"
+        },
+        {
+          "$": {
+            "create-date": "2025-01-21"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000085254",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150824"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-28"
+          },
+          "account-type": {
+            "_": "MONTHLY ACCOUNT",
+            "$": {
+              "code": "M"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "2DEGREES MOBILE LIMITED P/O 23680",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "20241127_EQUIFA"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-10"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000087187",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150792"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-07"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000087187",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150791"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-05"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000087187",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150786"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-01"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000100240",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150788"
+        },
+        {
+          "$": {
+            "create-date": "2024-11-01"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000087187",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150787"
+        },
+        {
+          "$": {
+            "create-date": "2024-10-25"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000085254",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "150780"
+        },
+        {
+          "$": {
+            "create-date": "2024-04-18"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (COMMERCIAL)",
+            "$": {
+              "code": "HC"
+            }
+          },
+          "enquiry-amount": "00000111285",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "800005496"
+        },
+        {
+          "$": {
+            "create-date": "2024-03-28"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (COMMERCIAL)",
+            "$": {
+              "code": "HC"
+            }
+          },
+          "enquiry-amount": "00000112471",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "RAFAEL",
+          "other-given-name": "PAMELA",
+          "client-reference": "800009781"
+        },
+        {
+          "$": {
+            "create-date": "2024-03-15"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (COMMERCIAL)",
+            "$": {
+              "code": "HC"
+            }
+          },
+          "enquiry-amount": "00000031685",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "RAFAEL",
+          "other-given-name": "PAMELA",
+          "client-reference": "800000821"
+        },
+        {
+          "$": {
+            "create-date": "2023-11-23"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000012078",
+          "credit-enquirer": "FINANCE NOW LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "2311234011434"
+        },
+        {
+          "$": {
+            "create-date": "2023-11-02"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000090385",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "PENNY",
+          "other-given-name": "PPPPPPPPPPPPP",
+          "client-reference": "800000402"
+        },
+        {
+          "$": {
+            "create-date": "2023-10-31"
+          },
+          "account-type": {
+            "_": "DIRECTOR INQUIRY",
+            "$": {
+              "code": "DI"
+            }
+          },
+          "enquiry-amount": "00000120000",
+          "credit-enquirer": "KIWIBANK LIMITED - SME",
+          "first-given-name": "BEN",
+          "client-reference": "A2X5I000000FHSN"
+        },
+        {
+          "$": {
+            "create-date": "2023-10-27"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "GO CAR SERVICES LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "260881"
+        },
+        {
+          "$": {
+            "create-date": "2023-10-17"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000090485",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "800004564"
+        },
+        {
+          "$": {
+            "create-date": "2023-10-05"
+          },
+          "account-type": {
+            "_": "90 DAY ACCOUNT",
+            "$": {
+              "code": "90"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "NCINO APAC PTY LTD",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "REF55487578"
+        },
+        {
+          "$": {
+            "create-date": "2023-09-26"
+          },
+          "account-type": {
+            "_": "REAL ESTATE MORTGAGE",
+            "$": {
+              "code": "RM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "ASB BANK - ONYX 6090",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA"
+        },
+        {
+          "$": {
+            "create-date": "2023-09-15"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (COMMERCIAL)",
+            "$": {
+              "code": "HC"
+            }
+          },
+          "enquiry-amount": "00000066485",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "800004054"
+        },
+        {
+          "$": {
+            "create-date": "2023-08-30"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (COMMERCIAL)",
+            "$": {
+              "code": "HC"
+            }
+          },
+          "enquiry-amount": "00000048285",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "PAPA",
+          "other-given-name": "QUEBEC",
+          "client-reference": "125750"
+        },
+        {
+          "$": {
+            "create-date": "2023-08-22"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "GO CAR SERVICES LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "248429"
+        },
+        {
+          "$": {
+            "create-date": "2023-08-07"
+          },
+          "account-type": {
+            "_": "CONSUMER FINANCE",
+            "$": {
+              "code": "CF"
+            }
+          },
+          "enquiry-amount": "00000020001",
+          "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "121ACCD47E"
+        },
+        {
+          "$": {
+            "create-date": "2023-08-07"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (HOUSEHOLD)",
+            "$": {
+              "code": "HH"
+            }
+          },
+          "enquiry-amount": "00000008800",
+          "credit-enquirer": "FINANCE NOW LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "2308074010195"
+        },
+        {
+          "$": {
+            "create-date": "2023-07-13"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (HOUSEHOLD)",
+            "$": {
+              "code": "HH"
+            }
+          },
+          "enquiry-amount": "00000008800",
+          "credit-enquirer": "FINANCE NOW LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "2307134009712"
+        },
+        {
+          "$": {
+            "create-date": "2023-07-12"
+          },
+          "account-type": {
+            "_": "REAL ESTATE MORTGAGE",
+            "$": {
+              "code": "RM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "WESTPAC - 281612",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "REF55487556"
+        },
+        {
+          "$": {
+            "create-date": "2023-06-20"
+          },
+          "account-type": {
+            "_": "30 DAY ACCOUNT",
+            "$": {
+              "code": "30"
+            }
+          },
+          "enquiry-amount": "00000001000",
+          "credit-enquirer": "KIWIBANK LIMITED - SME",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "REF55487556"
+        },
+        {
+          "$": {
+            "create-date": "2023-06-16"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000012078",
+          "credit-enquirer": "FINANCE NOW LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "2306164008863"
+        },
+        {
+          "$": {
+            "create-date": "2023-05-11"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "GO CAR SERVICES LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "234579"
+        },
+        {
+          "$": {
+            "create-date": "2023-04-21"
+          },
+          "account-type": {
+            "_": "DIRECTOR INQUIRY",
+            "$": {
+              "code": "DE"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "CREDIT WORKS GROUP",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "CLREF12345678"
+        },
+        {
+          "$": {
+            "create-date": "2023-04-17"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000012078",
+          "credit-enquirer": "FINANCE NOW LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "2304174006648"
+        },
+        {
+          "$": {
+            "create-date": "2022-10-04"
+          },
+          "account-type": {
+            "_": "MONTHLY ACCOUNT",
+            "$": {
+              "code": "M"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "2DEGREES MOBILE LIMITED P/O 23680",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "NS-ADVRS-RL-27H"
+        },
+        {
+          "$": {
+            "create-date": "2022-09-30"
+          },
+          "account-type": {
+            "_": "CONSUMER FINANCE",
+            "$": {
+              "code": "CF"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "DTR",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA"
+        },
+        {
+          "$": {
+            "create-date": "2022-09-13"
+          },
+          "account-type": {
+            "_": "CREDIT CARD",
+            "$": {
+              "code": "CC"
+            }
+          },
+          "enquiry-amount": "00000123000",
+          "credit-enquirer": "KIWIBANK LIMITED - SME",
+          "first-given-name": "BEN",
+          "client-reference": "A0I3G000000YIQE"
+        },
+        {
+          "$": {
+            "create-date": "2022-08-28"
+          },
+          "account-type": {
+            "_": "PERSONAL LOAN",
+            "$": {
+              "code": "PL"
+            }
+          },
+          "enquiry-amount": "00000002500",
+          "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+          "first-given-name": "RAFAEL",
+          "other-given-name": "PAMELA",
+          "client-reference": "REF55487557"
+        },
+        {
+          "$": {
+            "create-date": "2022-08-16"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000050405",
+          "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "149937"
+        },
+        {
+          "$": {
+            "create-date": "2022-08-09"
+          },
+          "account-type": {
+            "_": "CREDIT CARD",
+            "$": {
+              "code": "CC"
+            }
+          },
+          "enquiry-amount": "00000010000",
+          "credit-enquirer": "TSB BANK LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "CO7PDC0Y4Y0CDQZL"
+        },
+        {
+          "$": {
+            "create-date": "2022-07-20"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (HOUSEHOLD)",
+            "$": {
+              "code": "HH"
+            }
+          },
+          "enquiry-amount": "00000001500",
+          "credit-enquirer": "FINANCE NOW LIMITED",
+          "first-given-name": "BEN",
+          "client-reference": "2207204004658"
+        },
+        {
+          "$": {
+            "create-date": "2022-05-09"
+          },
+          "account-type": {
+            "_": "DIRECTOR INQUIRY",
+            "$": {
+              "code": "DE"
+            }
+          },
+          "enquiry-amount": "00000999999",
+          "credit-enquirer": "CUSTOM FLEET NZ",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA"
+        },
+        {
+          "$": {
+            "create-date": "2022-04-29"
+          },
+          "account-type": {
+            "_": "MONTHLY ACCOUNT",
+            "$": {
+              "code": "M"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "2DEGREES MOBILE LIMITED P/O 23680",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "1-3965657822"
+        },
+        {
+          "$": {
+            "create-date": "2022-03-28"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "GO CAR SERVICES LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "165675"
+        },
+        {
+          "$": {
+            "create-date": "2022-02-22"
+          },
+          "account-type": {
+            "_": "REAL ESTATE MORTGAGE",
+            "$": {
+              "code": "RM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "ASB BANK - ONYX 6090",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA"
+        },
+        {
+          "$": {
+            "create-date": "2022-02-10"
+          },
+          "account-type": {
+            "_": "BRIDGING FINANCE",
+            "$": {
+              "code": "BF"
+            }
+          },
+          "enquiry-amount": "00000200000",
+          "credit-enquirer": "KIWIBANK LIMITED - SME",
+          "first-given-name": "BEN",
+          "client-reference": "A0I3G000000OQW1"
+        },
+        {
+          "$": {
+            "create-date": "2022-01-31"
+          },
+          "account-type": {
+            "_": "LOAN CONTRACT",
+            "$": {
+              "code": "LC"
+            }
+          },
+          "enquiry-amount": "00000061047",
+          "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+          "first-given-name": "BEN",
+          "client-reference": "8D9E4C03E5E27AD"
+        },
+        {
+          "$": {
+            "create-date": "2022-01-25"
+          },
+          "account-type": {
+            "_": "CONSUMER FINANCE",
+            "$": {
+              "code": "CF"
+            }
+          },
+          "enquiry-amount": "00000075179",
+          "credit-enquirer": "UDC FINANCE LIMITED",
+          "first-given-name": "BEN",
+          "client-reference": "247006"
+        },
+        {
+          "$": {
+            "create-date": "2022-01-18"
+          },
+          "account-type": {
+            "_": "30 DAY ACCOUNT",
+            "$": {
+              "code": "30"
+            }
+          },
+          "enquiry-amount": "00000001000",
+          "credit-enquirer": "KIWIBANK LIMITED - SME",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "REF55487556"
+        },
+        {
+          "$": {
+            "create-date": "2022-01-06"
+          },
+          "account-type": {
+            "_": "HIRE PURCHASE (VEHICLE)",
+            "$": {
+              "code": "HM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "GO CAR SERVICES LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "165375"
+        },
+        {
+          "$": {
+            "create-date": "2021-11-12"
+          },
+          "account-type": {
+            "_": "PERSONAL LOAN",
+            "$": {
+              "code": "PL"
+            }
+          },
+          "enquiry-amount": "00000002310",
+          "credit-enquirer": "DEVIZO NZ LIMITED TA PAYRIGHT",
+          "first-given-name": "BEN",
+          "other-given-name": "MARCA",
+          "client-reference": "N006068001"
+        },
+        {
+          "$": {
+            "create-date": "2021-10-19"
+          },
+          "account-type": {
+            "_": "CREDIT CARD",
+            "$": {
+              "code": "CC"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "YONDA LIMITED",
+          "first-given-name": "BEN",
+          "other-given-name": "MARCA",
+          "client-reference": "REF55487556"
+        },
+        {
+          "$": {
+            "create-date": "2021-02-24"
+          },
+          "account-type": {
+            "_": "REAL ESTATE MORTGAGE",
+            "$": {
+              "code": "RM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "Banking",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "8D8D8A35861CF1D"
+        },
+        {
+          "$": {
+            "create-date": "2021-02-22"
+          },
+          "account-type": {
+            "_": "REAL ESTATE MORTGAGE",
+            "$": {
+              "code": "RM"
+            }
+          },
+          "enquiry-amount": "00000000000",
+          "credit-enquirer": "Banking",
+          "first-given-name": "BEN",
+          "other-given-name": "MACRA",
+          "client-reference": "8D8D740C103BC21"
+        }
+      ]
+    },
+    "default-file": {
+      "default": [
+        {
+          "$": {
+            "joint-liability": "N",
+            "company-loan": "N",
+            "defaulter-detail-number": "060001624"
+          },
+          "load-date": "2024-10-05",
+          "default-date": "2024-09-02",
+          "credit-provider": "SPARK NZ TRADING LIMITED CR5",
+          "ANZSIC-industry": {
+            "_": "Telecommunication Services",
+            "$": {
+              "code": "J712"
+            }
+          },
+          "default-original-amount": "00000001500",
+          "default-balance-amount": "00000000750",
+          "total-loan-amount": "00000001500",
+          "account-type": {
+            "_": "MONTHLY ACCOUNT",
+            "$": {
+              "code": "M"
+            }
+          },
+          "account-opened-date": "2024-09-02",
+          "default-status": {
+            "_": "PAYMENT DEFAULT",
+            "$": {
+              "code": "10",
+              "date": "2024-10-05"
+            }
+          },
+          "client-account-reference-id": "BENJ",
+          "individual-name": {
+            "family-name": "JACKSON",
+            "first-given-name": "BEN",
+            "other-given-name": "MACRA"
+          },
+          "date-of-birth": "1966-06-25",
+          "consumer-default-relationship": {
+            "_": "Defaulter",
+            "$": {
+              "type": "DF"
+            }
+          }
+        },
+        {
+          "$": {
+            "joint-liability": "N",
+            "company-loan": "N",
+            "defaulter-detail-number": "060000040"
+          },
+          "load-date": "2024-07-22",
+          "default-date": "2024-05-17",
+          "credit-provider": "VODAFONE NEW ZEALAND LIMITED",
+          "ANZSIC-industry": {
+            "_": "Telecommunication Services",
+            "$": {
+              "code": "J712"
+            }
+          },
+          "default-original-amount": "00000000550",
+          "default-balance-amount": "00000000550",
+          "total-loan-amount": "00000000000",
+          "account-type": {
+            "_": "MONTHLY ACCOUNT",
+            "$": {
+              "code": "M"
+            }
+          },
+          "account-opened-date": "2024-05-17",
+          "default-status": {
+            "_": "PAYMENT DEFAULT",
+            "$": {
+              "code": "10",
+              "date": "2024-07-22"
+            }
+          },
+          "client-account-reference-id": "JACKSON",
+          "individual-name": {
+            "family-name": "JACKSON",
+            "first-given-name": "BEN",
+            "other-given-name": "MACRA"
+          },
+          "date-of-birth": "1966-06-25",
+          "consumer-default-relationship": {
+            "_": "Defaulter",
+            "$": {
+              "type": "DF"
+            }
+          }
+        }
+      ]
+    },
+    "score-data": {
+      "scorecard-name": "ADVRS",
+      "relative-risk": "-001.43",
+      "relative-risk-index": "+001.02",
+      "risk-odds": "+353.00"
+    },
+    "vcr-score-block": {
+      "vcr-scores": {
+        "score": "+000324",
+        "scorecard-name": "CTSAD",
+        "scorecard-version": "V1.0",
+        "relative-risk": "-001.75",
+        "relative-risk-index": "+000.86",
+        "relative-risk-odds": "0002.36"
+      }
+    },
+    "negative-block": {
+      "characteristic": [
+        {
+          "_": "n",
+          "$": {
+            "name": "new-to-bureau-flag",
+            "type": "boolean"
+          }
+        },
+        {
+          "_": "138",
+          "$": {
+            "name": "age-of-oldest-file",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "name": "total-paid-defaults",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "name": "total-settled-defaults",
+            "type": "count"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "name": "total-outstanding-defaults",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "name": "number-of-aliases",
+            "type": "count"
+          }
+        }
+      ]
+    },
+    "vcr-block": {
+      "characteristic": [
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR001",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR002",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR003",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR004",
+            "type": "count"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "code": "VCR005",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR006",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR007",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR008",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR009",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR010",
+            "type": "count"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "code": "VCR011",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR012",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR013",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR014",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR015",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR016",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR017",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR018",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR019",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR020",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR021",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR022",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR023",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR024",
+            "type": "count"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "code": "VCR025",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR026",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR027",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR028",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR029",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR030",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR031",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR032",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR033",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR034",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR035",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR036",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR037",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR038",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR039",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR040",
+            "type": "count"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR041",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR042",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR043",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "30000",
+          "$": {
+            "code": "VCR044",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR045",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR046",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR047",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR048",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR049",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR050",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR051",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR052",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR053",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR054",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR055",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR056",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR057",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR058",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR059",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR060",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR061",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR062",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR063",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR064",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR065",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR066",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "31000",
+          "$": {
+            "code": "VCR067",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR068",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR069",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR070",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR071",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR072",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR073",
+            "type": "sum"
+          }
+        },
+        {
+          "_": "0.03225806",
+          "$": {
+            "code": "VCR074",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.03225806",
+          "$": {
+            "code": "VCR075",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.03225806",
+          "$": {
+            "code": "VCR076",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.00000000",
+          "$": {
+            "code": "VCR077",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.03225806",
+          "$": {
+            "code": "VCR078",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.03225806",
+          "$": {
+            "code": "VCR079",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.03225806",
+          "$": {
+            "code": "VCR080",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "0.00000000",
+          "$": {
+            "code": "VCR081",
+            "type": "percent"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR082",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR083",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR084",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR085",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR086",
+            "type": "count"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "code": "VCR087",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR088",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR089",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR090",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR091",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR092",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR093",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR094",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR095",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR096",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR097",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR098",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR099",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR100",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR101",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR102",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR103",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR104",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR105",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR106",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR107",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR108",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR109",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR110",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR111",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR112",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR113",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR114",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR115",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR116",
+            "type": "count"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR117",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR118",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR119",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR120",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR121",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR122",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR123",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR124",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR125",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR126",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR127",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR128",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR129",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR130",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR131",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR132",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR133",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR134",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR135",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR136",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR137",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR138",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR139",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR140",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR141",
+            "type": "count"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR142",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR143",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR144",
+            "type": "months"
+          }
+        },
+        {
+          "_": "1.00",
+          "$": {
+            "code": "VCR145",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR146",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR147",
+            "type": "months"
+          }
+        },
+        {
+          "_": "1.00",
+          "$": {
+            "code": "VCR148",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR149",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR150",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR151",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR152",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR153",
+            "type": "months"
+          }
+        },
+        {
+          "_": "9.00",
+          "$": {
+            "code": "VCR154",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR155",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR156",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR157",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR158",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR159",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR160",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR161",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR162",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR163",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR164",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR165",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR166",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR167",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR168",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR169",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR170",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR171",
+            "type": "months"
+          }
+        },
+        {
+          "_": "1",
+          "$": {
+            "code": "VCR172",
+            "type": "status"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "code": "VCR173",
+            "type": "status"
+          }
+        },
+        {
+          "_": "2",
+          "$": {
+            "code": "VCR174",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR175",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR176",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR177",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR178",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR179",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR180",
+            "type": "status"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR181",
+            "type": "status"
+          }
+        },
+        {
+          "_": "U",
+          "$": {
+            "code": "VCR182",
+            "type": "status"
+          }
+        },
+        {
+          "_": "U",
+          "$": {
+            "code": "VCR183",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR184",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR185",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR186",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR187",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR188",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR189",
+            "type": "status"
+          }
+        },
+        {
+          "_": "30000",
+          "$": {
+            "code": "VCR190",
+            "type": "amount"
+          }
+        },
+        {
+          "_": "1000",
+          "$": {
+            "code": "VCR191",
+            "type": "amount"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR192",
+            "type": "amount"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR193",
+            "type": "amount"
+          }
+        },
+        {
+          "_": "0",
+          "$": {
+            "code": "VCR194",
+            "type": "amount"
+          }
+        },
+        {
+          "_": "165.09",
+          "$": {
+            "code": "VCR195",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR196",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR197",
+            "type": "months"
+          }
+        },
+        {
+          "_": "152.19",
+          "$": {
+            "code": "VCR198",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR199",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR200",
+            "type": "months"
+          }
+        },
+        {
+          "_": "152.19",
+          "$": {
+            "code": "VCR201",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR202",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR203",
+            "type": "months"
+          }
+        },
+        {
+          "_": "152.19",
+          "$": {
+            "code": "VCR204",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR205",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR206",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR207",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR208",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR209",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR210",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR211",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR212",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR213",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR214",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR215",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR216",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR217",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR218",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR219",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR220",
+            "type": "months"
+          }
+        },
+        {
+          "_": "3.00",
+          "$": {
+            "code": "VCR221",
+            "type": "months"
+          }
+        },
+        {
+          "_": "11.00",
+          "$": {
+            "code": "VCR222",
+            "type": "months"
+          }
+        },
+        {
+          "_": "12.00",
+          "$": {
+            "code": "VCR223",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR224",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR225",
+            "type": "months"
+          }
+        },
+        {
+          "_": "6.00",
+          "$": {
+            "code": "VCR226",
+            "type": "months"
+          }
+        },
+        {
+          "_": "23.00",
+          "$": {
+            "code": "VCR227",
+            "type": "months"
+          }
+        },
+        {
+          "_": "24.00",
+          "$": {
+            "code": "VCR228",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR229",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR230",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR231",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR232",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR233",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR234",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR235",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR236",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR237",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR238",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR239",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR240",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR241",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR242",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR243",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR244",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR245",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR246",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR247",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR248",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR249",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR250",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR251",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR252",
+            "type": "months"
+          }
+        },
+        {
+          "_": "12.00",
+          "$": {
+            "code": "VCR253",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR254",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR255",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR256",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR257",
+            "type": "months"
+          }
+        },
+        {
+          "_": "24.00",
+          "$": {
+            "code": "VCR258",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR259",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR260",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR261",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR262",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR263",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR264",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR265",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR266",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR267",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR268",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR269",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR270",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR271",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR272",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR273",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR274",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR275",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR276",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR277",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR278",
+            "type": "months"
+          }
+        },
+        {
+          "_": "9.00",
+          "$": {
+            "code": "VCR279",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR280",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR281",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR282",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR283",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR284",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR285",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR286",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR287",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR288",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR289",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR290",
+            "type": "months"
+          }
+        },
+        {
+          "_": "0.00",
+          "$": {
+            "code": "VCR291",
+            "type": "months"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR292",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR293",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR294",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR295",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR296",
+            "type": "status"
+          }
+        },
+        {
+          "_": "-",
+          "$": {
+            "code": "VCR297",
+            "type": "status"
+          }
+        }
+      ]
+    },
+    "pdf-block": {
+      "pdf-url": "https://cta.vedaxml.com/pdf/031088/",
+      "pdf-file": "402761840_b4c0c010-bfe0-1ad0-9c25-0004ac1f4fbf.pdf"
+    }
+  },
+  "createdAt": "2025-02-04T09:16:29.875+00:00"
+}

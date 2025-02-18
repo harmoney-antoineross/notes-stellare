@@ -1,0 +1,2309 @@
+{
+  "userId": "c57a2fce-c72c-4765-9e53-c033bfd62133",
+  "branch": "NZ",
+  "pullType": "SOFT_PULL",
+  "data": {
+    "ServiceProducts": [
+      {
+        "ProductCode": "ComprehensiveAndAdverseReport"
+      },
+      {
+        "ProductCode": "CourtFines"
+      }
+    ],
+    "ResponseDetails": {
+      "EnquiryNumber": "9178208702",
+      "EnquiryDate": "2025-01-20T14:25:03.5683691+13:00",
+      "IsSuccess": true,
+      "ServiceVersion": "69.3.0.0",
+      "WsdlVersion": "17.0.0.0",
+      "ServiceEnvironment": "TEST"
+    },
+    "StatusMessages": [
+      {
+        "MessageCode": "D100",
+        "MessageText": "Credentials OK: MONY - Harmoney, monyb2btest - b2b test",
+        "MessageType": "Debug",
+        "SupportData": ""
+      },
+      {
+        "MessageCode": "D100",
+        "MessageText": "Server is TEST1-SUBSCRIBE",
+        "MessageType": "Debug",
+        "SupportData": ""
+      }
+    ],
+    "EnteredRequestDetails": {
+      "SubscriberReference": "Harmoney",
+      "EnquiryReason": "CRDA",
+      "EnquiryReasonDescription": "Credit Application",
+      "ProductType": "PSLN",
+      "ProductTypeDescription": "Personal Loan",
+      "AmountSought": 1000.0,
+      "ApplicantType": "SNGL",
+      "ApplicantTypeDescription": "Single applicant"
+    },
+    "EnteredConsumerData": {
+      "Personal": {
+        "Surname": "MERCURY",
+        "FirstName": "MONTGOMERY",
+        "MiddleName": "GEORGE",
+        "DateOfBirth": "1980-01-01T00:00:00",
+        "Gender": "M"
+      },
+      "Addresses": [
+        {
+          "AddressType": "C",
+          "AddressLine1": "8 Dillon Bell Road",
+          "AddressLine2": "",
+          "Suburb": "Whataupoko",
+          "City": "GISBORNE",
+          "Country": "NZL",
+          "Postcode": "4010",
+          "NumberOfYearsAtAddress": 0
+        }
+      ],
+      "Telephones": []
+    },
+    "DataSets": {
+      "ConsumerFile": {
+        "FileNumber": 13216,
+        "AgeOfFile": "2006-01-23T00:00:00",
+        "Personal": {
+          "Surname": "Mercury",
+          "FirstName": "Montgomery",
+          "MiddleName": "George",
+          "DateOfBirth": "1980-01-01T00:00:00",
+          "Gender": "M"
+        }
+      },
+      "KnownNames": [
+        {
+          "Surname": "Mc'Mercury",
+          "FirstName": "Mont-Gomery",
+          "MiddleName": "George",
+          "DateOfBirth": "1980-01-01T00:00:00",
+          "SourceBureaux": []
+        },
+        {
+          "Surname": "Mercury",
+          "FirstName": "Montgomery",
+          "MiddleName": "",
+          "DateOfBirth": "1980-06-01T00:00:00",
+          "SourceBureaux": []
+        },
+        {
+          "Surname": "Mercury",
+          "FirstName": "Montgomery",
+          "MiddleName": "",
+          "DateOfBirth": "1990-01-01T00:00:00",
+          "SourceBureaux": []
+        },
+        {
+          "Surname": "Mercury",
+          "FirstName": "Montgomery",
+          "MiddleName": "",
+          "DateOfBirth": "1997-01-01T00:00:00",
+          "SourceBureaux": []
+        },
+        {
+          "Surname": "Montgomery",
+          "FirstName": "Mercury",
+          "MiddleName": "",
+          "DateOfBirth": "1980-01-01T00:00:00",
+          "SourceBureaux": []
+        }
+      ],
+      "KnownAddresses": [
+        {
+          "LastKnown": true,
+          "AddressDate": "2024-10-27T13:37:57.863",
+          "AddressLine1": "8 Dillon Bell Road",
+          "AddressLine2": "",
+          "Suburb": "Whataupoko",
+          "City": "Gisborne",
+          "Country": "NZL",
+          "CountryDescription": "New Zealand",
+          "Postcode": "4010",
+          "DeliveryPointID": "924932",
+          "SourceBureaux": []
+        },
+        {
+          "LastKnown": false,
+          "AddressDate": "2015-06-11T10:43:19.44",
+          "AddressLine1": "1 Mercury Street",
+          "AddressLine2": "",
+          "Suburb": "Milson",
+          "City": "Palmerston North",
+          "Country": "NZL",
+          "CountryDescription": "New Zealand",
+          "Postcode": "4414",
+          "DeliveryPointID": "1186028",
+          "SourceBureaux": []
+        },
+        {
+          "LastKnown": false,
+          "AddressDate": "2025-01-16T17:28:54.67",
+          "AddressLine1": "3 Long Drive",
+          "AddressLine2": "",
+          "Suburb": "New market, Auckland",
+          "City": "NZD",
+          "Country": "NZL",
+          "CountryDescription": "New Zealand",
+          "SourceBureaux": []
+        }
+      ],
+      "PreviousEnquiries": [
+        {
+          "DateOfAccess": "2025-01-20T14:25:09.767",
+          "EnquirerName": "Harmoney",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Harmoney",
+          "ProductType": "PSLN",
+          "ProductTypeDescription": "Personal Loan",
+          "AmountSought": 1000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-17T15:01:31.203",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-17T10:01:35.127",
+          "EnquirerName": "Devinci Group Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Json Test",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-16T17:38:28.363",
+          "EnquirerName": "Heartland Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "-",
+          "ProductType": "MTGE",
+          "ProductTypeDescription": "Mortgage",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-16T10:48:49.963",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-15T18:43:08.797",
+          "EnquirerName": "Electric Kiwi",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-15T10:38:55.797",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-14T00:53:32.353",
+          "EnquirerName": "Electric Kiwi",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-13T18:51:17.66",
+          "EnquirerName": "Electric Kiwi",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-13T16:05:46.277",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-11T01:08:00.437",
+          "EnquirerName": "Electric Kiwi",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-10T23:37:50.703",
+          "EnquirerName": "Electric Kiwi",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-09T11:12:17.967",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-08T16:26:19.85",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-08T13:45:08.557",
+          "EnquirerName": "Intersoft Systems Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "f5efb968-f37f-4ca7-84fc-08e4760fe5a0",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-07T16:24:01.073",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2025-01-06T16:41:35.65",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-30T10:41:58.817",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-23T09:44:01.27",
+          "EnquirerName": "Instant Finance Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "916706",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-21T05:16:55.393",
+          "EnquirerName": "namecheck",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "cm4wybrol000mk5kknmjqara0",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-18T15:20:31.7",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 12000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-17T11:08:45.513",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2412174014135",
+          "ProductType": "MVEH",
+          "ProductTypeDescription": "Motor Vehicle Financing",
+          "AmountSought": 18000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-17T08:28:38.357",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-16T15:42:34.153",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-16T14:54:04.68",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 12000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-13T15:26:02.537",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-12T16:00:20.197",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2412124014094",
+          "ProductType": "MVEH",
+          "ProductTypeDescription": "Motor Vehicle Financing",
+          "AmountSought": 18000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-12T15:34:14.86",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-11T17:26:18.147",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-11T08:39:01.18",
+          "EnquirerName": "Farmlands Co-Operative Society Ltd",
+          "EnquiryReason": "CRDR",
+          "EnquiryReasonDescription": "Credit Review",
+          "EnquiryReference": "C100112990",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-10T14:26:58.627",
+          "EnquirerName": "Global Data Consortium",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "soap test",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-09T10:26:32.6",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-08T20:21:52.61",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-06T17:22:27.68",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-06T14:16:21.287",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "MTGE",
+          "ProductTypeDescription": "Mortgage",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-04T16:11:15.477",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-04T10:58:28.567",
+          "EnquirerName": "Farmlands Co-Operative Society Ltd",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "CREDSTEST",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-02T14:17:12.177",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Json Test",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 5000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-02T11:12:47.39",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "MTGE",
+          "ProductTypeDescription": "Mortgage",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-12-01T17:07:22.153",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-30T17:11:14.133",
+          "EnquirerName": "namecheck",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "cm43nmzjh00043iqrjnss082b",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-29T15:16:34.693",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-28T15:41:27.45",
+          "EnquirerName": "SBS Money",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411284014020",
+          "ProductType": "CRDC",
+          "ProductTypeDescription": "Credit Card",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-27T16:27:37.42",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411274014016",
+          "ProductType": "HPUR",
+          "ProductTypeDescription": "Hire Purchase",
+          "AmountSought": 4500.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-27T15:53:03.07",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411274014014",
+          "ProductType": "MVEH",
+          "ProductTypeDescription": "Motor Vehicle Financing",
+          "AmountSought": 4500.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-27T15:16:44.89",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "2411274014013",
+          "ProductType": "PSLN",
+          "ProductTypeDescription": "Personal Loan",
+          "AmountSought": 8000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-27T13:32:53.247",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 12000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-27T11:21:01.387",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-27T08:25:11.837",
+          "EnquirerName": "Farmlands Co-operative Society Ltd",
+          "EnquiryReason": "CRDR",
+          "EnquiryReasonDescription": "Credit Review",
+          "EnquiryReference": "C100112990",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-26T12:31:53.733",
+          "EnquirerName": "Centrix BA Test Account",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "TRAC",
+          "ProductTypeDescription": "Trade Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-26T12:13:33.377",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "MTGE",
+          "ProductTypeDescription": "Mortgage",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-26T11:28:29.057",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "2411264014002",
+          "ProductType": "PSLN",
+          "ProductTypeDescription": "Personal Loan",
+          "AmountSought": 26000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-26T07:43:44.453",
+          "EnquirerName": "namecheck",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "cm3xdm0dr0005km7e9fb4f26v",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-25T18:16:54.14",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-25T11:51:08.88",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411254013984",
+          "ProductType": "MVEH",
+          "ProductTypeDescription": "Motor Vehicle Financing",
+          "AmountSought": 18000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-24T18:12:04.753",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-22T16:50:29.49",
+          "EnquirerName": "namecheck",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "cm3s7dpae000213a044pgdmxd",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-22T16:33:03.157",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-22T09:23:46.153",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-21T22:52:32.217",
+          "EnquirerName": "namecheck",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "cm3r4vgpp000elhoakg2l7rf1",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-21T14:58:15.117",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-21T14:07:25.97",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411214013942",
+          "ProductType": "HPUR",
+          "ProductTypeDescription": "Hire Purchase",
+          "AmountSought": 3000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-21T11:45:59.19",
+          "EnquirerName": "Penny - Motor",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "CREDSTEST",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-20T17:40:13.433",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-20T16:11:25.047",
+          "EnquirerName": "Centrix IT Operations Support",
+          "EnquiryReason": "BNPL",
+          "EnquiryReasonDescription": "Credit Check - BNPL",
+          "EnquiryReference": "CREDSTEST",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-19T20:56:21.98",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-19T18:17:32.817",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-19T14:14:51.163",
+          "EnquirerName": "Centrix Group Limited",
+          "EnquiryReason": "CRDR",
+          "EnquiryReasonDescription": "Credit Review",
+          "EnquiryReference": "soap test",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-19T10:19:10.547",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 12000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-18T17:54:55.88",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 12000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-18T16:23:31.617",
+          "EnquirerName": "Driva New Zealand Limited",
+          "EnquiryReason": "CRDR",
+          "EnquiryReasonDescription": "Credit Review",
+          "EnquiryReference": "Driva1234567",
+          "ProductType": "LNDP",
+          "ProductTypeDescription": "Lending Proposal",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-18T15:15:18.933",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-18T15:03:41.78",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-17T18:05:33.36",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-16T21:31:38.407",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-15T13:44:35.933",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "0016t00000ylU41",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-15T13:06:29.007",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-14T17:24:23.863",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-13T16:48:25.917",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-13T14:21:51.31",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-13T13:08:17.387",
+          "EnquirerName": "Geneva Financial Services",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-12T16:30:17.81",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-12T15:38:29.7",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-11T17:43:29.92",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "FQAP",
+          "EnquiryReasonDescription": "Finance Quotation Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 12000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-11T16:13:04.47",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-10T20:58:36.593",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-09T08:18:47.3",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-08T12:44:11.053",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-07T14:42:17.16",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-07T12:14:01.1",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411074013854",
+          "ProductType": "MVEH",
+          "ProductTypeDescription": "Motor Vehicle Financing",
+          "AmountSought": 20000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-07T01:29:35.43",
+          "EnquirerName": "Bank of New Zealand (CCR Project)",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Reference28",
+          "ProductType": "LOAN",
+          "ProductTypeDescription": "Loan",
+          "AmountSought": 250000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-06T20:36:40.32",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2411064013837",
+          "ProductType": "MVEH",
+          "ProductTypeDescription": "Motor Vehicle Financing",
+          "AmountSought": 5000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-06T16:32:22.59",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-05T16:15:47.63",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-04T14:27:42.807",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-11-01T13:47:16.593",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-31T12:26:12.453",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-30T19:24:23.397",
+          "EnquirerName": "Pepper Money",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "MTGE",
+          "ProductTypeDescription": "Mortgage",
+          "AmountSought": 650000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-30T15:08:35.89",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-30T12:30:54.147",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "2410304013745",
+          "ProductType": "HPUR",
+          "ProductTypeDescription": "Hire Purchase",
+          "AmountSought": 3000.00,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-30T12:06:08.623",
+          "EnquirerName": "Finance Now Limited",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "4013748",
+          "ProductType": "CFIN",
+          "ProductTypeDescription": "Consumer Finance",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-29T16:45:11.167",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-27T17:29:34.713",
+          "EnquirerName": "The Co-operative Bank",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "SVGS",
+          "ProductTypeDescription": "Savings Account",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-10-27T13:47:30.947",
+          "EnquirerName": "Enquiry Creditor Ltd",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "ProductType": "",
+          "ProductTypeDescription": "",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfAccess": "2024-04-26T17:03:32.157",
+          "EnquirerName": "Electric Kiwi",
+          "EnquiryReason": "CRDA",
+          "EnquiryReasonDescription": "Credit Application",
+          "EnquiryReference": "Not Supplied",
+          "AmountSought": 0.0,
+          "JointApplication": "N",
+          "ApplicantType": "SNGL",
+          "ApplicantTypeDescription": "Single applicant",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        }
+      ],
+      "Defaults": [
+        {
+          "DateOfDefault": "2023-10-01T00:00:00",
+          "AccountType": "MVEH",
+          "AccountTypeDescription": "Motor Vehicle Financing",
+          "CreditProvider": "Centrix Group Limited - Contact: +64 9 966 9706",
+          "CollectionIndustrySupplier": "",
+          "Reference": "91637512",
+          "OriginalDefaultAmount": 1000.00,
+          "CurrentDefaultBalance": 1000.00,
+          "DefaultStatus": "ACTV",
+          "DefaultStatusDescription": "Active",
+          "StatusDate": "2024-10-27T13:37:59",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfDefault": "2023-09-01T00:00:00",
+          "AccountType": "TELE",
+          "AccountTypeDescription": "Telecommunications",
+          "CreditProvider": "Centrix Group Limited - Contact: +64 9 966 9706",
+          "CollectionIndustrySupplier": "",
+          "Reference": "717345544",
+          "OriginalDefaultAmount": 300.00,
+          "CurrentDefaultBalance": 300.00,
+          "DefaultStatus": "ACTV",
+          "DefaultStatusDescription": "Active",
+          "StatusDate": "2024-10-27T13:37:58.783",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfDefault": "2023-08-01T00:00:00",
+          "AccountType": "UTLY",
+          "AccountTypeDescription": "Utilities",
+          "CreditProvider": "Centrix Group Limited - Contact: +64 9 966 9706",
+          "CollectionIndustrySupplier": "",
+          "Reference": "2016733",
+          "OriginalDefaultAmount": 300.00,
+          "CurrentDefaultBalance": 300.00,
+          "DefaultStatus": "ACTV",
+          "DefaultStatusDescription": "Active",
+          "StatusDate": "2024-10-27T13:37:58.553",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfDefault": "2023-07-01T00:00:00",
+          "AccountType": "LOAN",
+          "AccountTypeDescription": "Loan",
+          "CreditProvider": "Centrix Group Limited - Contact: +64 9 966 9706",
+          "CollectionIndustrySupplier": "",
+          "Reference": "382588145",
+          "OriginalDefaultAmount": 1000.00,
+          "CurrentDefaultBalance": 1000.00,
+          "DefaultStatus": "ACTV",
+          "DefaultStatusDescription": "Active",
+          "StatusDate": "2024-10-27T13:37:58.327",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateOfDefault": "2023-06-01T00:00:00",
+          "AccountType": "CRCD",
+          "AccountTypeDescription": "Credit Card",
+          "CreditProvider": "Centrix Group Limited - Contact: +64 9 966 9706",
+          "CollectionIndustrySupplier": "",
+          "Reference": "726347056",
+          "OriginalDefaultAmount": 500.00,
+          "CurrentDefaultBalance": 500.00,
+          "DefaultStatus": "ACTV",
+          "DefaultStatusDescription": "Active",
+          "StatusDate": "2024-10-27T13:37:58.103",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        }
+      ],
+      "Judgments": [
+        {
+          "JudgementNumber": "367504440",
+          "DateOfJudgement": "2022-10-24T00:00:00",
+          "MultipleDefendants": "N",
+          "Plaintiffs": [
+            {
+              "Name": "Report Judgments Limited"
+            }
+          ],
+          "JudgementType": "District Court",
+          "Amount": 1000.00,
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        }
+      ],
+      "Insolvencies": [
+        {
+          "InsolvencyNumber": 850744,
+          "AdjudicationDate": "2011-07-07T10:14:00",
+          "InsolvencyType": "CreditorPetition",
+          "InsolvencyStatus": "AutomaticallyDischarged",
+          "DischargeDate": "2014-07-07T00:00:00",
+          "SuppliedAddresses": [],
+          "ModifiedDate": "2024-10-27T13:40:47.723",
+          "SourceBureaux": []
+        },
+        {
+          "InsolvencyNumber": 6022025,
+          "AdjudicationDate": "2019-08-26T11:20:00",
+          "InsolvencyType": "Debtor Petition",
+          "InsolvencyStatus": "CurrentBankrupt",
+          "SuppliedAddresses": [],
+          "ModifiedDate": "2012-01-24T14:21:10.57",
+          "SourceBureaux": []
+        },
+        {
+          "InsolvencyNumber": 818147,
+          "AdjudicationDate": "2006-01-23T00:00:00",
+          "InsolvencyType": "Creditor Petition",
+          "InsolvencyStatus": "AutomaticallyDischarged",
+          "DischargeDate": "2008-01-30T00:00:00",
+          "SuppliedAddresses": [],
+          "ModifiedDate": "2012-01-24T14:21:10.183",
+          "SourceBureaux": []
+        }
+      ],
+      "CompanyAffiliations": [
+        {
+          "DateLastUpdated": "2024-05-30T09:44:54.817",
+          "AffiliationType": "Director",
+          "CompanyNumber": 9067012,
+          "CompanyName": "EFFORTLESS BUILDING LIMITED",
+          "CompanyStatus": "50",
+          "CompanyStatusDescription": "Registered",
+          "DateAppointed": "2024-02-08T00:00:00",
+          "LastDocumentDate": "2024-02-08T00:00:00",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateLastUpdated": "2011-06-28T11:55:39.487",
+          "AffiliationType": "ShareHolder",
+          "CompanyNumber": 726,
+          "CompanyName": "INDEPENDENT NEWSPAPERS LIMITED",
+          "CompanyStatus": "80",
+          "CompanyStatusDescription": "Removed",
+          "LastDocumentDate": "2011-06-28T11:55:39.487",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        },
+        {
+          "DateLastUpdated": "2011-06-28T11:55:13.883",
+          "AffiliationType": "Director",
+          "CompanyNumber": 305,
+          "CompanyName": "KOLNISCHE RUCKVERSICHERUNGS GESELLSCHAFT",
+          "CompanyStatus": "80",
+          "CompanyStatusDescription": "Removed",
+          "DateAppointed": "1995-10-04T00:00:00",
+          "LastDocumentDate": "2011-06-28T11:55:13.883",
+          "SuppliedAddresses": [],
+          "SourceBureaux": []
+        }
+      ],
+      "FileNotes": [
+        {
+          "NoteCreatedDate": "2024-10-27T13:42:18.503",
+          "NoteTypeCode": "GNRL",
+          "NoteTypeDescription": "General",
+          "DataReferencedType": "NONE",
+          "DataReferencedTypeDescription": "",
+          "DataReferencedText": "",
+          "FileNoteNarrative": "This note has been created for testing purposes.",
+          "SourceBureaux": []
+        }
+      ],
+      "FinesDataList": [
+        {
+          "HasOutstandingFines": false,
+          "FinesMessage": "Ministry of Justice overdue fines at 2017/11/03 : No record",
+          "OutstandingFinesAmount": 0.0,
+          "StatusCode": "FSR2",
+          "StatusCodeDescription": "No Outstanding Court Fines",
+          "ExternalTxnReference": "9178208702",
+          "RequestTimestamp": "2017-11-03T10:00:00"
+        }
+      ],
+      "NameOnlyInsolvencies": [],
+      "PaymentHistory": {
+        "Accounts": []
+    },
+      "RedArrearsMonthList": [],
+      "PropertyOwnership": {
+        "Properties": [
+          {
+            "QPID": "100",
+            "CertificateOfTitle": "GS1A/413",
+            "IssueDate": "1965-02-23T00:00:00",
+            "PropertyDetails": {
+              "PhysicalAddress": "8 Dillon Bell Rd",
+              "Suburb": "Whataupoko",
+              "TerritorialAuthority": "Gisborne District"
+            }
+          },
+          {
+            "QPID": "1000007",
+            "CertificateOfTitle": "WN365/186",
+            "IssueDate": "2012-02-22T00:00:00",
+            "PropertyDetails": {
+              "PhysicalAddress": "66 Rongotai Rd",
+              "Suburb": "Kilbirnie",
+              "TerritorialAuthority": "Wellington City"
+            }
+          }
+        ]
+      },
+      "SummaryItems": [
+        {
+          "SummaryItemType": "DirectorAffiliations",
+          "NameValuePairs": [
+            {
+              "Name": "TotalCurrentDirectorships",
+              "Value": "2"
+            },
+            {
+              "Name": "TotalCeasedDirectorships",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "ShareholderAffiliations",
+          "NameValuePairs": [
+            {
+              "Name": "TotalShareholdings",
+              "Value": "1"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "Defaults",
+          "NameValuePairs": [
+            {
+              "Name": "TotalDefaults",
+              "Value": "5"
+            },
+            {
+              "Name": "TotalCollectionAgencyDefaults",
+              "Value": "0"
+            },
+            {
+              "Name": "SumOriginalDefaultAmount",
+              "Value": "3100.00"
+            },
+            {
+              "Name": "SumDefaultBalance",
+              "Value": "3100.00"
+            },
+            {
+              "Name": "AverageDefaultAmount",
+              "Value": "620.00"
+            },
+            {
+              "Name": "TotalGuarantor",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalCreditNonCompliance",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "CourtFines",
+          "NameValuePairs": [
+            {
+              "Name": "HasOutstandingCourtFines",
+              "Value": "No"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "Insolvencies",
+          "NameValuePairs": [
+            {
+              "Name": "MultipleInsolvencies",
+              "Value": "Yes"
+            },
+            {
+              "Name": "TotalCurrentBankruptcies",
+              "Value": "1"
+            },
+            {
+              "Name": "TotalCurrentSIO",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalCurrentNAP",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalCurrentOther",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalDischargedInsolvencies",
+              "Value": "2"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "Judgments",
+          "NameValuePairs": [
+            {
+              "Name": "TotalJudgments",
+              "Value": "0"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "KnownAddresses",
+          "NameValuePairs": [
+            {
+              "Name": "TotalKnownAddresses",
+              "Value": "24"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "KnownNames",
+          "NameValuePairs": [
+            {
+              "Name": "TotalKnownNames",
+              "Value": "5"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "PaymentHistory",
+          "NameValuePairs": [
+            {
+              "Name": "HasPaymentHistory",
+              "Value": "Yes"
+            },
+            {
+              "Name": "TotalClosedAccountsLast24Months",
+              "Value": "0"
+            },
+            {
+              "Name": "WorstPaymentStatus24Months",
+              "Value": "6"
+            },
+            {
+              "Name": "TotalActiveAccounts",
+              "Value": "2"
+            },
+            {
+              "Name": "TotalActiveAL",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActiveCC",
+              "Value": "1"
+            },
+            {
+              "Name": "TotalActiveCA",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActiveOD",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActivePL",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActiveR",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActiveRM",
+              "Value": "1"
+            },
+            {
+              "Name": "TotalActiveTC",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActiveUA",
+              "Value": "0"
+            },
+            {
+              "Name": "TotalActiveOther",
+              "Value": "0"
+            },
+            {
+              "Name": "SumCurrentLimits",
+              "Value": "252000.00"
+            },
+            {
+              "Name": "WorstStatusCurrentMonth",
+              "Value": ""
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "PaymentHistoryAggregated",
+          "NameValuePairs": [
+            {
+              "Name": "2023-02",
+              "Value": "0"
+            },
+            {
+              "Name": "2023-03",
+              "Value": "0"
+            },
+            {
+              "Name": "2023-04",
+              "Value": "0"
+            },
+            {
+              "Name": "2023-05",
+              "Value": "0"
+            },
+            {
+              "Name": "2023-06",
+              "Value": "0"
+            },
+            {
+              "Name": "2023-07",
+              "Value": "1"
+            },
+            {
+              "Name": "2023-08",
+              "Value": "2"
+            },
+            {
+              "Name": "2023-09",
+              "Value": "3"
+            },
+            {
+              "Name": "2023-10",
+              "Value": "4"
+            },
+            {
+              "Name": "2023-11",
+              "Value": "5"
+            },
+            {
+              "Name": "2023-12",
+              "Value": "6"
+            },
+            {
+              "Name": "2024-01",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-02",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-03",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-04",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-05",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-06",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-07",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-08",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-09",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-10",
+              "Value": "0"
+            },
+            {
+              "Name": "2024-11",
+              "Value": "U"
+            },
+            {
+              "Name": "2024-12",
+              "Value": "U"
+            },
+            {
+              "Name": "2025-01",
+              "Value": "U"
+            }
+          ]
+        },
+        {
+          "SummaryItemType": "PreviousEnquiries",
+          "NameValuePairs": [
+            {
+              "Name": "TotalPreviousEnquiries",
+              "Value": "105"
+            },
+            {
+              "Name": "SumAmountSought",
+              "Value": "1106000.00"
+            },
+            {
+              "Name": "AverageAmountSought",
+              "Value": "52666.67"
+            },
+            {
+              "Name": "PreviousEnquiriesAgeOfOldestEnquiry",
+              "Value": "0"
+            },
+            {
+              "Name": "PreviousEnquiriesAgeOfOldestEnquiryInMonths",
+              "Value": "0"
+            }
+          ]
+        }
+      ],
+      "ExtraDataItems": [
+        {
+          "ExtraDataItemType": "CentrixScore",
+          "NameValuePairs": [
+            {
+              "Name": "IsSuccess",
+              "Value": "True"
+            },
+            {
+              "Name": "ScoreCardName",
+              "Value": "Centrix"
+            },
+            {
+              "Name": "ScoreModelType",
+              "Value": "Bureau Score 1"
+            },
+            {
+              "Name": "ScoreCardVersion",
+              "Value": "1.0.0"
+            },
+            {
+              "Name": "Score",
+              "Value": "0"
+            },
+            {
+              "Name": "RawScore",
+              "Value": "0"
+            },
+            {
+              "Name": "ScoringEngineTimestamp",
+              "Value": "2025-01-20 14:25:10.527"
+            },
+            {
+              "Name": "ScoringEngineReference",
+              "Value": "6919c4c1-d9ad-476e-97d0-fd652b8c16ea"
+            },
+            {
+              "Name": "ScoringEngineVersion",
+              "Value": "69.2.0.0"
+            },
+            {
+              "Name": "Disclaimer",
+              "Value": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  "
+            },
+            {
+              "Name": "Information",
+              "Value": "I210 - No score generated - Subject is currently insolvent"
+            },
+            {
+              "Name": "RiskGrade",
+              "Value": ""
+            },
+            {
+              "Name": "GBOdds",
+              "Value": ""
+            },
+            {
+              "Name": "ReciprocityLevel",
+              "Value": ""
+            }
+          ]
+        }
+      ]
+    },
+    "ReportDisclaimer": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  Centrix cannot and does not warrant the accuracy of the information contained in this report.  The subscriber is responsible for assessing the creditworthiness of the individual. The Subscriber has requested we search for property information. This property information does not form part of the consumer credit report.",
+    "InsolvencyTrusteeServiceAcknowledgement": "Data sourced from the Insolvency and Trustee Service - As this data is subject to change, please visit www.insolvency.govt.nz to confirm current details and for further information specific to the data held.",
+    "CompaniesOfficeAcknowledgement": "Data sourced from the New Zealand Companies Office - As this data is subject to change, please visit www.companies.govt.nz to confirm current details and for further information specific to the data held.",
+    "CompaniesOfficeSearchDate": "2024-05-07T11:48:18.597"
+  },
+  "createdAt": "2025-02-04T09:16:29.875+00:00"
+}

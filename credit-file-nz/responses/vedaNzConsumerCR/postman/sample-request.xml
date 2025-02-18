@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BCAmessage type="request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BCAaccess>
+		<BCAaccess-code>Gcik2C6x5Tz9</BCAaccess-code>
+		<BCAaccess-pwd>H67GWH3FrMib</BCAaccess-pwd>
+	</BCAaccess>
+	<BCAservice>
+		<BCAservice-client-ref>Test001</BCAservice-client-ref>
+		<BCAservice-code>BCA011</BCAservice-code>
+		<BCAservice-code-version>V00</BCAservice-code-version>
+		<BCAservice-data>
+			<request mode="test" version="V2.0">
+				<access-purpose code="C1"/>
+				<client-details>
+					<client-identifier>031088</client-identifier>
+					<operator-id>xmlcta</operator-id>
+				</client-details>
+				<product driver-licence="no" name="consumer-enquiry-nz" score="yes" summary="no" moj-fines="no"/>
+				<individual>
+					<individual-name>
+						<family-name>Brown</family-name>
+						<first-given-name>Perpugilliam</first-given-name>
+                        <middle-names>Androzani</middle-names>
+					</individual-name>
+					<gender type="female"/>
+					<date-of-birth>1960-10-11</date-of-birth>
+					<address type="current">
+						<street-number>9</street-number>
+						<street-name>O'Brien</street-name>
+                        <street-type>RD</street-type>
+                        <suburb>Albany</suburb>
+						<city>Auckland</city>
+					</address>
+				</individual>
+				<enquiry consent="yes" guarantor="no" joint-account="no">
+					<account-type code="PL"/>
+					<enquiry-amount>2500</enquiry-amount>
+					<client-reference>Test001</client-reference>
+				</enquiry>
+			</request>
+		</BCAservice-data>
+	</BCAservice>
+</BCAmessage>

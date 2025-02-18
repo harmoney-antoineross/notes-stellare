@@ -1,0 +1,6125 @@
+{
+  "file-id": {
+    "_": "402761843",
+    "$": {
+      "match-type": "strong"
+    }
+  },
+  "individual": {
+    "individual-name": {
+      "family-name": "Jovanka",
+      "first-given-name": "Tegan"
+    },
+    "gender": {
+      "$": {
+        "type": "male"
+      }
+    },
+    "date-of-birth": "1981-02-28",
+    "address": [
+      {
+        "$": {
+          "create-date": "2023-10-19",
+          "type": "current"
+        },
+        "street-number": "10",
+        "street-name": "SMITH",
+        "street-type": {
+          "$": {
+            "code": "ST"
+          }
+        },
+        "suburb": "DANNEVIRKE",
+        "city": "DANNEVIRKE"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-10",
+          "type": "previous"
+        },
+        "street-number": "1A",
+        "street-name": "QUEEN",
+        "street-type": {
+          "$": {
+            "code": "ST"
+          }
+        },
+        "suburb": "NEW PLYMOUTH",
+        "city": "NEW PLYMOUTH"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-18",
+          "type": "previous"
+        },
+        "street-number": "51 GIBB",
+        "street-name": "GIBBON",
+        "street-type": {
+          "$": {
+            "code": "ST"
+          }
+        },
+        "city": "CHRISTCHURCH"
+      }
+    ]
+  },
+  "credit-file": {
+    "credit-enquiry": [
+      {
+        "$": {
+          "create-date": "2025-02-10"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "TEST001"
+      },
+      {
+        "$": {
+          "create-date": "2025-02-07"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "TEST001"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-21"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060999",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150862"
+      },
+      {
+        "$": {
+          "create-date": "2024-12-11"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000012699",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150829"
+      },
+      {
+        "$": {
+          "create-date": "2024-12-04"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060999",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150820"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-27"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060999",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150818"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-26"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060999",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150815"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-26"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000043999",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150815"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-26"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000012699",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150815"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-13"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000012699",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150794"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-07"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2411072379370"
+      },
+      {
+        "$": {
+          "create-date": "2024-11-06"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-18"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410182379358"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410172379348"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-16"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410152379335"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-15"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410154013646"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-03"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410034013577"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410024013568"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-01"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2410014013560"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-30"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2409304013523"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-25"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-24"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-12"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2409124013385"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-11"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000096319",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "156247"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-10"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-06"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000050000",
+        "credit-enquirer": "BNZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "0018M00000YM8HK"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-05"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-21"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2408214013187"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-05"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000053659",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "430042"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "other-given-name": "LUCAS",
+        "client-reference": "2407172379310"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-08"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002000",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2407084012741"
+      },
+      {
+        "$": {
+          "create-date": "2024-06-25"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2406252379297"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2405174012516"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-15"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "282870"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-13"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SHL LENDING SERVICES",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-04-23"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "272210"
+      },
+      {
+        "$": {
+          "create-date": "2024-04-15"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000020218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2404154012264"
+      },
+      {
+        "$": {
+          "create-date": "2024-04-04"
+        },
+        "account-type": {
+          "_": "PROFESSIONAL INQUIRY",
+          "$": {
+            "code": "PI"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-04-03"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000045057",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "379192"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-27"
+        },
+        "account-type": {
+          "_": "CONSUMER INQUIRY",
+          "$": {
+            "code": "CE"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "GENESIS ENERGY LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "123456789"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-25"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-25"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-19"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-18"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SHL LENDING SERVICES",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-28"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2402284011973"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-16"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2402162379284"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-07"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000002000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2402074011820"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-01"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SHL LENDING SERVICES",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-25"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2401254011743"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-23"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2401234011688"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-22"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2401222379282"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-19"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2401194011668"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-19"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2401194011666"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-18"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2401182379280"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-13"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2312134011583"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-07"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 281612",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-28"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2311284011500"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-21"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2311214011397"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-20"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2311204011373"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "260916"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-08"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-02"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2311024011297"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2311024011296"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-31"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2310314011279"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-17"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000090485",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "800004564"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-16"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000098985",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "800004546"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-16"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2310164011147"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-13"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2310134011131"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-06"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SHL LENDING SERVICES",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-09-05"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2309054010797"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-30"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2308304010705"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-24"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2308242379251"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-18"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2308184010435"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2308174010396"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2308104010285"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-08"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-07"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2308074010209"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-31"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 281612",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-18"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2307184009778"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-18"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2307184009775"
+      },
+      {
+        "$": {
+          "create-date": "2023-06-23"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SHL LENDING SERVICES",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-06-13"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2306134008765"
+      },
+      {
+        "$": {
+          "create-date": "2023-06-06"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2306064008525"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-18"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2305181001426"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-17"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2305174008034"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-11"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000015000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2305114007805"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-04"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2305044007412"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-27"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304274007106"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-26"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304264007094"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-20"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "CREDIT WORKS GROUP",
+        "first-given-name": "TEGAN",
+        "client-reference": "CLREF12345678"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-18"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304184006730"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304174006557"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-17"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304174006554"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-13"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304134006429"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-12"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304122379199"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-05"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2304054006239"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-31"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-23"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303234005989"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-22"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303224005946"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303104005782"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000001000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303104005780"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-08"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303084005746"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-08"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303084005732"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-03"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303034005689"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-03"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303034005685"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303024005669"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-01"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303014005657"
+      },
+      {
+        "$": {
+          "create-date": "2023-02-17"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2023-02-15"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-02-14"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2023-01-24"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2301244005389"
+      },
+      {
+        "$": {
+          "create-date": "2023-01-23"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2301234005375"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-23"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2212234005344"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-21"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2212212379174"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-06"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-05"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000002000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-02"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000002000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2211294005287"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-28"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2211284005285"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-24"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2211244005268"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-21"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2211214005251"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-17"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2211174005248"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2211174005247"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-11"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000015000",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "TEGAN",
+        "client-reference": "PAR-00000483"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-09"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000010700",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "TEGAN",
+        "client-reference": "PAR-00000455"
+      },
+      {
+        "$": {
+          "create-date": "2022-10-28"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2210284005178"
+      },
+      {
+        "$": {
+          "create-date": "2022-10-17"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2210174005155"
+      },
+      {
+        "$": {
+          "create-date": "2022-09-16"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2022-09-08"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2209084004994"
+      },
+      {
+        "$": {
+          "create-date": "2022-09-08"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2209084004992"
+      },
+      {
+        "$": {
+          "create-date": "2022-09-07"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2209072379048"
+      },
+      {
+        "$": {
+          "create-date": "2022-09-07"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000199405",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "150023"
+      },
+      {
+        "$": {
+          "create-date": "2022-09-01"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-29"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208294004924"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-29"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-26"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208264004893"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-25"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208254004889"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-18"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000050405",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "149948"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-16"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "TSB BANK LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "BD0R0G0GGNT8HGOE"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-16"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000034405",
+        "credit-enquirer": "MERCEDES-BENZ FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "149938"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-15"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208154004836"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-15"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208154004832"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-12"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208124004825"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-12"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208124004821"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-10"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000020098",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-08"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000007500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208084004786"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208024004761"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208024004747"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-01"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208014004740"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-01"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2208014004733"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-19"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000101085",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "272632"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-11"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 281612",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-08"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 281612",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-07"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2207074004614"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-06"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "IT TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-06"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "IT TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-01"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2022-06-28"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2206284004573"
+      },
+      {
+        "$": {
+          "create-date": "2022-06-27"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000008218",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2206271000646"
+      },
+      {
+        "$": {
+          "create-date": "2022-05-09"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2205094004309"
+      },
+      {
+        "$": {
+          "create-date": "2022-05-03"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000008000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "TEGAN",
+        "client-reference": "A0I0P000000TVVR"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-19"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2022-03-15"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2203154004221"
+      },
+      {
+        "$": {
+          "create-date": "2022-03-14"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2203144004191"
+      },
+      {
+        "$": {
+          "create-date": "2022-03-14"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2203142760242"
+      },
+      {
+        "$": {
+          "create-date": "2022-03-03"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (COMMERCIAL)",
+          "$": {
+            "code": "HC"
+          }
+        },
+        "enquiry-amount": "00000062285",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "122377"
+      },
+      {
+        "$": {
+          "create-date": "2022-03-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (COMMERCIAL)",
+          "$": {
+            "code": "HC"
+          }
+        },
+        "enquiry-amount": "00000060285",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "122371"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-24"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060285",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "122351"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-22"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000100010",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "121977"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-21"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000061047",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D9F53A1B43C624"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-18"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000100010",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "121973"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-17"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000100010",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "121963"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-14"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000100010",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "121924"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-11"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000006855",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "TEGAN",
+        "client-reference": "A0I0P000000SRTG"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-09"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000005900",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "TEGAN",
+        "client-reference": "A0I0P000000SKVH"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-09"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "165447"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-09"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "SHL LENDING SERVICES",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-04"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000061047",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D9E7C970C2BFB0"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-03"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000005001",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "TEGAN",
+        "client-reference": "A0I9D000000VXED"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-03"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000061047",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D9E718EBF3D42C"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-02"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2202021000095"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-31"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000061047",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D9E4BF2301A395"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-28"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2201282378968"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-27"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2201274004018"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-21"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2201214003958"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-19"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "165415"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-17"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2201174003860"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-14"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2201144003817"
+      },
+      {
+        "$": {
+          "create-date": "2022-01-12"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000001500",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "TEGAN",
+        "client-reference": "2201124003767"
+      },
+      {
+        "$": {
+          "create-date": "2021-12-13"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "Banking",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D9BE1C68E0DE33"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-19"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "165159"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-17"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-12"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002310",
+        "credit-enquirer": "DEVIZO NZ LIMITED TA PAYRIGHT",
+        "first-given-name": "TEGAN",
+        "client-reference": "N006069001"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-04"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-01"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "TEGAN",
+        "client-reference": "JSON TEST"
+      },
+      {
+        "$": {
+          "create-date": "2021-10-13"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2021-10-11"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "Banking",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D98C8950A9D65F"
+      },
+      {
+        "$": {
+          "create-date": "2021-09-29"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "Banking",
+        "first-given-name": "TEGAN",
+        "client-reference": "8D983428EB02580"
+      },
+      {
+        "$": {
+          "create-date": "2021-09-27"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR FINANCE LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "151398"
+      },
+      {
+        "$": {
+          "create-date": "2021-09-27"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "TEGAN"
+      }
+    ]
+  },
+  "quotations": {
+    "quotation-enquiry": [
+      {
+        "$": {
+          "create-date": "2024-07-18"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-11"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-09"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-05"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-04"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-02"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-01"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-06-21"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-06-20"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001234",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "49A7240619213744"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-14"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-08"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-04-30"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-04-23"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000125",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2403134012089"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "030C240313005737"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-21"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "UNITY CREDIT UNION",
+        "first-given-name": "TEGAN",
+        "client-reference": "12272B636F"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-15"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2AC3240215020756"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "D0DE240117005457"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "040C231213040614"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-06"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "4BAD231205205534"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-05"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000100",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "009E231205035646"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-04"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "35F7231204025344"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-20"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000100",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "5661231020041215"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-19"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000100",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "D1A9231018200951"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-18"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000100",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "B58F231018021513"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-05"
+        },
+        "account-type": {
+          "_": "LENDING PROPOSAL",
+          "$": {
+            "code": "LP"
+          }
+        },
+        "enquiry-amount": "0000006529",
+        "credit-enquirer": "TOYOTA FINANCE NEW ZEALAND LTD CCR",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-06-30"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000900",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487557"
+      },
+      {
+        "$": {
+          "create-date": "2023-06-26"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-06-16"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000002000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2306164008858"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-18"
+        },
+        "account-type": {
+          "_": "CONSUMER INQUIRY",
+          "$": {
+            "code": "CE"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "CREDIT WORKS GROUP",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-13"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "TEGAN"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-31"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "TEGAN",
+        "client-reference": "2303314006169"
+      },
+      {
+        "$": {
+          "create-date": "2023-02-18"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001500",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "TEGAN",
+        "client-reference": "REF55487557"
+      }
+    ]
+  },
+  "default-collection-agency-file": {
+    "default": {
+      "$": {
+        "joint-liability": "N",
+        "company-loan": "N",
+        "defaulter-detail-number": "060000035"
+      },
+      "load-date": "2020-04-01",
+      "default-date": "2020-02-28",
+      "credit-provider": "BAYCORP-*NONE",
+      "ANZSIC-industry": {
+        "_": "Other Business Services",
+        "$": {
+          "code": "L786"
+        }
+      },
+      "default-original-amount": "00000002999",
+      "default-balance-amount": "00000002999",
+      "total-loan-amount": "00000000000",
+      "account-type": {
+        "_": "NOT STATED",
+        "$": {
+          "code": "NS"
+        }
+      },
+      "account-opened-date": "2020-02-28",
+      "default-status": {
+        "_": "COLLECTION DEPT/AGENCY",
+        "$": {
+          "code": "05",
+          "date": "2020-04-01"
+        }
+      },
+      "client-account-reference-id": "JOVANKA",
+      "individual-name": {
+        "family-name": "JOVANKA",
+        "first-given-name": "TEGAN"
+      },
+      "date-of-birth": "1981-02-28",
+      "consumer-default-relationship": {
+        "_": "Defaulter",
+        "$": {
+          "type": "DF"
+        }
+      }
+    }
+  },
+  "score-data": {
+    "scorecard-name": "ADVRS",
+    "relative-risk": "-003.55",
+    "relative-risk-index": "-000.31",
+    "risk-odds": "+222.00"
+  },
+  "vcr-score-block": {
+    "vcr-scores": {
+      "score": "+000017",
+      "scorecard-name": "CTSAD",
+      "scorecard-version": "V1.0",
+      "relative-risk": "-014.72",
+      "relative-risk-index": "-001.26",
+      "relative-risk-odds": "0000.28"
+    }
+  },
+  "negative-block": {
+    "characteristic": [
+      {
+        "_": "n",
+        "$": {
+          "name": "new-to-bureau-flag",
+          "type": "boolean"
+        }
+      },
+      {
+        "_": "138",
+        "$": {
+          "name": "age-of-oldest-file",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-paid-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-settled-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "name": "total-outstanding-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "number-of-aliases",
+          "type": "count"
+        }
+      }
+    ]
+  },
+  "cr-raw-data-block": {
+    "account": [
+      {
+        "veda-acc-number": "000291163",
+        "credit-provider": "BANK OF VEDA",
+        "industry-type": "B",
+        "product-type": "RM",
+        "limit": "000400000",
+        "account-number": "XXXX1515",
+        "account-status": "A",
+        "date-opened": "2012-09-06",
+        "identity": "JOVANKA TEGAN",
+        "responsibility": "1",
+        "last-update": "2025-01-16",
+        "pay-frequency": "V",
+        "payment-history": {
+          "period": [
+            {
+              "period-date": "2025-01",
+              "payment-status": "-"
+            },
+            {
+              "period-date": "2024-12",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-11",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-10",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-09",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-08",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-07",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-06",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-05",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-04",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-03",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-02",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-01",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-12",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-11",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-10",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-09",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-08",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-07",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-06",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-05",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-04",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-03",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-02",
+              "payment-status": "0"
+            }
+          ]
+        }
+      },
+      {
+        "veda-acc-number": "000291151",
+        "credit-provider": "BANK OF VEDA",
+        "industry-type": "B",
+        "product-type": "CC",
+        "limit": "000010000",
+        "account-number": "XXXXXXXXXXXX000202",
+        "account-status": "A",
+        "date-opened": "2010-08-06",
+        "identity": "JOVANKA TEGAN",
+        "responsibility": "1",
+        "last-update": "2025-01-16",
+        "pay-frequency": "M",
+        "payment-history": {
+          "period": [
+            {
+              "period-date": "2025-01",
+              "payment-status": "-"
+            },
+            {
+              "period-date": "2024-12",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-11",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-10",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-09",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-08",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-07",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-06",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-05",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2024-04",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-03",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-02",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2024-01",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-12",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-11",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-10",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-09",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-08",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-07",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-06",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-05",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-04",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-03",
+              "payment-status": "1"
+            },
+            {
+              "period-date": "2023-02",
+              "payment-status": "2"
+            }
+          ]
+        }
+      },
+      {
+        "veda-acc-number": "000291174",
+        "credit-provider": "BANK OF VEDA",
+        "industry-type": "B",
+        "product-type": "PL",
+        "limit": "000008000",
+        "account-number": "XXXX2828",
+        "account-status": "H",
+        "date-opened": "2007-10-27",
+        "identity": "JOVANKA TEGAN",
+        "responsibility": "1",
+        "last-update": "2025-01-16",
+        "pay-frequency": "M",
+        "payment-history": {
+          "period": [
+            {
+              "period-date": "2025-01",
+              "payment-status": "-"
+            },
+            {
+              "period-date": "2024-12",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-11",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-10",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-09",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-08",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-07",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-06",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-05",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-04",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-03",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-02",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2024-01",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-12",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-11",
+              "payment-status": "0"
+            },
+            {
+              "period-date": "2023-10",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-09",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-08",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-07",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-06",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-05",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-04",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-03",
+              "payment-status": "2"
+            },
+            {
+              "period-date": "2023-02",
+              "payment-status": "2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "vcr-block": {
+    "characteristic": [
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR001",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR002",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR003",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR004",
+          "type": "count"
+        }
+      },
+      {
+        "_": "3",
+        "$": {
+          "code": "VCR005",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR006",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR007",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR008",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR009",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR010",
+          "type": "count"
+        }
+      },
+      {
+        "_": "3",
+        "$": {
+          "code": "VCR011",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR012",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR013",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR014",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR015",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR016",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR017",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR018",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR019",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR020",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR021",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR022",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR023",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR024",
+          "type": "count"
+        }
+      },
+      {
+        "_": "3",
+        "$": {
+          "code": "VCR025",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR026",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR027",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR028",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR029",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR030",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR031",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR032",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR033",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR034",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR035",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR036",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR037",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR038",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR039",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR040",
+          "type": "count"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR041",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR042",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR043",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "10000",
+        "$": {
+          "code": "VCR044",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "8000",
+        "$": {
+          "code": "VCR045",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "400000",
+        "$": {
+          "code": "VCR046",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR047",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR048",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR049",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR050",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR051",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR052",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR053",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR054",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR055",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR056",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR057",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR058",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR059",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR060",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR061",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR062",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR063",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR064",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR065",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR066",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "418000",
+        "$": {
+          "code": "VCR067",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR068",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR069",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR070",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR071",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR072",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR073",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "1.00000000",
+        "$": {
+          "code": "VCR074",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.98086124",
+        "$": {
+          "code": "VCR075",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.04306220",
+        "$": {
+          "code": "VCR076",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR077",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "1.00000000",
+        "$": {
+          "code": "VCR078",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.55555555",
+        "$": {
+          "code": "VCR079",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "1.00000000",
+        "$": {
+          "code": "VCR080",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR081",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR082",
+          "type": "count"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR083",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR084",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR085",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR086",
+          "type": "count"
+        }
+      },
+      {
+        "_": "3",
+        "$": {
+          "code": "VCR087",
+          "type": "count"
+        }
+      },
+      {
+        "_": "3",
+        "$": {
+          "code": "VCR088",
+          "type": "count"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR089",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR090",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR091",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR092",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR093",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR094",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR095",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR096",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR097",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR098",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR099",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR100",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR101",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR102",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR103",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR104",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR105",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR106",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR107",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR108",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR109",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR110",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR111",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR112",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR113",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR114",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR115",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR116",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR117",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR118",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR119",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR120",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR121",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR122",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR123",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR124",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR125",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR126",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR127",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR128",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR129",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR130",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR131",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR132",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR133",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR134",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR135",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR136",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR137",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR138",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR139",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR140",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR141",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR142",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR143",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR144",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR145",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR146",
+          "type": "months"
+        }
+      },
+      {
+        "_": "8.00",
+        "$": {
+          "code": "VCR147",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR148",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR149",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR150",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR151",
+          "type": "months"
+        }
+      },
+      {
+        "_": "15.00",
+        "$": {
+          "code": "VCR152",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR153",
+          "type": "months"
+        }
+      },
+      {
+        "_": "8.00",
+        "$": {
+          "code": "VCR154",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR155",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR156",
+          "type": "months"
+        }
+      },
+      {
+        "_": "8.00",
+        "$": {
+          "code": "VCR157",
+          "type": "months"
+        }
+      },
+      {
+        "_": "15.00",
+        "$": {
+          "code": "VCR158",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR159",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR160",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR161",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR162",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR163",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR164",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR165",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR166",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR167",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR168",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR169",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR170",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR171",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR172",
+          "type": "status"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR173",
+          "type": "status"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR174",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR175",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR176",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR177",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR178",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR179",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR180",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR181",
+          "type": "status"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR182",
+          "type": "status"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR183",
+          "type": "status"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR184",
+          "type": "status"
+        }
+      },
+      {
+        "_": "U",
+        "$": {
+          "code": "VCR185",
+          "type": "status"
+        }
+      },
+      {
+        "_": "2",
+        "$": {
+          "code": "VCR186",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR187",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR188",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR189",
+          "type": "status"
+        }
+      },
+      {
+        "_": "8000",
+        "$": {
+          "code": "VCR190",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "410000",
+        "$": {
+          "code": "VCR191",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR192",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR193",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR194",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "207.04",
+        "$": {
+          "code": "VCR195",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR196",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR197",
+          "type": "months"
+        }
+      },
+      {
+        "_": "173.25",
+        "$": {
+          "code": "VCR198",
+          "type": "months"
+        }
+      },
+      {
+        "_": "207.04",
+        "$": {
+          "code": "VCR199",
+          "type": "months"
+        }
+      },
+      {
+        "_": "148.25",
+        "$": {
+          "code": "VCR200",
+          "type": "months"
+        }
+      },
+      {
+        "_": "148.25",
+        "$": {
+          "code": "VCR201",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR202",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR203",
+          "type": "months"
+        }
+      },
+      {
+        "_": "173.25",
+        "$": {
+          "code": "VCR204",
+          "type": "months"
+        }
+      },
+      {
+        "_": "207.04",
+        "$": {
+          "code": "VCR205",
+          "type": "months"
+        }
+      },
+      {
+        "_": "148.25",
+        "$": {
+          "code": "VCR206",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR207",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR208",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR209",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR210",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR211",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR212",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR213",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR214",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR215",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR216",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR217",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR218",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR219",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR220",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR221",
+          "type": "months"
+        }
+      },
+      {
+        "_": "11.00",
+        "$": {
+          "code": "VCR222",
+          "type": "months"
+        }
+      },
+      {
+        "_": "12.00",
+        "$": {
+          "code": "VCR223",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR224",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR225",
+          "type": "months"
+        }
+      },
+      {
+        "_": "10.00",
+        "$": {
+          "code": "VCR226",
+          "type": "months"
+        }
+      },
+      {
+        "_": "23.00",
+        "$": {
+          "code": "VCR227",
+          "type": "months"
+        }
+      },
+      {
+        "_": "20.00",
+        "$": {
+          "code": "VCR228",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR229",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR230",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR231",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR232",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR233",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR234",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR235",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR236",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR237",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR238",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR239",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR240",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR241",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR242",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR243",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR244",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR245",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR246",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR247",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR248",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR249",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR250",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR251",
+          "type": "months"
+        }
+      },
+      {
+        "_": "11.00",
+        "$": {
+          "code": "VCR252",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR253",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR254",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR255",
+          "type": "months"
+        }
+      },
+      {
+        "_": "2.00",
+        "$": {
+          "code": "VCR256",
+          "type": "months"
+        }
+      },
+      {
+        "_": "23.00",
+        "$": {
+          "code": "VCR257",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR258",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR259",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR260",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR261",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR262",
+          "type": "months"
+        }
+      },
+      {
+        "_": "12.00",
+        "$": {
+          "code": "VCR263",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR264",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR265",
+          "type": "months"
+        }
+      },
+      {
+        "_": "9.00",
+        "$": {
+          "code": "VCR266",
+          "type": "months"
+        }
+      },
+      {
+        "_": "9.00",
+        "$": {
+          "code": "VCR267",
+          "type": "months"
+        }
+      },
+      {
+        "_": "15.00",
+        "$": {
+          "code": "VCR268",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR269",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR270",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR271",
+          "type": "months"
+        }
+      },
+      {
+        "_": "10.00",
+        "$": {
+          "code": "VCR272",
+          "type": "months"
+        }
+      },
+      {
+        "_": "2.00",
+        "$": {
+          "code": "VCR273",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR274",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR275",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR276",
+          "type": "months"
+        }
+      },
+      {
+        "_": "17.00",
+        "$": {
+          "code": "VCR277",
+          "type": "months"
+        }
+      },
+      {
+        "_": "7.00",
+        "$": {
+          "code": "VCR278",
+          "type": "months"
+        }
+      },
+      {
+        "_": "8.00",
+        "$": {
+          "code": "VCR279",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR280",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR281",
+          "type": "months"
+        }
+      },
+      {
+        "_": "8.00",
+        "$": {
+          "code": "VCR282",
+          "type": "months"
+        }
+      },
+      {
+        "_": "15.00",
+        "$": {
+          "code": "VCR283",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR284",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR285",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR286",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR287",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR288",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR289",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR290",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR291",
+          "type": "months"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR292",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR293",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR294",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR295",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR296",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR297",
+          "type": "status"
+        }
+      }
+    ]
+  },
+  "pdf-block": {
+    "pdf-url": "https://cta.vedaxml.com/pdf/031088/",
+    "pdf-file": "402761843_2f676010-bfe1-1ad0-9c25-0004ac1f4fbf.pdf"
+  }
+}

@@ -1,0 +1,50 @@
+| Feature Name | Category | Sub-Category | Transaction Tag Key | Transaction Tag Value | Transaction Amount value | Measure | S2 Source | Notes | Data Type |
+|---|---|---|---|---|---|---|---|---|---|
+| CATEGORY_ALL_OTHER_CREDITS_CT_AMNT | Proviso | Transaction Tags summary | category | All Other Credits | > 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_ATM_DT_AMNT | Proviso | Transaction Tags summary | category | ATM | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_ATM_DT_CNT | Proviso | Transaction Tags summary | category | ATM | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_CREDIT_CARD_REPAYMENTS_DT_CNT | Proviso | Transaction Tags summary | category | Credit Card Repayments | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_DISHONOURS_DT_AMNT | Proviso | Transaction Tags summary | category | Dishonours | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_DISHONOURS_DT_CNT | Proviso | Transaction Tags summary | category | Dishonours | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_DONATIONS_BAL_AMNT | Proviso | Transaction Tags summary | category | Donations |  | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_EDUCATION_DT_AMNT | Proviso | Transaction Tags summary | category | Education | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_FEES_DT_AMNT | Proviso | Transaction Tags summary | category | Fees | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_FEES_DT_CNT | Proviso | Transaction Tags summary | category | Fees | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_GAMBLING_DT_AMNT | Proviso | Transaction Tags summary | category | Gambling | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_GAMBLING_DT_CNT | Proviso | Transaction Tags summary | category | Gambling | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_HEALTH_DT_AMNT | Proviso | Transaction Tags summary | category | Health | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_HEALTH_DT_CNT | Proviso | Transaction Tags summary | category | Health | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_HOME_IMPROVEMENT_DT_CNT | Proviso | Transaction Tags summary | category | Home Improvement | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_INSURANCE_DT_AMNT | Proviso | Transaction Tags summary | category | Insurance | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_NON_SACC_LOANS_BAL_AMNT | Proviso | Transaction Tags summary | category | Non SACC Loans |  | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_NON_SACC_LOANS_DT_CNT | Proviso | Transaction Tags summary | category | Non SACC Loans | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_ONLINE_RETAIL_AND_SUBSCRIPTION_SERVICES_DT_AMNT | Proviso | Transaction Tags summary | category | Online Retail and Subscription Services | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_OVERDRAWN_DT_AMNT | Proviso | Transaction Tags summary | category | Overdrawn | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_OVERDRAWN_DT_CNT | Proviso | Transaction Tags summary | category | Overdrawn | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_RENT_DT_CNT | Proviso | Transaction Tags summary | category | Rent | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_RETAIL_DT_CNT | Proviso | Transaction Tags summary | category | Retail | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_SACC_LOANS_CT_CNT | Proviso | Transaction Tags summary | category | SACC Loans | > 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_SACC_LOANS_DT_AMNT | Proviso | Transaction Tags summary | category | SACC Loans | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_SACC_LOANS_DT_CNT | Proviso | Transaction Tags summary | category | SACC Loans | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_SUBSCRIPTION_TV_DT_CNT | Proviso | Transaction Tags summary | category | Subscription TV | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_TAX_DT_AMNT | Proviso | Transaction Tags summary | category | Tax | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_TAX_DT_CNT | Proviso | Transaction Tags summary | category | Tax | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| CATEGORY_UTILITIES_DT_AMNT | Proviso | Transaction Tags summary | category | Utilities | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_WAGES_CT_AMNT | Proviso | Transaction Tags summary | category | Wages | > 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| CATEGORY_WAGES_CT_CNT | Proviso | Transaction Tags summary | category | Wages | > 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| LENDERTYPE_OTHER_LOANS_ONLY_BAL_AMNT | Proviso | Transaction Tags summary | lenderType | Other loans only |  | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| LENDERTYPE_OTHER_LOANS_ONLY_DT_AMNT | Proviso | Transaction Tags summary | lenderType | Other loans only | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| LENDERTYPE_OTHER_LOANS_ONLY_DT_CNT | Proviso | Transaction Tags summary | lenderType | Other loans only | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| LENDERTYPE_SACC_LOANS_ONLY_BAL_AMNT | Proviso | Transaction Tags summary | lenderType | SACC loans only |  | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| LENDERTYPE_SACC_LOANS_ONLY_DT_CNT | Proviso | Transaction Tags summary | lenderType | SACC loans only | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| PENDING_PENDING_DT_AMNT | Proviso | Transaction Tags summary | pending | pending | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| THIRDPARTY_AMAZON_DT_AMNT | Proviso | Transaction Tags summary | thirdParty | string contains 'Amazon' | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| THIRDPARTY_APPLE_DT_AMNT | Proviso | Transaction Tags summary | thirdParty | string contains 'Apple' | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| THIRDPARTY_BAKERIES_DT_CNT | Proviso | Transaction Tags summary | thirdParty | string ilike '%Bakeries' | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| THIRDPARTY_CASH_CONVERTERS_DT_CNT | Proviso | Transaction Tags summary | thirdParty | string ilike 'Cash Converters%' | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| THIRDPARTY_CASINO_DT_CNT | Proviso | Transaction Tags summary | thirdParty | string ilike '%Casino%','%Vegas','Direx Limited Cyprus','Bayton Ltd' | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| THIRDPARTY_FUEL_DT_CNT | Proviso | Transaction Tags summary | thirdParty | string ilike 'Caltex%','Coles Express','BP','Mobil','Z Energy','Miscellaneous Petrol Stations','Gull Service Stations','United Petroleum' | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| THIRDPARTY_LOTTO_DT_AMNT | Proviso | Transaction Tags summary | thirdParty | string ilike '%lott%' | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| THIRDPARTY_LOTTO_DT_CNT | Proviso | Transaction Tags summary | thirdParty | string ilike '%lott%' | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |
+| THIRDPARTY_PAYPAL_DT_AMNT | Proviso | Transaction Tags summary | thirdParty | string contains 'Paypal' | < 0 | sum(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | currency |
+| THIRDPARTY_QUICK_LOANS_DT_CNT | Proviso | Transaction Tags summary | thirdParty | string ilike 'Cigno Loans','Nimble','MoneyMe','Sunshine Loans','Credit24','Jacaranda Finance','Swoosh Finance','Now Finance','Lombard Finance','Instant Finance','Safe Financial','CBA Loans' | < 0 | count(txn.Amount)/3 or zero | Proviso banks \ bankAccounts \ transactions \ tags |  | number |

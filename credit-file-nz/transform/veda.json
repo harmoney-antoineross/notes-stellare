@@ -1,0 +1,342 @@
+{
+    "_id": {
+      "$oid": "67a55e58793dee2d3f838f5f"
+    },
+    "userId": "f51a84f1-a8f8-46e4-88ce-d30492ec8bec",
+    "pullType": "SOFT_PULL",
+    "data": {
+      "file-id": {
+        "_": "402749922",
+        "$": {
+          "match-type": "strong"
+        }
+      },
+      "individual": {
+        "individual-name": {
+          "family-name": "Elliott",
+          "first-given-name": "Catherine",
+          "other-given-name": "BRIDGET"
+        },
+        "gender": {
+          "$": {
+            "type": "female"
+          }
+        },
+        "date-of-birth": "1974-01-03",
+        "address": [
+          {
+            "$": {
+              "create-date": "2024-07-01",
+              "type": "current"
+            },
+            "street-number": "T/T",
+            "street-name": "10 BROWNS BAY ROAD",
+            "street-type": {
+              "$": {
+                "code": "ST"
+              }
+            },
+            "suburb": "ROTHESAY BAY",
+            "city": "AUCKLAND"
+          },
+          {
+            "$": {
+              "create-date": "2024-03-28",
+              "type": "previous"
+            },
+            "street-number": "1",
+            "street-name": "SMITH",
+            "street-type": {
+              "$": {
+                "code": "ST"
+              }
+            },
+            "suburb": "KAIAPOI",
+            "city": "KAIAPOI"
+          },
+          {
+            "$": {
+              "create-date": "2024-03-15",
+              "type": "previous"
+            },
+            "street-number": "1",
+            "street-name": "SMITH",
+            "street-type": {
+              "$": {
+                "code": "RD"
+              }
+            },
+            "suburb": "RUAWAI",
+            "city": "RUAWAI"
+          }
+        ]
+      },
+      "credit-file": {
+        "credit-enquiry": [
+          {
+            "$": {
+              "create-date": "2025-01-24"
+            },
+            "account-type": {
+              "_": "PERSONAL LOAN",
+              "$": {
+                "code": "PL"
+              }
+            },
+            "enquiry-amount": "00000002500",
+            "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+            "first-given-name": "CATHERINE",
+            "client-reference": "TEST001"
+          },
+          {
+            "$": {
+              "create-date": "2025-01-21"
+            },
+            "account-type": {
+              "_": "CONSUMER FINANCE",
+              "$": {
+                "code": "CF"
+              }
+            },
+            "enquiry-amount": "00000090220",
+            "credit-enquirer": "UDC FINANCE LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "10084"
+          },
+          {
+            "$": {
+              "create-date": "2024-12-13"
+            },
+            "account-type": {
+              "_": "CONSUMER FINANCE",
+              "$": {
+                "code": "CF"
+              }
+            },
+            "enquiry-amount": "00000025140",
+            "credit-enquirer": "UDC FINANCE LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "10084"
+          },
+          {
+            "$": {
+              "create-date": "2024-11-19"
+            },
+            "account-type": {
+              "_": "LENDING PROPOSAL",
+              "$": {
+                "code": "LP"
+              }
+            },
+            "enquiry-amount": "00000000000",
+            "credit-enquirer": "JOHN DEERE CREDIT LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET"
+          },
+          {
+            "$": {
+              "create-date": "2024-10-04"
+            },
+            "account-type": {
+              "_": "CONSUMER FINANCE",
+              "$": {
+                "code": "CF"
+              }
+            },
+            "enquiry-amount": "00000030245",
+            "credit-enquirer": "UDC FINANCE LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "10084"
+          },
+          {
+            "$": {
+              "create-date": "2024-04-26"
+            },
+            "account-type": {
+              "_": "HIRE PURCHASE (COMMERCIAL)",
+              "$": {
+                "code": "HC"
+              }
+            },
+            "enquiry-amount": "00000036685",
+            "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "800005540"
+          },
+          {
+            "$": {
+              "create-date": "2024-01-17"
+            },
+            "account-type": {
+              "_": "LOAN CONTRACT",
+              "$": {
+                "code": "LC"
+              }
+            },
+            "enquiry-amount": "00000097285",
+            "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+            "first-given-name": "NIGEL",
+            "other-given-name": "PPPPPPPPPPPPP",
+            "client-reference": "800000658"
+          },
+          {
+            "$": {
+              "create-date": "2023-10-26"
+            },
+            "account-type": {
+              "_": "LOAN CONTRACT",
+              "$": {
+                "code": "LC"
+              }
+            },
+            "enquiry-amount": "00000056108",
+            "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "800000246"
+          },
+          {
+            "$": {
+              "create-date": "2023-10-25"
+            },
+            "account-type": {
+              "_": "CONSUMER FINANCE",
+              "$": {
+                "code": "CF"
+              }
+            },
+            "enquiry-amount": "00000100000",
+            "credit-enquirer": "UDC FINANCE LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "352245"
+          },
+          {
+            "$": {
+              "create-date": "2023-10-24"
+            },
+            "account-type": {
+              "_": "LOAN CONTRACT",
+              "$": {
+                "code": "LC"
+              }
+            },
+            "enquiry-amount": "00000078475",
+            "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "800004720"
+          },
+          {
+            "$": {
+              "create-date": "2023-10-20"
+            },
+            "account-type": {
+              "_": "CONSUMER FINANCE",
+              "$": {
+                "code": "CF"
+              }
+            },
+            "enquiry-amount": "00000090000",
+            "credit-enquirer": "UDC FINANCE LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "352245"
+          },
+          {
+            "$": {
+              "create-date": "2023-10-19"
+            },
+            "account-type": {
+              "_": "CONSUMER FINANCE",
+              "$": {
+                "code": "CF"
+              }
+            },
+            "enquiry-amount": "00000150001",
+            "credit-enquirer": "UDC FINANCE LIMITED",
+            "first-given-name": "CATHERINE",
+            "other-given-name": "BRIDGET",
+            "client-reference": "352245"
+          }
+        ]
+      },
+      "score-data": {
+        "scorecard-name": "CLNDP",
+        "relative-risk": "+002.47",
+        "relative-risk-index": "+002.86",
+        "risk-odds": "+535.00"
+      },
+      "vcr-score-block": {
+        "vcr-scores": {
+          "score": "+000568",
+          "scorecard-name": "CTSDP",
+          "scorecard-version": "V1.0",
+          "relative-risk": "+003.10",
+          "relative-risk-index": "+002.54",
+          "relative-risk-odds": "0012.82"
+        }
+      },
+      "negative-block": {
+        "characteristic": [
+          {
+            "_": "n",
+            "$": {
+              "name": "new-to-bureau-flag",
+              "type": "boolean"
+            }
+          },
+          {
+            "_": "199",
+            "$": {
+              "name": "age-of-oldest-file",
+              "type": "months"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "total-paid-defaults",
+              "type": "count"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "total-settled-defaults",
+              "type": "count"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "total-outstanding-defaults",
+              "type": "count"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "number-of-aliases",
+              "type": "count"
+            }
+          }
+        ]
+      },
+      "pdf-block": {
+        "pdf-url": "https://cta.vedaxml.com/pdf/031088/",
+        "pdf-file": "402758827_abef3010-617f-1ad0-9c25-0004ac1f4fbf.pdf"
+      }
+    },
+    "createdAt": {
+      "$date": "2025-02-07T01:14:00.700Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-07T01:14:00.700Z"
+    },
+    "__v": 0
+  }

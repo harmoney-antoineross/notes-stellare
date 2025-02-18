@@ -1,0 +1,152 @@
+{
+    "centrix": [
+        {
+            "source": "Centrix",
+            "bureauAccountId": "7358",
+            "creditFileNumber": "xxxxx8243-456348459",
+            "accountStatus": "A",
+            "accountType": "CC",
+            "organisation": "Centrix Group Limited",
+            "accountOpenDate": "2022-10-03T00:00:00",
+            "accountCloseDate": "2023-01-10T12:33:37.783",
+            "accountRelationship": "1",
+            "industryType": "Bank",
+            "creditLimit": 2000,
+            "termOfLoan": 360,
+            "paymentFrequency": "Monthly",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2023-01-10T12:33:37.783",
+            "isJointMortgage": false
+        },
+        {
+            "source": "Centrix",
+            "bureauAccountId": "2",
+            "creditFileNumber": "xx3456-xx3456",
+            "accountStatus": "A",
+            "accountType": "CA",
+            "organisation": "Centrix Group Limited",
+            "accountOpenDate": "1998-07-01T00:00:00",
+            "accountCloseDate": "2024-10-01T00:00:00",
+            "accountRelationship": "2",
+            "industryType": "Finance Services",
+            "creditLimit": 250000,
+            "termOfLoan": 360,
+            "paymentFrequency": "Monthly",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2024-10-01T00:00:00",
+            "isJointMortgage": true
+        }
+    ],
+    "equifax": [
+        {
+            "source": "Equifax NZ",
+            "bureauAccountId": "291154",
+            "creditFileNumber": "XXXXXXXXXXXX008459",
+            "accountStatus": "A",
+            "accountType": "CC",
+            "organisation": "BANK OF VEDA",
+            "accountOpenDate": "2012-05-12",
+            "accountRelationship": "2",
+            "industryType": "B",
+            "creditLimit": 30000,
+            "paymentFrequency": "M",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2025-01-16",
+            "isJointMortgage": false
+        },
+        {
+            "source": "Equifax NZ",
+            "bureauAccountId": "291177",
+            "creditFileNumber": "XXXX3131",
+            "accountStatus": "A",
+            "accountType": "OD",
+            "organisation": "BANK OF VEDA",
+            "accountOpenDate": "2011-04-22",
+            "accountRelationship": "1",
+            "industryType": "B",
+            "creditLimit": 1000,
+            "paymentFrequency": "M",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2025-01-16",
+            "isJointMortgage": false
+        },
+        {
+            "source": "Equifax NZ",
+            "bureauAccountId": "291177",
+            "creditFileNumber": "XXXX3131",
+            "accountStatus": "A",
+            "accountType": "OD",
+            "organisation": "BANK OF VEDA",
+            "accountOpenDate": "2011-04-22",
+            "accountRelationship": "1",
+            "industryType": "B",
+            "creditLimit": 1000,
+            "paymentFrequency": "M",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2025-01-16",
+            "isJointMortgage": false
+        }
+    ],
+    "deduplicated": [
+        {
+            "source": "Equifax NZ",
+            "bureauAccountId": "291154",
+            "creditFileNumber": "XXXXXXXXXXXX008459",
+            "accountStatus": "A",
+            "accountType": "CC",
+            "organisation": "BANK OF VEDA",
+            "accountOpenDate": "2012-05-12",
+            "accountRelationship": "2",
+            "industryType": "B",
+            "creditLimit": 30000,
+            "paymentFrequency": "M",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2025-01-16",
+            "isJointMortgage": false,
+            "sources": [
+                "Centrix",
+                "Equifax NZ"
+            ]
+        },
+        {
+            "source": "Centrix",
+            "bureauAccountId": "2",
+            "creditFileNumber": "xx3456-xx3456",
+            "accountStatus": "A",
+            "accountType": "CA",
+            "organisation": "Centrix Group Limited",
+            "accountOpenDate": "1998-07-01T00:00:00",
+            "accountCloseDate": "2024-10-01T00:00:00",
+            "accountRelationship": "2",
+            "industryType": "Finance Services",
+            "creditLimit": 250000,
+            "termOfLoan": 360,
+            "paymentFrequency": "Monthly",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2024-10-01T00:00:00",
+            "isJointMortgage": true
+        },
+        {
+            "source": "Equifax NZ",
+            "bureauAccountId": "291177",
+            "creditFileNumber": "XXXX3131",
+            "accountStatus": "A",
+            "accountType": "OD",
+            "organisation": "BANK OF VEDA",
+            "accountOpenDate": "2011-04-22",
+            "accountRelationship": "1",
+            "industryType": "B",
+            "creditLimit": 1000,
+            "paymentFrequency": "M",
+            "liabilityObservedDate": "2025-02-04T09:16:29.875Z",
+            "latestUpdatedDate": "2025-01-16",
+            "isJointMortgage": false,
+            "sources": [
+                "Centrix",
+                "Equifax NZ"
+            ]
+        }
+    ],
+    "requestedAt": "2025-02-11T06:13:35.451Z",
+    "userId": "c57a2fce-c72c-4765-9e53-c033bfd6039f"
+}

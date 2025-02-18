@@ -1,0 +1,4623 @@
+{
+  "file-id": {
+    "_": "402761832",
+    "$": {
+      "match-type": "strong"
+    }
+  },
+  "individual": {
+    "individual-name": {
+      "family-name": "Chaplet",
+      "first-given-name": "Dorothea",
+      "other-given-name": "Dodo"
+    },
+    "gender": {
+      "$": {
+        "type": "female"
+      }
+    },
+    "date-of-birth": "1966-02-15",
+    "address": [
+      {
+        "$": {
+          "create-date": "2025-01-30",
+          "type": "current"
+        },
+        "street-number": "197C",
+        "street-name": "WILLOW PARK",
+        "street-type": {
+          "$": {
+            "code": "DR"
+          }
+        },
+        "city": "MASTERTON"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-30",
+          "type": "previous"
+        },
+        "street-number": "15",
+        "street-name": "CHURCH",
+        "street-type": {
+          "$": {
+            "code": "ST"
+          }
+        },
+        "suburb": "OTAHUHU",
+        "city": "AUCKLAND"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-30",
+          "type": "previous"
+        },
+        "street-name": "104 THOMPSON",
+        "street-type": {
+          "$": {
+            "code": "ST"
+          }
+        },
+        "city": "WILLIAMSTOWN"
+      }
+    ]
+  },
+  "credit-file": {
+    "credit-enquiry": [
+      {
+        "$": {
+          "create-date": "2025-02-10"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "HARMONEY SYSTEMS LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "TEST001"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-30"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A1389771"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-30"
+        },
+        "account-type": {
+          "_": "MONTHLY ACCOUNT",
+          "$": {
+            "code": "M"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "2DEGREES MOBILE LIMITED P/O 23680",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "RL_TAHI_NEWRESP"
+      },
+      {
+        "$": {
+          "create-date": "2025-01-07"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000001",
+        "credit-enquirer": "BIZCAP NZ LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "A1389739"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-23"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-17"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-24"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "EQUIFAX XML NZ TEST ACCOUNT",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-08"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002000",
+        "credit-enquirer": "SBS MONEY",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "2407084012758"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-10"
+        },
+        "account-type": {
+          "_": "LENDING PROPOSAL",
+          "$": {
+            "code": "LP"
+          }
+        },
+        "enquiry-amount": "00000120000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A0I9P000001U5Z7"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-22"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-07"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "WESTPAC - 281612",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-30"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-17"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXICOMMERCIAL LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "PPPPPPPPPPPPP",
+        "client-reference": "12212E8C61"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000050000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12211BB0D4"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000099999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12211B9FB2"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000049999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12211B8ED0"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000100000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12211B76CE"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000049000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12211B6B2D"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000020000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12211B2AD9"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-16"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "1221083051"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-15"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12210F75AB"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-14"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "TWOFFFFPFFPFF",
+        "client-reference": "1220F105027"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-13"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "1220DA3EB1"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-10"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "1220A815DE"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-09"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-08"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12209A9016"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-03"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12203702B2"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-03"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-02"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-02"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12202A426C"
+      },
+      {
+        "$": {
+          "create-date": "2023-11-01"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "1220113A867"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-31"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "12201DD22B"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-27"
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "NISSAN FINANCIAL SERVICS NZ PTY LTD",
+        "first-given-name": "DOROTHEA CHAP",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-25"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121FBEDD80"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-24"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121F9A4653"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-18"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121F382365"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-16"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000098985",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "800004546"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-04"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000009000",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "PAR-00007549"
+      },
+      {
+        "$": {
+          "create-date": "2023-09-11"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121CFDC929"
+      },
+      {
+        "$": {
+          "create-date": "2023-09-04"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C77D6BF"
+      },
+      {
+        "$": {
+          "create-date": "2023-09-01"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C5D00D3"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-31"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000075000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C4E82F6"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-31"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "TWOFFFFPFFPFF",
+        "client-reference": "121C393FC0"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-29"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000075000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C2C56B2"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-29"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000025000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C2C1201"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-29"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C182633"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-28"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121C0868A8"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-25"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121BD8FA24"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-24"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121BDEDB6E"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-22"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121BBAB275"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-21"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121B98DB97"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-17"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121B59011A"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-15"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121B39E9F1"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-14"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121B3D1D81"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-11"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "TWOFFFFPFFPFF",
+        "client-reference": "121AF87620"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-09"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "TWOFFFFPFFPFF",
+        "client-reference": "121AEB6E23"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-08"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "TWOFFFFPFFPFF",
+        "client-reference": "121AC83C4D"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-07"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000029999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "TWOFFFFPFFPFF",
+        "client-reference": "121ACCB5EC"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-07"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121ABA45F1"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-05"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000019999",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121A9776B"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-04"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000020000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121A9D79C5"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-04"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000020001",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121A9D1AF0"
+      },
+      {
+        "$": {
+          "create-date": "2023-08-04"
+        },
+        "account-type": {
+          "_": "CONSUMER FINANCE",
+          "$": {
+            "code": "CF"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "FLEXIGROUP (NEW ZEALAND) LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "121A894FB6"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-20"
+        },
+        "account-type": {
+          "_": "DIRECTOR INQUIRY",
+          "$": {
+            "code": "DE"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "CREDIT WORKS GROUP",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "CLREF12345678"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-14"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000001900",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "2304144006539"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-14"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (HOUSEHOLD)",
+          "$": {
+            "code": "HH"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "2304144006533"
+      },
+      {
+        "$": {
+          "create-date": "2022-12-30"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "CREDIT UNION BAYWIDE",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "120CEBB4CD"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-21"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "MYREPUBLIC LIMITED",
+        "first-given-name": "DOROTHEAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-17"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "MYREPUBLIC LIMITED",
+        "first-given-name": "DOROTHEAN",
+        "client-reference": "REF55487556"
+      },
+      {
+        "$": {
+          "create-date": "2022-11-16"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000008000",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "PAR-00000538"
+      },
+      {
+        "$": {
+          "create-date": "2022-08-10"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "GO CAR SERVICES LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "199860"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-27"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000050000",
+        "credit-enquirer": "TSB BANK LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "L1HIMF001LM03U8S"
+      },
+      {
+        "$": {
+          "create-date": "2022-07-06"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000002500",
+        "credit-enquirer": "UDC FINANCE LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "IT TEST"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-14"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000150485",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122648"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-12"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000150485",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122609"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-07"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000083485",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122599"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-06"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000154585",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122592"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-05"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000150485",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122586"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-04"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A0I0P000000TFMJ"
+      },
+      {
+        "$": {
+          "create-date": "2022-04-01"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A0I0P000000TDXL"
+      },
+      {
+        "$": {
+          "create-date": "2022-03-02"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060635",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122316"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-25"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A0I0P000000TB8C"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-25"
+        },
+        "account-type": {
+          "_": "CREDIT CARD",
+          "$": {
+            "code": "CC"
+          }
+        },
+        "enquiry-amount": "00000005000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A0I0P000000TB8X"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-24"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "KIWIBANK LIMITED - SME",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "A0I0P000000TAZK"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-23"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000050085",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122347"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-23"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000060635",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "122315"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-17"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000100010",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "121941"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-14"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000100010",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "121922"
+      },
+      {
+        "$": {
+          "create-date": "2022-02-11"
+        },
+        "account-type": {
+          "_": "LOAN CONTRACT",
+          "$": {
+            "code": "LC"
+          }
+        },
+        "enquiry-amount": "00000061047",
+        "credit-enquirer": "BMW FINANCIAL SERVICES NZ",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "8D9ED52B5485AAA"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000000510",
+        "credit-enquirer": "DEVIZO NZ LIMITED TA PAYRIGHT",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "N006090001"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002310",
+        "credit-enquirer": "DEVIZO NZ LIMITED TA PAYRIGHT",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "N006089001"
+      },
+      {
+        "$": {
+          "create-date": "2021-11-16"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "00000002310",
+        "credit-enquirer": "DEVIZO NZ LIMITED TA PAYRIGHT",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "N006085001"
+      },
+      {
+        "$": {
+          "create-date": "2021-09-07"
+        },
+        "account-type": {
+          "_": "HIRE PURCHASE (VEHICLE)",
+          "$": {
+            "code": "HM"
+          }
+        },
+        "enquiry-amount": "00000010000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2109072378342"
+      },
+      {
+        "$": {
+          "create-date": "2021-07-20"
+        },
+        "account-type": {
+          "_": "REAL ESTATE MORTGAGE",
+          "$": {
+            "code": "RM"
+          }
+        },
+        "enquiry-amount": "00000000000",
+        "credit-enquirer": "ASB BANK - ONYX 6090",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO"
+      },
+      {
+        "$": {
+          "create-date": "2021-05-17"
+        },
+        "account-type": {
+          "_": "LENDING PROPOSAL",
+          "$": {
+            "code": "LP"
+          }
+        },
+        "enquiry-amount": "00000550000",
+        "credit-enquirer": "BNZ - CCR CONSUMPTION",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "MYL-060413320"
+      }
+    ]
+  },
+  "quotations": {
+    "quotation-enquiry": [
+      {
+        "$": {
+          "create-date": "2024-10-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2410172379323"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-03"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000625",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2410032379333"
+      },
+      {
+        "$": {
+          "create-date": "2024-10-02"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001500",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487557"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-16"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2409164013429"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-12"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2409022379316"
+      },
+      {
+        "$": {
+          "create-date": "2024-09-10"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000500",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2409104013340"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-27"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408274013227"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-26"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408264013209"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-23"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408234013207"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-21"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408214013194"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-21"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000880",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408214013192"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-06"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408064013068"
+      },
+      {
+        "$": {
+          "create-date": "2024-08-05"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2408054013051"
+      },
+      {
+        "$": {
+          "create-date": "2024-07-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2407164012810"
+      },
+      {
+        "$": {
+          "create-date": "2024-05-08"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001000",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487557"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000125",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHY",
+        "client-reference": "2403134012078"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHY",
+        "client-reference": "7DD9240312211400"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-07"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "8F3B240307044140"
+      },
+      {
+        "$": {
+          "create-date": "2024-03-05"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "7BDD240305001235"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-22"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2402224011938"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-21"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2402214011903"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-19"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2402194011864"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-14"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2402142379246"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2402132379246"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-08"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2402082379246"
+      },
+      {
+        "$": {
+          "create-date": "2024-02-02"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "C32E240202031719"
+      },
+      {
+        "$": {
+          "create-date": "2024-01-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2401174011651"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-05"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000100",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "CE53231205022955"
+      },
+      {
+        "$": {
+          "create-date": "2023-12-04"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000001200",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "028F231204021301"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-19"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000500",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "REF55487557"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-04"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000800",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487557"
+      },
+      {
+        "$": {
+          "create-date": "2023-10-04"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000500",
+        "credit-enquirer": "LATITUDE FINANCIAL SERV LTD P/LOANS",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "REF55487557"
+      },
+      {
+        "$": {
+          "create-date": "2023-09-20"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2309204010993"
+      },
+      {
+        "$": {
+          "create-date": "2023-09-15"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2309154010948"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-25"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2307252379245"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000000",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "client-reference": "2307134009692"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-11"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2307111001557"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-07"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2307072379231"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-06"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2307064009482"
+      },
+      {
+        "$": {
+          "create-date": "2023-07-05"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2307054009404"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-23"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2305232379221"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-19"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2305194008092"
+      },
+      {
+        "$": {
+          "create-date": "2023-05-18"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2305184008045"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-17"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2304174006618"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-14"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2304144006482"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-13"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2304134006437"
+      },
+      {
+        "$": {
+          "create-date": "2023-04-11"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2304114006349"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-07"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2303074005719"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-06"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2303064005701"
+      },
+      {
+        "$": {
+          "create-date": "2023-03-01"
+        },
+        "account-type": {
+          "_": "PERSONAL LOAN",
+          "$": {
+            "code": "PL"
+          }
+        },
+        "enquiry-amount": "0000000600",
+        "credit-enquirer": "FINANCE NOW LIMITED",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO",
+        "client-reference": "2303014005655"
+      }
+    ]
+  },
+  "default-collection-agency-file": {
+    "default": {
+      "$": {
+        "joint-liability": "N",
+        "company-loan": "N",
+        "defaulter-detail-number": "060023369"
+      },
+      "load-date": "2021-07-24",
+      "default-date": "2021-06-16",
+      "credit-provider": "BAYCORP",
+      "ANZSIC-industry": {
+        "_": "Other Business Services",
+        "$": {
+          "code": "L786"
+        }
+      },
+      "default-original-amount": "00000001235",
+      "default-balance-amount": "00000000000",
+      "total-loan-amount": "00000004500",
+      "account-type": {
+        "_": "HIRE PURCHASE (HOUSEHOLD)",
+        "$": {
+          "code": "HH"
+        }
+      },
+      "account-opened-date": "2021-06-16",
+      "default-status": {
+        "_": "PAID",
+        "$": {
+          "code": "06",
+          "date": "2021-07-24"
+        }
+      },
+      "client-account-reference-id": "TRAIN001",
+      "individual-name": {
+        "family-name": "CHAPLET",
+        "first-given-name": "DOROTHEA",
+        "other-given-name": "DODO"
+      },
+      "date-of-birth": "1966-02-15",
+      "consumer-default-relationship": {
+        "_": "Defaulter",
+        "$": {
+          "type": "DF"
+        }
+      }
+    }
+  },
+  "score-data": {
+    "scorecard-name": "ADVRS",
+    "relative-risk": "-001.28",
+    "relative-risk-index": "+001.18",
+    "risk-odds": "+369.00"
+  },
+  "vcr-score-block": {
+    "vcr-scores": {
+      "score": "+000370",
+      "scorecard-name": "CTSAD",
+      "scorecard-version": "V1.0",
+      "relative-risk": "-001.27",
+      "relative-risk-index": "+001.17",
+      "relative-risk-odds": "0003.25"
+    }
+  },
+  "negative-block": {
+    "characteristic": [
+      {
+        "_": "n",
+        "$": {
+          "name": "new-to-bureau-flag",
+          "type": "boolean"
+        }
+      },
+      {
+        "_": "136",
+        "$": {
+          "name": "age-of-oldest-file",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "name": "total-paid-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-settled-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "total-outstanding-defaults",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "name": "number-of-aliases",
+          "type": "count"
+        }
+      }
+    ]
+  },
+  "cr-raw-data-block": {
+    "account": {
+      "veda-acc-number": "000291186",
+      "credit-provider": "BANK OF VEDA",
+      "industry-type": "B",
+      "product-type": "RM",
+      "limit": "000003000",
+      "account-number": "XXXX4040",
+      "account-status": "A",
+      "date-opened": "2010-01-12",
+      "identity": "CHAPLET DOROTHEA DODO",
+      "responsibility": "1",
+      "last-update": "2025-01-16",
+      "pay-frequency": "M",
+      "payment-history": {
+        "period": [
+          {
+            "period-date": "2025-01",
+            "payment-status": "-"
+          },
+          {
+            "period-date": "2024-12",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-11",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-10",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-09",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-08",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-07",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-06",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-05",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-04",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-03",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-02",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2024-01",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-12",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-11",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-10",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-09",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-08",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-07",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-06",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-05",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-04",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-03",
+            "payment-status": "1"
+          },
+          {
+            "period-date": "2023-02",
+            "payment-status": "1"
+          }
+        ]
+      }
+    }
+  },
+  "vcr-block": {
+    "characteristic": [
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR001",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR002",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR003",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR004",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR005",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR006",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR007",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR008",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR009",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR010",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR011",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR012",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR013",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR014",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR015",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR016",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR017",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR018",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR019",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR020",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR021",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR022",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR023",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR024",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR025",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR026",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR027",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR028",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR029",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR030",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR031",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR032",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR033",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR034",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR035",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR036",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR037",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR038",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR039",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR040",
+          "type": "count"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR041",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR042",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR043",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR044",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR045",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR046",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR047",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR048",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR049",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR050",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR051",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR052",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR053",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR054",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR055",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR056",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR057",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR058",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR059",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR060",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR061",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR062",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR063",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR064",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR065",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR066",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR067",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR068",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR069",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR070",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR071",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR072",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR073",
+          "type": "sum"
+        }
+      },
+      {
+        "_": "1.00000000",
+        "$": {
+          "code": "VCR074",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "1.00000000",
+        "$": {
+          "code": "VCR075",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR076",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR077",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR078",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR079",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR080",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0.00000000",
+        "$": {
+          "code": "VCR081",
+          "type": "percent"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR082",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR083",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR084",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR085",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR086",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR087",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR088",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR089",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR090",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR091",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR092",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR093",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR094",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR095",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR096",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR097",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR098",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR099",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR100",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR101",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR102",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR103",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR104",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR105",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR106",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR107",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR108",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR109",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR110",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR111",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR112",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR113",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR114",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR115",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR116",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR117",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR118",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR119",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR120",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR121",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR122",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR123",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR124",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR125",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR126",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR127",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR128",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR129",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR130",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR131",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR132",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR133",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR134",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR135",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR136",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR137",
+          "type": "count"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR138",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR139",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR140",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR141",
+          "type": "count"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR142",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR143",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR144",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR145",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR146",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR147",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR148",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR149",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR150",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR151",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR152",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR153",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR154",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR155",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR156",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR157",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR158",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR159",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR160",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR161",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR162",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR163",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR164",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR165",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR166",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR167",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR168",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR169",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR170",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR171",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR172",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR173",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR174",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR175",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR176",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR177",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR178",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR179",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR180",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR181",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR182",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR183",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR184",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR185",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR186",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR187",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR188",
+          "type": "status"
+        }
+      },
+      {
+        "_": "1",
+        "$": {
+          "code": "VCR189",
+          "type": "status"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR190",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "3000",
+        "$": {
+          "code": "VCR191",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR192",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR193",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "0",
+        "$": {
+          "code": "VCR194",
+          "type": "amount"
+        }
+      },
+      {
+        "_": "180.19",
+        "$": {
+          "code": "VCR195",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR196",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR197",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR198",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR199",
+          "type": "months"
+        }
+      },
+      {
+        "_": "180.19",
+        "$": {
+          "code": "VCR200",
+          "type": "months"
+        }
+      },
+      {
+        "_": "180.19",
+        "$": {
+          "code": "VCR201",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR202",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR203",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR204",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR205",
+          "type": "months"
+        }
+      },
+      {
+        "_": "180.19",
+        "$": {
+          "code": "VCR206",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR207",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR208",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR209",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR210",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR211",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR212",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR213",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR214",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR215",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR216",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR217",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR218",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR219",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR220",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR221",
+          "type": "months"
+        }
+      },
+      {
+        "_": "11.00",
+        "$": {
+          "code": "VCR222",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR223",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR224",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR225",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR226",
+          "type": "months"
+        }
+      },
+      {
+        "_": "23.00",
+        "$": {
+          "code": "VCR227",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR228",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR229",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR230",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR231",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR232",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR233",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR234",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR235",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR236",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR237",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR238",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR239",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR240",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR241",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR242",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR243",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR244",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR245",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR246",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR247",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR248",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR249",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR250",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR251",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR252",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR253",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR254",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR255",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR256",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR257",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR258",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR259",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR260",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR261",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR262",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR263",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR264",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR265",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR266",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR267",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR268",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR269",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR270",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR271",
+          "type": "months"
+        }
+      },
+      {
+        "_": "11.00",
+        "$": {
+          "code": "VCR272",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR273",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR274",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR275",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR276",
+          "type": "months"
+        }
+      },
+      {
+        "_": "23.00",
+        "$": {
+          "code": "VCR277",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR278",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR279",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR280",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR281",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR282",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR283",
+          "type": "months"
+        }
+      },
+      {
+        "_": "1.00",
+        "$": {
+          "code": "VCR284",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR285",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR286",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR287",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR288",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR289",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR290",
+          "type": "months"
+        }
+      },
+      {
+        "_": "0.00",
+        "$": {
+          "code": "VCR291",
+          "type": "months"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR292",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR293",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR294",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR295",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR296",
+          "type": "status"
+        }
+      },
+      {
+        "_": "-",
+        "$": {
+          "code": "VCR297",
+          "type": "status"
+        }
+      }
+    ]
+  },
+  "pdf-block": {
+    "pdf-url": "https://cta.vedaxml.com/pdf/031088/",
+    "pdf-file": "402761832_58a95010-bfdf-1ad0-9c25-0004ac1f4fbf.pdf"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "source": "VEDA",
+    "bureauAccountId": "522980XXXXXX0555",
+    "creditFileNumber": "230909-97E3F-CF246",
+    "accountType": "CC",
+    "accountStatus": "A",
+    "organisation": "BANKWEST CC.",
+    "accountOpenDate": "2016-08-01T00:00:00.000Z",
+    "accountCloseDate": null,
+    "accountRelationship": "1",
+    "industryType": "B",
+    "creditLimit": 10500,
+    "liabilityObservedDate": "2023-09-09T03:06:41.221Z",
+    "latestUpdatedDate": "2023-09-08T00:00:00.000Z"
+  },
+  {
+    "source": "VEDA",
+    "bureauAccountId": "456457XXXXXX8644",
+    "creditFileNumber": "230909-97E3F-CF246",
+    "accountType": "CC",
+    "accountStatus": "A",
+    "organisation": "ST.GEORGE",
+    "accountOpenDate": "2017-07-18T00:00:00.000Z",
+    "accountCloseDate": null,
+    "accountRelationship": "1",
+    "industryType": "B",
+    "creditLimit": 4000,
+    "liabilityObservedDate": "2023-09-09T03:06:41.221Z",
+    "latestUpdatedDate": "2023-08-29T00:00:00.000Z"
+  },
+  {
+    "source": "VEDA",
+    "bureauAccountId": "601073XXXXXX6597",
+    "creditFileNumber": "230909-97E3F-CF246",
+    "accountType": "CC",
+    "accountStatus": "A",
+    "organisation": "LATITUDE FINANCE AUST..",
+    "accountOpenDate": "2017-03-08T00:00:00.000Z",
+    "accountCloseDate": null,
+    "accountRelationship": "1",
+    "industryType": "F",
+    "creditLimit": 10000,
+    "liabilityObservedDate": "2023-09-09T03:06:41.221Z",
+    "latestUpdatedDate": "2023-08-31T00:00:00.000Z"
+  }
+]
